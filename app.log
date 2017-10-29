@@ -1,19 +1,19 @@
 SUCCESS!
-2017-10-29 at 18:48:24 Generate AppaAppsPhotoApp version 20171021-222
+2017-10-29 at 18:51:36 Generate AppaAppsPhotoApp version 20171021-222
 
-2017-10-29 at 18:48:28 Step: parseSource
-2017-10-29 at 18:48:28 Good source file!
-2017-10-29 at 18:48:28 Step: loadAssets
-2017-10-29 at 18:48:29 Step: multiplyPhotosByFacts
-2017-10-29 at 18:48:29 Step: genJavaManifest
-2017-10-29 at 18:48:29 Step: genJsonManifest
-2017-10-29 at 18:48:29 Step: genGameHtml
-2017-10-29 at 18:48:29 Step: genHtmlAssets
-2017-10-29 at 18:48:29 Step: zipAssets
-2017-10-29 at 18:48:29 Step: copyFilesIntoPositionOnWebServer
-2017-10-29 at 18:48:39 Step: compileApp
-2017-10-29 at 18:48:43 Step: copyLinksToGitHub
-2017-10-29 at 18:48:49 Step: copyFilesIntoPositionOnWebServer
+2017-10-29 at 18:51:40 Step: parseSource
+2017-10-29 at 18:51:40 Good source file!
+2017-10-29 at 18:51:40 Step: loadAssets
+2017-10-29 at 18:51:40 Step: multiplyPhotosByFacts
+2017-10-29 at 18:51:40 Step: genJavaManifest
+2017-10-29 at 18:51:40 Step: genJsonManifest
+2017-10-29 at 18:51:40 Step: genGameHtml
+2017-10-29 at 18:51:40 Step: genHtmlAssets
+2017-10-29 at 18:51:40 Step: zipAssets
+2017-10-29 at 18:51:40 Step: copyFilesIntoPositionOnWebServer
+2017-10-29 at 18:51:51 Step: compileApp
+2017-10-29 at 18:51:55 Step: copyLinksToGitHub
+2017-10-29 at 18:52:02 Step: copyFilesIntoPositionOnWebServer
 --------------------------------------------------------------------------------
 do {
   my $a = bless({
@@ -33,7 +33,7 @@ do {
       log           => [
                          "",
                          "",
-                         "libpng error: Read Error\nCrunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
+                         "Crunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
                          "",
                          "",
                          "Enter Passphrase for keystore: jar signed.\n\nWarning: \nNo -tsa or -tsacert is provided and this jar is not timestamped. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.",
@@ -80,7 +80,7 @@ do {
     }, "Android::Build"),
     app => bless({
       cmd => "app",
-      end => 5,
+      end => 6,
       index => 0,
       name => "Dita",
       parsedKeys => bless({
@@ -89,7 +89,7 @@ do {
         email     => "philiprbrenan\@gmail.com",
         icon      => "https://raw.githubusercontent.com/philiprbrenan/Dita/master/icon.jpg",
         language  => "en",
-        maximages => 2,
+        maximages => 8,
         name      => "Dita",
         speakers  => "Amy Brian Emma Geraint Ivy Joanna Joey Justin Kendra Kimberly Nicole Raveena Russell Salli",
         title     => "Dita tags",
@@ -101,26 +101,26 @@ do {
     error => undef,
     iconFile => "/tmp/AppaAppsPhotoApp/cache/images/icon.jpg",
     log => [
-      "2017-10-29 at 18:48:24 Generate AppaAppsPhotoApp version 20171021-222\n",
-      "2017-10-29 at 18:48:28 Step: parseSource",
-      "2017-10-29 at 18:48:28 Good source file!",
-      "2017-10-29 at 18:48:28 Step: loadAssets",
-      "2017-10-29 at 18:48:29 Step: multiplyPhotosByFacts",
-      "2017-10-29 at 18:48:29 Step: genJavaManifest",
-      "2017-10-29 at 18:48:29 Step: genJsonManifest",
-      "2017-10-29 at 18:48:29 Step: genGameHtml",
-      "2017-10-29 at 18:48:29 Step: genHtmlAssets",
-      "2017-10-29 at 18:48:29 Step: zipAssets",
-      "2017-10-29 at 18:48:29 Step: copyFilesIntoPositionOnWebServer",
-      "2017-10-29 at 18:48:39 Step: compileApp",
-      "2017-10-29 at 18:48:43 Step: copyLinksToGitHub",
-      "2017-10-29 at 18:48:49 Step: copyFilesIntoPositionOnWebServer",
+      "2017-10-29 at 18:51:36 Generate AppaAppsPhotoApp version 20171021-222\n",
+      "2017-10-29 at 18:51:40 Step: parseSource",
+      "2017-10-29 at 18:51:40 Good source file!",
+      "2017-10-29 at 18:51:40 Step: loadAssets",
+      "2017-10-29 at 18:51:40 Step: multiplyPhotosByFacts",
+      "2017-10-29 at 18:51:40 Step: genJavaManifest",
+      "2017-10-29 at 18:51:40 Step: genJsonManifest",
+      "2017-10-29 at 18:51:40 Step: genGameHtml",
+      "2017-10-29 at 18:51:40 Step: genHtmlAssets",
+      "2017-10-29 at 18:51:40 Step: zipAssets",
+      "2017-10-29 at 18:51:40 Step: copyFilesIntoPositionOnWebServer",
+      "2017-10-29 at 18:51:51 Step: compileApp",
+      "2017-10-29 at 18:51:55 Step: copyLinksToGitHub",
+      "2017-10-29 at 18:52:02 Step: copyFilesIntoPositionOnWebServer",
     ],
     parsedCmds => [
       'fix',
       bless({
         cmd => "photo",
-        end => 10,
+        end => 11,
         index => 0,
         name => "alt",
         parsedKeys => bless({
@@ -130,13 +130,13 @@ do {
           title => "alternate",
           titleFile => "alternate",
         }, "ParsedKeys"),
-        start => 9,
+        start => 10,
         title => "alternate",
         titleFile => "alternate",
       }, "ParsedCmd"),
       bless({
         cmd => "fact",
-        end => 12,
+        end => 13,
         index => 0,
         name => "alt.1",
         parsedKeys => bless({
@@ -145,13 +145,13 @@ do {
           title => "alternate text for an image",
           titleFile => "alternatetextforanimage",
         }, "ParsedKeys"),
-        start => 12,
+        start => 13,
         title => "alternate text for an image",
         titleFile => "alternatetextforanimage",
       }, "ParsedCmd"),
       bless({
         cmd => "photo",
-        end => 15,
+        end => 16,
         index => 1,
         name => "cite",
         parsedKeys => bless({
@@ -161,22 +161,22 @@ do {
           title => "citation",
           titleFile => "citation",
         }, "ParsedKeys"),
-        start => 14,
+        start => 15,
         title => "citation",
         titleFile => "citation",
       }, "ParsedCmd"),
       bless({
         cmd => "fact",
-        end => 17,
+        end => 18,
         index => 1,
-        name => "alt.2",
+        name => "cite.1",
         parsedKeys => bless({
           cmd => "fact",
-          name => "alt.2",
+          name => "cite.1",
           title => "refers to a book or article",
           titleFile => "referstoabookorarticle",
         }, "ParsedKeys"),
-        start => 17,
+        start => 18,
         title => "refers to a book or article",
         titleFile => "referstoabookorarticle",
       }, "ParsedCmd"),
@@ -452,8 +452,8 @@ do {
       }, "ParsedCmd"),
       bless({
         cmd => "photoFact",
-        name => 0,
-        parsedKeys => bless({ cmd => "photoFact", name => 0, title => 1 }, "ParsedKeys"),
+        name => 1,
+        parsedKeys => bless({ cmd => "photoFact", name => 1, title => 1 }, "ParsedKeys"),
         title => 1,
         titleFile => undef,
       }, "ParsedCmd"),
@@ -521,8 +521,8 @@ do {
         titleFile => undef,
       }, "ParsedCmd"),
     ],
-    source => "\napp Dita=Dita tags\n  icon = https://raw.githubusercontent.com/philiprbrenan/Dita/master/icon.jpg\n  author=philiprbrenan\n  email = philiprbrenan\@gmail.com\n# language=en\n\n# alt\nphoto alt=alternate\n  afewchars=alt\n\nfact alt.1 = alternate text for an image\n\nphoto cite=citation\n  afewchars=cite\n\nfact alt.2 = refers to a book or article\n\n\n# dd\nphoto dd=definition list description entry\n  afewchars=dd\n\nfact dd.1 = description of a term in a definition list entry\n\n# dd\nphoto ddhd=definition list description heading\n  afewchars=ddhd\n\nfact ddhd.1 = optional heading for descriptions in a definition list\n\n# dl\nphoto dl=definition list\n  afewchars=dl\n\nfact dl.1 = list of terms and their definitions\n\n# dlentry\nphoto dlentry=definition list entry\n  afewchars=dlentry\n\nfact dlentry.1 = An entry in a definition list\n\n# dlhead\nphoto dlhead=definition list headers\n  afewchars=dlhead\n\nfact dlhead.1 = contains optional headings for terms and descriptions in a definition list\n\n# dt\nphoto dt=definition list term entry\n  afewchars=dt\n\nfact dt.1 = a term in a definition list entry\n\n# dthd\nphoto dthd=definition list term heading\n  afewchars=dthd\n\nfact dthd.1 = optional heading for the terms in a description list\n\n# example\nphoto example=example\n  afewchars=example\n\nfact example.1 = a section that contains examples\nfact example.2 = examples that illustrate or support the current topic\n",
-    sourceFileSha => "82ae908035bc21a32c96f219bf313f9ed992b016",
+    source => "\napp Dita=Dita tags\n  maximages = 8\n  icon = https://raw.githubusercontent.com/philiprbrenan/Dita/master/icon.jpg\n  author=philiprbrenan\n  email = philiprbrenan\@gmail.com\n# language=en\n\n# alt\nphoto alt=alternate\n  afewchars=alt\n\nfact alt.1 = alternate text for an image\n\nphoto cite=citation\n  afewchars=cite\n\nfact cite.1 = refers to a book or article\n\n# dd\nphoto dd=definition list description entry\n  afewchars=dd\n\nfact dd.1 = description of a term in a definition list entry\n\n# ddhd\nphoto ddhd=definition list description heading\n  afewchars=ddhd\n\nfact ddhd.1 = optional heading for descriptions in a definition list\n\n# dl\nphoto dl=definition list\n  afewchars=dl\n\nfact dl.1 = list of terms and their definitions\n\n# dlentry\nphoto dlentry=definition list entry\n  afewchars=dlentry\n\nfact dlentry.1 = An entry in a definition list\n\n# dlhead\nphoto dlhead=definition list headers\n  afewchars=dlhead\n\nfact dlhead.1 = contains optional headings for terms and descriptions in a definition list\n\n# dt\nphoto dt=definition list term entry\n  afewchars=dt\n\nfact dt.1 = a term in a definition list entry\n\n# dthd\nphoto dthd=definition list term heading\n  afewchars=dthd\n\nfact dthd.1 = optional heading for the terms in a description list\n\n# example\nphoto example=example\n  afewchars=example\n\nfact example.1 = a section that contains examples\nfact example.2 = examples that illustrate or support the current topic\n",
+    sourceFileSha => "8fea943807ea0ab3b1a1fc32e3b7f316624340d2",
     step => "completed",
   }, "Manifest");
   $a->{parsedCmds}[0] = $a->{app};
