@@ -1,8 +1,9 @@
 Failed.
-2017-10-29 at 15:13:50 Generate AppaAppsPhotoApp version 20171021-222
+2017-10-29 at 15:16:27 Generate AppaAppsPhotoApp version 20171021-222
 
-2017-10-29 at 15:13:53 Step: parseSource
-2017-10-29 at 15:13:53 The app command name keyword is "ditatags" but it should be "Dita"The app command author keyword is "phil" but it should be "philiprbrenan"
+2017-10-29 at 15:16:31 Step: parseSource
+2017-10-29 at 15:16:31 The app command name keyword is "dita" but it should be "Dita"
+
 --------------------------------------------------------------------------------
 do {
   my $a = bless({
@@ -10,25 +11,25 @@ do {
       cmd        => "app",
       end        => 5,
       index      => 0,
-      name       => "ditatags",
+      name       => "dita",
       parsedKeys => bless({
-                      author    => "phil",
+                      author    => "philiprbrenan",
                       cmd       => "app",
                       email     => "philiprbrenan\@gmail.com",
                       icon      => "https://raw.githubusercontent.com/philiprbrenan/Dita/master/icon.jpg",
                       language  => "en",
                       maximages => 2,
-                      name      => "ditatags",
+                      name      => "dita",
                       title     => "Dita tags",
                     }, "ParsedKeys"),
       start      => 2,
       title      => "Dita tags",
     }, "ParsedCmd"),
-    error => 2,
+    error => 1,
     log => [
-      "2017-10-29 at 15:13:50 Generate AppaAppsPhotoApp version 20171021-222\n",
-      "2017-10-29 at 15:13:53 Step: parseSource",
-      "2017-10-29 at 15:13:53 The app command name keyword is \"ditatags\" but it should be \"Dita\"The app command author keyword is \"phil\" but it should be \"philiprbrenan\"",
+      "2017-10-29 at 15:16:27 Generate AppaAppsPhotoApp version 20171021-222\n",
+      "2017-10-29 at 15:16:31 Step: parseSource",
+      "2017-10-29 at 15:16:31 The app command name keyword is \"dita\" but it should be \"Dita\"\n",
     ],
     parsedCmds => [
       'fix',
@@ -358,8 +359,8 @@ do {
         titleFile => "examplesthatillustrateorsupportthecurrenttopic",
       }, "ParsedCmd"),
     ],
-    source => "\napp ditaTags=Dita tags\n  icon = https://raw.githubusercontent.com/philiprbrenan/Dita/master/icon.jpg\n  author=phil\n  email = philiprbrenan\@gmail.com\n# language=en\n\n# alt\nphoto alt=alternate\n  afewchars=alt\n\nfact alt.1 = alternate text for an image\n\nphoto cite=citation\n  afewchars=cite\n\nfact alt.2 = refers to a book or article\n\n\n# dd\nphoto dd=definition list description entry\n  afewchars=dd\n\nfact dd.1 = description of a term in a definition list entry\n\n# dd\nphoto ddhd=definition list description heading\n  afewchars=ddhd\n\nfact ddhd.1 = optional heading for descriptions in a definition list\n\n# dl\nphoto dl=definition list\n  afewchars=dl\n\nfact dl.1 = list of terms and their definitions\n\n# dlentry\nphoto dlentry=definition list entry\n  afewchars=dlentry\n\nfact dlentry.1 = An entry in a definition list\n\n# dlhead\nphoto dlhead=definition list headers\n  afewchars=dlhead\n\nfact dlhead.1 = contains optional headings for terms and descriptions in a definition list\n\n# dt\nphoto dt=definition list term entry\n  afewchars=dt\n\nfact dt.1 = a term in a definition list entry\n\n# dthd\nphoto dthd=definition list term heading\n  afewchars=dthd\n\nfact dthd.1 = optional heading for the terms in a description list\n\n# example\nphoto example=example\n  afewchars=example\n\nfact example.1 = a section that contains examples\nfact example.2 = examples that illustrate or support the current topic\n",
-    sourceFileSha => "329dc4a9c7b8656874aac4a538f44a7ee3529f16",
+    source => "\napp Dita=Dita tags\n  icon = https://raw.githubusercontent.com/philiprbrenan/Dita/master/icon.jpg\n  author=philiprbrenan\n  email = philiprbrenan\@gmail.com\n# language=en\n\n# alt\nphoto alt=alternate\n  afewchars=alt\n\nfact alt.1 = alternate text for an image\n\nphoto cite=citation\n  afewchars=cite\n\nfact alt.2 = refers to a book or article\n\n\n# dd\nphoto dd=definition list description entry\n  afewchars=dd\n\nfact dd.1 = description of a term in a definition list entry\n\n# dd\nphoto ddhd=definition list description heading\n  afewchars=ddhd\n\nfact ddhd.1 = optional heading for descriptions in a definition list\n\n# dl\nphoto dl=definition list\n  afewchars=dl\n\nfact dl.1 = list of terms and their definitions\n\n# dlentry\nphoto dlentry=definition list entry\n  afewchars=dlentry\n\nfact dlentry.1 = An entry in a definition list\n\n# dlhead\nphoto dlhead=definition list headers\n  afewchars=dlhead\n\nfact dlhead.1 = contains optional headings for terms and descriptions in a definition list\n\n# dt\nphoto dt=definition list term entry\n  afewchars=dt\n\nfact dt.1 = a term in a definition list entry\n\n# dthd\nphoto dthd=definition list term heading\n  afewchars=dthd\n\nfact dthd.1 = optional heading for the terms in a description list\n\n# example\nphoto example=example\n  afewchars=example\n\nfact example.1 = a section that contains examples\nfact example.2 = examples that illustrate or support the current topic\n",
+    sourceFileSha => "82ae908035bc21a32c96f219bf313f9ed992b016",
     step => "parseSource",
   }, "Manifest");
   $a->{parsedCmds}[0] = $a->{app};
