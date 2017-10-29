@@ -1,16 +1,16 @@
 Failed.
-2017-10-29 at 15:29:12 Generate AppaAppsPhotoApp version 20171021-222
+2017-10-29 at 15:29:43 Generate AppaAppsPhotoApp version 20171021-222
 
-2017-10-29 at 15:29:16 Step: parseSource
-2017-10-29 at 15:29:16 Good source file!
-2017-10-29 at 15:29:16 Step: loadAssets
-2017-10-29 at 15:29:16 Step: multiplyPhotosByFacts
-2017-10-29 at 15:29:16 Step: genJavaManifest
-2017-10-29 at 15:29:16 Step: genJsonManifest
-2017-10-29 at 15:29:16 Step: genGameHtml
-2017-10-29 at 15:29:16 Step: genHtmlAssets
-2017-10-29 at 15:29:16 Step: zipAssets
-2017-10-29 at 15:29:16 Unable to create zip file %zipFile
+2017-10-29 at 15:29:47 Step: parseSource
+2017-10-29 at 15:29:47 Good source file!
+2017-10-29 at 15:29:47 Step: loadAssets
+2017-10-29 at 15:29:47 Step: multiplyPhotosByFacts
+2017-10-29 at 15:29:47 Step: genJavaManifest
+2017-10-29 at 15:29:47 Step: genJsonManifest
+2017-10-29 at 15:29:47 Step: genGameHtml
+2017-10-29 at 15:29:47 Step: genHtmlAssets
+2017-10-29 at 15:29:47 Step: zipAssets
+2017-10-29 at 15:29:47 Unable to create zip file /tmp/AppaAppsPhotoApp/users/philiprbrenan/Dita/zip/Dita/zip
 
 --------------------------------------------------------------------------------
 do {
@@ -38,17 +38,17 @@ do {
     error => 1,
     iconFile => "/tmp/AppaAppsPhotoApp/cache/images/icon.jpg",
     log => [
-      "2017-10-29 at 15:29:12 Generate AppaAppsPhotoApp version 20171021-222\n",
-      "2017-10-29 at 15:29:16 Step: parseSource",
-      "2017-10-29 at 15:29:16 Good source file!",
-      "2017-10-29 at 15:29:16 Step: loadAssets",
-      "2017-10-29 at 15:29:16 Step: multiplyPhotosByFacts",
-      "2017-10-29 at 15:29:16 Step: genJavaManifest",
-      "2017-10-29 at 15:29:16 Step: genJsonManifest",
-      "2017-10-29 at 15:29:16 Step: genGameHtml",
-      "2017-10-29 at 15:29:16 Step: genHtmlAssets",
-      "2017-10-29 at 15:29:16 Step: zipAssets",
-      "2017-10-29 at 15:29:16 Unable to create zip file %zipFile\n",
+      "2017-10-29 at 15:29:43 Generate AppaAppsPhotoApp version 20171021-222\n",
+      "2017-10-29 at 15:29:47 Step: parseSource",
+      "2017-10-29 at 15:29:47 Good source file!",
+      "2017-10-29 at 15:29:47 Step: loadAssets",
+      "2017-10-29 at 15:29:47 Step: multiplyPhotosByFacts",
+      "2017-10-29 at 15:29:47 Step: genJavaManifest",
+      "2017-10-29 at 15:29:47 Step: genJsonManifest",
+      "2017-10-29 at 15:29:47 Step: genGameHtml",
+      "2017-10-29 at 15:29:47 Step: genHtmlAssets",
+      "2017-10-29 at 15:29:47 Step: zipAssets",
+      "2017-10-29 at 15:29:47 Unable to create zip file /tmp/AppaAppsPhotoApp/users/philiprbrenan/Dita/zip/Dita/zip\n",
     ],
     parsedCmds => [
       'fix',
