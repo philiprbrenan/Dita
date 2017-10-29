@@ -1,5 +1,6 @@
 
 app ditaTags=Dita tags
+  icon = https://github.com/philiprbrenan/Dita/blob/master/icon.jpg
   author=phil
   email = philiprbrenan@gmail.com
 # language=en
