@@ -5,57 +5,62 @@ app ditaTags=Dita tags
 # language=en
 
 # alt
-photo alt=<alt>
+photo alt=alternate
   afewchars=alt
 
 fact alt.1 = alternate text for an image
 
+photo cite=citation
+  afewchars=cite
+
+fact alt.2 = refers to a book or article
+
 
 # dd
-photo dd=<dd>
+photo dd=definition list description entry
   afewchars=dd
 
 fact dd.1 = description of a term in a definition list entry
 
 # dd
-photo ddhd=<ddhd>
+photo ddhd=definition list description heading
   afewchars=ddhd
 
 fact ddhd.1 = optional heading for descriptions in a definition list
 
 # dl
-photo dl=<dl>
+photo dl=definition list
   afewchars=dl
 
 fact dl.1 = list of terms and their definitions
 
 # dlentry
-photo dlentry=<dlentry>
+photo dlentry=definition list entry
   afewchars=dlentry
 
 fact dlentry.1 = An entry in a definition list
 
 # dlhead
-photo dlhead=<dlhead>
+photo dlhead=definition list headers
   afewchars=dlhead
 
 fact dlhead.1 = contains optional headings for terms and descriptions in a definition list
 
 # dt
-photo dt=<dt>
+photo dt=definition list term entry
   afewchars=dt
 
 fact dt.1 = a term in a definition list entry
 
 # dthd
-photo dthd=<dthd>
+photo dthd=definition list term heading
   afewchars=dthd
 
 fact dthd.1 = optional heading for the terms in a description list
 
 # example
-photo example=<example>
+photo example=example
   afewchars=example
 
-fact dthd.1 = a section for containing examples
-fact dthd.2 = examples that illustrate or support the current topic
+fact example.1 = a section that contains examples
+fact example.2 = examples that illustrate or support the current topic
