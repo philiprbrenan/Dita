@@ -1,331 +1,18 @@
 SUCCESS!
-2017-10-29 at 18:01:26 Generate AppaAppsPhotoApp version 20171021-222
+2017-10-29 at 18:06:41 Generate AppaAppsPhotoApp version 20171021-222
 
-2017-10-29 at 18:01:30 Step: parseSource
-2017-10-29 at 18:01:30 Good source file!
-2017-10-29 at 18:01:30 Step: loadAssets
-2017-10-29 at 18:01:30 Step: multiplyPhotosByFacts
-2017-10-29 at 18:01:30 Step: genJavaManifest
-2017-10-29 at 18:01:30 Step: genJsonManifest
-2017-10-29 at 18:01:30 Step: genGameHtml
-2017-10-29 at 18:01:30 Step: genHtmlAssets
-2017-10-29 at 18:01:30 Step: zipAssets
-2017-10-29 at 18:01:30   adding: audio/	(in=0) (out=0) (stored 0%)
-  adding: audio/Kimberly/	(in=0) (out=0) (stored 0%)
-  adding: audio/Kimberly/definitionlist.mp3	(in=11800) (out=11630) (deflated 1%)
-  adding: audio/Kimberly/optionalheadingfordescriptionsinadefinitionlist.mp3	(in=31078) (out=30634) (deflated 1%)
-  adding: audio/Kimberly/asectionthatcontainsexamples.mp3	(in=23241) (out=22765) (deflated 2%)
-  adding: audio/Kimberly/definitionlisttermheading.mp3	(in=18696) (out=18256) (deflated 2%)
-  adding: audio/Kimberly/citation.mp3	(in=9292) (out=8850) (deflated 5%)
-  adding: audio/Kimberly/definitionlistdescriptionentry.mp3	(in=21204) (out=20702) (deflated 2%)
-  adding: audio/Kimberly/aterminadefinitionlistentry.mp3	(in=20577) (out=20092) (deflated 2%)
-  adding: audio/Kimberly/definitionlistentry.mp3	(in=14778) (out=14392) (deflated 3%)
-  adding: audio/Kimberly/referstoabookorarticle.mp3	(in=16815) (out=16346) (deflated 3%)
-  adding: audio/Kimberly/example.mp3	(in=6941) (out=6502) (deflated 6%)
-  adding: audio/Kimberly/alternate.mp3	(in=9292) (out=9123) (deflated 2%)
-  adding: audio/Kimberly/containsoptionalheadingsfortermsanddescriptionsinadefinitionlist.mp3	(in=45341) (out=44724) (deflated 1%)
-  adding: audio/Kimberly/definitionlistdescriptionheading.mp3	(in=20890) (out=20261) (deflated 3%)
-  adding: audio/Kimberly/definitionlistheaders.mp3	(in=15248) (out=14887) (deflated 2%)
-  adding: audio/Kimberly/alternatetextforanimage.mp3	(in=17442) (out=17182) (deflated 1%)
-  adding: audio/Kimberly/examplesthatillustrateorsupportthecurrenttopic.mp3	(in=31862) (out=31292) (deflated 2%)
-  adding: audio/Kimberly/definitionlisttermentry.mp3	(in=18539) (out=17962) (deflated 3%)
-  adding: audio/Kimberly/optionalheadingforthetermsinadescriptionlist.mp3	(in=30138) (out=29659) (deflated 2%)
-  adding: audio/Kimberly/descriptionofaterminadefinitionlistentry.mp3	(in=30295) (out=29635) (deflated 2%)
-  adding: audio/Kimberly/Anentryinadefinitionlist.mp3	(in=19950) (out=19643) (deflated 2%)
-  adding: audio/Kimberly/listoftermsandtheirdefinitions.mp3	(in=21831) (out=21462) (deflated 2%)
-  adding: audio/Kendra/	(in=0) (out=0) (stored 0%)
-  adding: audio/Kendra/definitionlist.mp3	(in=11016) (out=10773) (deflated 2%)
-  adding: audio/Kendra/optionalheadingfordescriptionsinadefinitionlist.mp3	(in=32175) (out=31578) (deflated 2%)
-  adding: audio/Kendra/asectionthatcontainsexamples.mp3	(in=22144) (out=21638) (deflated 2%)
-  adding: audio/Kendra/definitionlisttermheading.mp3	(in=17913) (out=17416) (deflated 3%)
-  adding: audio/Kendra/citation.mp3	(in=8979) (out=8632) (deflated 4%)
-  adding: audio/Kendra/definitionlistdescriptionentry.mp3	(in=21674) (out=21047) (deflated 3%)
-  adding: audio/Kendra/aterminadefinitionlistentry.mp3	(in=21674) (out=21111) (deflated 3%)
-  adding: audio/Kendra/definitionlistentry.mp3	(in=14621) (out=14219) (deflated 3%)
-  adding: audio/Kendra/referstoabookorarticle.mp3	(in=17599) (out=17106) (deflated 3%)
-  adding: audio/Kendra/example.mp3	(in=7881) (out=7577) (deflated 4%)
-  adding: audio/Kendra/alternate.mp3	(in=8352) (out=8193) (deflated 2%)
-  adding: audio/Kendra/containsoptionalheadingsfortermsanddescriptionsinadefinitionlist.mp3	(in=44557) (out=43906) (deflated 1%)
-  adding: audio/Kendra/definitionlistdescriptionheading.mp3	(in=21047) (out=20400) (deflated 3%)
-  adding: audio/Kendra/definitionlistheaders.mp3	(in=16659) (out=16299) (deflated 2%)
-  adding: audio/Kendra/alternatetextforanimage.mp3	(in=17756) (out=17489) (deflated 2%)
-  adding: audio/Kendra/examplesthatillustrateorsupportthecurrenttopic.mp3	(in=30765) (out=30229) (deflated 2%)
-  adding: audio/Kendra/definitionlisttermentry.mp3	(in=18696) (out=18086) (deflated 3%)
-  adding: audio/Kendra/optionalheadingforthetermsinadescriptionlist.mp3	(in=30295) (out=29762) (deflated 2%)
-  adding: audio/Kendra/descriptionofaterminadefinitionlistentry.mp3	(in=28570) (out=27923) (deflated 2%)
-  adding: audio/Kendra/Anentryinadefinitionlist.mp3	(in=18853) (out=18527) (deflated 2%)
-  adding: audio/Kendra/listoftermsandtheirdefinitions.mp3	(in=21204) (out=20765) (deflated 2%)
-  adding: audio/Geraint/	(in=0) (out=0) (stored 0%)
-  adding: audio/Geraint/definitionlist.mp3	(in=10703) (out=10476) (deflated 2%)
-  adding: audio/Geraint/optionalheadingfordescriptionsinadefinitionlist.mp3	(in=29354) (out=28844) (deflated 2%)
-  adding: audio/Geraint/asectionthatcontainsexamples.mp3	(in=21674) (out=21120) (deflated 3%)
-  adding: audio/Geraint/definitionlisttermheading.mp3	(in=16815) (out=16234) (deflated 3%)
-  adding: audio/Geraint/citation.mp3	(in=8038) (out=7734) (deflated 4%)
-  adding: audio/Geraint/definitionlistdescriptionentry.mp3	(in=20890) (out=20382) (deflated 2%)
-  adding: audio/Geraint/aterminadefinitionlistentry.mp3	(in=19637) (out=19067) (deflated 3%)
-  adding: audio/Geraint/definitionlistentry.mp3	(in=14151) (out=13716) (deflated 3%)
-  adding: audio/Geraint/referstoabookorarticle.mp3	(in=16815) (out=16385) (deflated 3%)
-  adding: audio/Geraint/example.mp3	(in=6314) (out=5978) (deflated 5%)
-  adding: audio/Geraint/alternate.mp3	(in=8195) (out=7987) (deflated 3%)
-  adding: audio/Geraint/containsoptionalheadingsfortermsanddescriptionsinadefinitionlist.mp3	(in=41736) (out=41130) (deflated 1%)
-  adding: audio/Geraint/definitionlistdescriptionheading.mp3	(in=21047) (out=20551) (deflated 2%)
-  adding: audio/Geraint/definitionlistheaders.mp3	(in=14621) (out=14190) (deflated 3%)
-  adding: audio/Geraint/alternatetextforanimage.mp3	(in=15718) (out=15294) (deflated 3%)
-  adding: audio/Geraint/examplesthatillustrateorsupportthecurrenttopic.mp3	(in=32646) (out=32123) (deflated 2%)
-  adding: audio/Geraint/definitionlisttermentry.mp3	(in=16502) (out=16083) (deflated 3%)
-  adding: audio/Geraint/optionalheadingforthetermsinadescriptionlist.mp3	(in=28257) (out=27812) (deflated 2%)
-  adding: audio/Geraint/descriptionofaterminadefinitionlistentry.mp3	(in=28100) (out=27534) (deflated 2%)
-  adding: audio/Geraint/Anentryinadefinitionlist.mp3	(in=18383) (out=18012) (deflated 2%)
-  adding: audio/Geraint/listoftermsandtheirdefinitions.mp3	(in=19323) (out=18889) (deflated 2%)
-  adding: audio/Amy/	(in=0) (out=0) (stored 0%)
-  adding: audio/Amy/definitionlist.mp3	(in=10389) (out=10207) (deflated 2%)
-  adding: audio/Amy/optionalheadingfordescriptionsinadefinitionlist.mp3	(in=30138) (out=29620) (deflated 2%)
-  adding: audio/Amy/asectionthatcontainsexamples.mp3	(in=22615) (out=22185) (deflated 2%)
-  adding: audio/Amy/definitionlisttermheading.mp3	(in=17442) (out=17008) (deflated 2%)
-  adding: audio/Amy/citation.mp3	(in=8038) (out=7728) (deflated 4%)
-  adding: audio/Amy/definitionlistdescriptionentry.mp3	(in=21047) (out=20606) (deflated 2%)
-  adding: audio/Amy/aterminadefinitionlistentry.mp3	(in=21047) (out=20611) (deflated 2%)
-  adding: audio/Amy/definitionlistentry.mp3	(in=14151) (out=13809) (deflated 2%)
-  adding: audio/Amy/referstoabookorarticle.mp3	(in=17129) (out=16699) (deflated 3%)
-  adding: audio/Amy/example.mp3	(in=7568) (out=7274) (deflated 4%)
-  adding: audio/Amy/alternate.mp3	(in=8038) (out=7881) (deflated 2%)
-  adding: audio/Amy/containsoptionalheadingsfortermsanddescriptionsinadefinitionlist.mp3	(in=41423) (out=40685) (deflated 2%)
-  adding: audio/Amy/definitionlistdescriptionheading.mp3	(in=19950) (out=19638) (deflated 2%)
-  adding: audio/Amy/definitionlistheaders.mp3	(in=13837) (out=13444) (deflated 3%)
-  adding: audio/Amy/alternatetextforanimage.mp3	(in=17286) (out=16911) (deflated 2%)
-  adding: audio/Amy/examplesthatillustrateorsupportthecurrenttopic.mp3	(in=31705) (out=31256) (deflated 1%)
-  adding: audio/Amy/definitionlisttermentry.mp3	(in=16815) (out=16400) (deflated 2%)
-  adding: audio/Amy/optionalheadingforthetermsinadescriptionlist.mp3	(in=26219) (out=25830) (deflated 1%)
-  adding: audio/Amy/descriptionofaterminadefinitionlistentry.mp3	(in=29668) (out=29076) (deflated 2%)
-  adding: audio/Amy/Anentryinadefinitionlist.mp3	(in=19480) (out=19135) (deflated 2%)
-  adding: audio/Amy/listoftermsandtheirdefinitions.mp3	(in=19793) (out=19533) (deflated 1%)
-  adding: audio/Emma/	(in=0) (out=0) (stored 0%)
-  adding: audio/Emma/definitionlist.mp3	(in=12427) (out=12172) (deflated 2%)
-  adding: audio/Emma/optionalheadingfordescriptionsinadefinitionlist.mp3	(in=30608) (out=30181) (deflated 1%)
-  adding: audio/Emma/asectionthatcontainsexamples.mp3	(in=23085) (out=22545) (deflated 2%)
-  adding: audio/Emma/definitionlisttermheading.mp3	(in=18539) (out=18091) (deflated 2%)
-  adding: audio/Emma/citation.mp3	(in=7881) (out=7451) (deflated 5%)
-  adding: audio/Emma/definitionlistdescriptionentry.mp3	(in=23398) (out=22897) (deflated 2%)
-  adding: audio/Emma/aterminadefinitionlistentry.mp3	(in=23555) (out=23031) (deflated 2%)
-  adding: audio/Emma/definitionlistentry.mp3	(in=15875) (out=15460) (deflated 3%)
-  adding: audio/Emma/referstoabookorarticle.mp3	(in=17129) (out=16681) (deflated 3%)
-  adding: audio/Emma/example.mp3	(in=8352) (out=8025) (deflated 4%)
-  adding: audio/Emma/alternate.mp3	(in=6941) (out=6681) (deflated 4%)
-  adding: audio/Emma/containsoptionalheadingsfortermsanddescriptionsinadefinitionlist.mp3	(in=43460) (out=42873) (deflated 1%)
-  adding: audio/Emma/definitionlistdescriptionheading.mp3	(in=22144) (out=21677) (deflated 2%)
-  adding: audio/Emma/definitionlistheaders.mp3	(in=17286) (out=16824) (deflated 3%)
-  adding: audio/Emma/alternatetextforanimage.mp3	(in=15718) (out=15387) (deflated 2%)
-  adding: audio/Emma/examplesthatillustrateorsupportthecurrenttopic.mp3	(in=30451) (out=30006) (deflated 1%)
-  adding: audio/Emma/definitionlisttermentry.mp3	(in=19010) (out=18431) (deflated 3%)
-  adding: audio/Emma/optionalheadingforthetermsinadescriptionlist.mp3	(in=28414) (out=27942) (deflated 2%)
-  adding: audio/Emma/descriptionofaterminadefinitionlistentry.mp3	(in=31548) (out=30944) (deflated 2%)
-  adding: audio/Emma/Anentryinadefinitionlist.mp3	(in=21204) (out=20909) (deflated 1%)
-  adding: audio/Emma/listoftermsandtheirdefinitions.mp3	(in=21047) (out=20631) (deflated 2%)
-  adding: audio/Raveena/	(in=0) (out=0) (stored 0%)
-  adding: audio/Raveena/definitionlist.mp3	(in=11800) (out=11592) (deflated 2%)
-  adding: audio/Raveena/optionalheadingfordescriptionsinadefinitionlist.mp3	(in=32332) (out=31784) (deflated 2%)
-  adding: audio/Raveena/asectionthatcontainsexamples.mp3	(in=22301) (out=21811) (deflated 2%)
-  adding: audio/Raveena/definitionlisttermheading.mp3	(in=16815) (out=16403) (deflated 2%)
-  adding: audio/Raveena/citation.mp3	(in=8038) (out=7735) (deflated 4%)
-  adding: audio/Raveena/definitionlistdescriptionentry.mp3	(in=23712) (out=23191) (deflated 2%)
-  adding: audio/Raveena/aterminadefinitionlistentry.mp3	(in=21361) (out=20877) (deflated 2%)
-  adding: audio/Raveena/definitionlistentry.mp3	(in=15091) (out=14695) (deflated 3%)
-  adding: audio/Raveena/referstoabookorarticle.mp3	(in=17286) (out=16812) (deflated 3%)
-  adding: audio/Raveena/example.mp3	(in=7098) (out=6786) (deflated 4%)
-  adding: audio/Raveena/alternate.mp3	(in=7725) (out=7516) (deflated 3%)
-  adding: audio/Raveena/containsoptionalheadingsfortermsanddescriptionsinadefinitionlist.mp3	(in=44401) (out=43765) (deflated 1%)
-  adding: audio/Raveena/definitionlistdescriptionheading.mp3	(in=20890) (out=20416) (deflated 2%)
-  adding: audio/Raveena/definitionlistheaders.mp3	(in=15405) (out=15035) (deflated 2%)
-  adding: audio/Raveena/alternatetextforanimage.mp3	(in=16972) (out=16551) (deflated 2%)
-  adding: audio/Raveena/examplesthatillustrateorsupportthecurrenttopic.mp3	(in=30451) (out=29896) (deflated 2%)
-  adding: audio/Raveena/definitionlisttermentry.mp3	(in=17442) (out=17019) (deflated 2%)
-  adding: audio/Raveena/optionalheadingforthetermsinadescriptionlist.mp3	(in=28100) (out=27620) (deflated 2%)
-  adding: audio/Raveena/descriptionofaterminadefinitionlistentry.mp3	(in=27630) (out=26905) (deflated 3%)
-  adding: audio/Raveena/Anentryinadefinitionlist.mp3	(in=20107) (out=19742) (deflated 2%)
-  adding: audio/Raveena/listoftermsandtheirdefinitions.mp3	(in=21047) (out=20721) (deflated 2%)
-  adding: audio/Russell/	(in=0) (out=0) (stored 0%)
-  adding: audio/Russell/definitionlist.mp3	(in=10076) (out=9948) (deflated 1%)
-  adding: audio/Russell/optionalheadingfordescriptionsinadefinitionlist.mp3	(in=27003) (out=26632) (deflated 1%)
-  adding: audio/Russell/asectionthatcontainsexamples.mp3	(in=19166) (out=18711) (deflated 2%)
-  adding: audio/Russell/definitionlisttermheading.mp3	(in=14778) (out=14377) (deflated 3%)
-  adding: audio/Russell/citation.mp3	(in=8195) (out=7847) (deflated 4%)
-  adding: audio/Russell/definitionlistdescriptionentry.mp3	(in=18226) (out=17776) (deflated 2%)
-  adding: audio/Russell/aterminadefinitionlistentry.mp3	(in=17913) (out=17395) (deflated 3%)
-  adding: audio/Russell/definitionlistentry.mp3	(in=12427) (out=12064) (deflated 3%)
-  adding: audio/Russell/referstoabookorarticle.mp3	(in=16659) (out=16214) (deflated 3%)
-  adding: audio/Russell/example.mp3	(in=6157) (out=5877) (deflated 5%)
-  adding: audio/Russell/alternate.mp3	(in=6471) (out=6273) (deflated 3%)
-  adding: audio/Russell/containsoptionalheadingsfortermsanddescriptionsinadefinitionlist.mp3	(in=37504) (out=37022) (deflated 1%)
-  adding: audio/Russell/definitionlistdescriptionheading.mp3	(in=17599) (out=17339) (deflated 1%)
-  adding: audio/Russell/definitionlistheaders.mp3	(in=12897) (out=12600) (deflated 2%)
-  adding: audio/Russell/alternatetextforanimage.mp3	(in=15405) (out=15036) (deflated 2%)
-  adding: audio/Russell/examplesthatillustrateorsupportthecurrenttopic.mp3	(in=27317) (out=26617) (deflated 3%)
-  adding: audio/Russell/definitionlisttermentry.mp3	(in=14621) (out=14112) (deflated 3%)
-  adding: audio/Russell/optionalheadingforthetermsinadescriptionlist.mp3	(in=25436) (out=25052) (deflated 2%)
-  adding: audio/Russell/descriptionofaterminadefinitionlistentry.mp3	(in=24339) (out=23790) (deflated 2%)
-  adding: audio/Russell/Anentryinadefinitionlist.mp3	(in=18539) (out=18231) (deflated 2%)
-  adding: audio/Russell/listoftermsandtheirdefinitions.mp3	(in=19323) (out=18890) (deflated 2%)
-  adding: audio/Brian/	(in=0) (out=0) (stored 0%)
-  adding: audio/Brian/definitionlist.mp3	(in=12270) (out=11994) (deflated 2%)
-  adding: audio/Brian/optionalheadingfordescriptionsinadefinitionlist.mp3	(in=30608) (out=30075) (deflated 2%)
-  adding: audio/Brian/asectionthatcontainsexamples.mp3	(in=24495) (out=24190) (deflated 1%)
-  adding: audio/Brian/definitionlisttermheading.mp3	(in=19793) (out=19393) (deflated 2%)
-  adding: audio/Brian/citation.mp3	(in=8665) (out=8356) (deflated 4%)
-  adding: audio/Brian/definitionlistdescriptionentry.mp3	(in=24966) (out=24438) (deflated 2%)
-  adding: audio/Brian/aterminadefinitionlistentry.mp3	(in=20890) (out=20427) (deflated 2%)
-  adding: audio/Brian/definitionlistentry.mp3	(in=15718) (out=15291) (deflated 3%)
-  adding: audio/Brian/referstoabookorarticle.mp3	(in=20734) (out=20228) (deflated 2%)
-  adding: audio/Brian/example.mp3	(in=9135) (out=8805) (deflated 4%)
-  adding: audio/Brian/alternate.mp3	(in=8038) (out=7789) (deflated 3%)
-  adding: audio/Brian/containsoptionalheadingsfortermsanddescriptionsinadefinitionlist.mp3	(in=45655) (out=45040) (deflated 1%)
-  adding: audio/Brian/definitionlistdescriptionheading.mp3	(in=23241) (out=22875) (deflated 2%)
-  adding: audio/Brian/definitionlistheaders.mp3	(in=18383) (out=17927) (deflated 2%)
-  adding: audio/Brian/alternatetextforanimage.mp3	(in=20577) (out=20117) (deflated 2%)
-  adding: audio/Brian/examplesthatillustrateorsupportthecurrenttopic.mp3	(in=29668) (out=29073) (deflated 2%)
-  adding: audio/Brian/definitionlisttermentry.mp3	(in=19010) (out=18552) (deflated 2%)
-  adding: audio/Brian/optionalheadingforthetermsinadescriptionlist.mp3	(in=29511) (out=29068) (deflated 2%)
-  adding: audio/Brian/descriptionofaterminadefinitionlistentry.mp3	(in=27944) (out=27353) (deflated 2%)
-  adding: audio/Brian/Anentryinadefinitionlist.mp3	(in=18226) (out=17940) (deflated 2%)
-  adding: audio/Brian/listoftermsandtheirdefinitions.mp3	(in=23241) (out=22732) (deflated 2%)
-  adding: audio/Joey/	(in=0) (out=0) (stored 0%)
-  adding: audio/Joey/definitionlist.mp3	(in=11800) (out=11539) (deflated 2%)
-  adding: audio/Joey/optionalheadingfordescriptionsinadefinitionlist.mp3	(in=29824) (out=29334) (deflated 2%)
-  adding: audio/Joey/asectionthatcontainsexamples.mp3	(in=21517) (out=21088) (deflated 2%)
-  adding: audio/Joey/definitionlisttermheading.mp3	(in=18696) (out=18247) (deflated 2%)
-  adding: audio/Joey/citation.mp3	(in=9135) (out=8829) (deflated 3%)
-  adding: audio/Joey/definitionlistdescriptionentry.mp3	(in=21204) (out=20732) (deflated 2%)
-  adding: audio/Joey/aterminadefinitionlistentry.mp3	(in=21517) (out=21105) (deflated 2%)
-  adding: audio/Joey/definitionlistentry.mp3	(in=15718) (out=15430) (deflated 2%)
-  adding: audio/Joey/referstoabookorarticle.mp3	(in=17286) (out=16981) (deflated 2%)
-  adding: audio/Joey/example.mp3	(in=6471) (out=6384) (deflated 1%)
-  adding: audio/Joey/alternate.mp3	(in=6157) (out=5902) (deflated 4%)
-  adding: audio/Joey/containsoptionalheadingsfortermsanddescriptionsinadefinitionlist.mp3	(in=42050) (out=41368) (deflated 2%)
-  adding: audio/Joey/definitionlistdescriptionheading.mp3	(in=21361) (out=20885) (deflated 2%)
-  adding: audio/Joey/definitionlistheaders.mp3	(in=17599) (out=17267) (deflated 2%)
-  adding: audio/Joey/alternatetextforanimage.mp3	(in=16502) (out=16176) (deflated 2%)
-  adding: audio/Joey/examplesthatillustrateorsupportthecurrenttopic.mp3	(in=32019) (out=31357) (deflated 2%)
-  adding: audio/Joey/definitionlisttermentry.mp3	(in=18383) (out=17969) (deflated 2%)
-  adding: audio/Joey/optionalheadingforthetermsinadescriptionlist.mp3	(in=28414) (out=27888) (deflated 2%)
-  adding: audio/Joey/descriptionofaterminadefinitionlistentry.mp3	(in=29824) (out=29370) (deflated 2%)
-  adding: audio/Joey/Anentryinadefinitionlist.mp3	(in=20107) (out=19716) (deflated 2%)
-  adding: audio/Joey/listoftermsandtheirdefinitions.mp3	(in=21674) (out=21315) (deflated 2%)
-  adding: audio/Nicole/	(in=0) (out=0) (stored 0%)
-  adding: audio/Nicole/definitionlist.mp3	(in=9762) (out=9426) (deflated 3%)
-  adding: audio/Nicole/optionalheadingfordescriptionsinadefinitionlist.mp3	(in=29197) (out=28689) (deflated 2%)
-  adding: audio/Nicole/asectionthatcontainsexamples.mp3	(in=19950) (out=19358) (deflated 3%)
-  adding: audio/Nicole/definitionlisttermheading.mp3	(in=15405) (out=14993) (deflated 3%)
-  adding: audio/Nicole/citation.mp3	(in=8979) (out=8517) (deflated 5%)
-  adding: audio/Nicole/definitionlistdescriptionentry.mp3	(in=20264) (out=19893) (deflated 2%)
-  adding: audio/Nicole/aterminadefinitionlistentry.mp3	(in=20890) (out=20379) (deflated 2%)
-  adding: audio/Nicole/definitionlistentry.mp3	(in=13994) (out=13604) (deflated 3%)
-  adding: audio/Nicole/referstoabookorarticle.mp3	(in=16659) (out=16225) (deflated 3%)
-  adding: audio/Nicole/example.mp3	(in=6471) (out=6180) (deflated 4%)
-  adding: audio/Nicole/alternate.mp3	(in=7255) (out=7079) (deflated 2%)
-  adding: audio/Nicole/containsoptionalheadingsfortermsanddescriptionsinadefinitionlist.mp3	(in=39228) (out=38528) (deflated 2%)
-  adding: audio/Nicole/definitionlistdescriptionheading.mp3	(in=19480) (out=19027) (deflated 2%)
-  adding: audio/Nicole/definitionlistheaders.mp3	(in=13524) (out=13216) (deflated 2%)
-  adding: audio/Nicole/alternatetextforanimage.mp3	(in=15875) (out=15566) (deflated 2%)
-  adding: audio/Nicole/examplesthatillustrateorsupportthecurrenttopic.mp3	(in=29197) (out=28589) (deflated 2%)
-  adding: audio/Nicole/definitionlisttermentry.mp3	(in=16188) (out=15807) (deflated 2%)
-  adding: audio/Nicole/optionalheadingforthetermsinadescriptionlist.mp3	(in=26219) (out=25773) (deflated 2%)
-  adding: audio/Nicole/descriptionofaterminadefinitionlistentry.mp3	(in=26690) (out=26120) (deflated 2%)
-  adding: audio/Nicole/Anentryinadefinitionlist.mp3	(in=18069) (out=17767) (deflated 2%)
-  adding: audio/Nicole/listoftermsandtheirdefinitions.mp3	(in=20107) (out=19556) (deflated 3%)
-  adding: audio/Salli/	(in=0) (out=0) (stored 0%)
-  adding: audio/Salli/definitionlist.mp3	(in=11330) (out=11153) (deflated 2%)
-  adding: audio/Salli/optionalheadingfordescriptionsinadefinitionlist.mp3	(in=32175) (out=31707) (deflated 1%)
-  adding: audio/Salli/asectionthatcontainsexamples.mp3	(in=19793) (out=19398) (deflated 2%)
-  adding: audio/Salli/definitionlisttermheading.mp3	(in=16972) (out=16559) (deflated 2%)
-  adding: audio/Salli/citation.mp3	(in=7881) (out=7583) (deflated 4%)
-  adding: audio/Salli/definitionlistdescriptionentry.mp3	(in=21047) (out=20575) (deflated 2%)
-  adding: audio/Salli/aterminadefinitionlistentry.mp3	(in=21831) (out=21291) (deflated 2%)
-  adding: audio/Salli/definitionlistentry.mp3	(in=14778) (out=14391) (deflated 3%)
-  adding: audio/Salli/referstoabookorarticle.mp3	(in=17286) (out=16788) (deflated 3%)
-  adding: audio/Salli/example.mp3	(in=6628) (out=6331) (deflated 4%)
-  adding: audio/Salli/alternate.mp3	(in=8195) (out=7985) (deflated 3%)
-  adding: audio/Salli/containsoptionalheadingsfortermsanddescriptionsinadefinitionlist.mp3	(in=43617) (out=42940) (deflated 2%)
-  adding: audio/Salli/definitionlistdescriptionheading.mp3	(in=19950) (out=19678) (deflated 1%)
-  adding: audio/Salli/definitionlistheaders.mp3	(in=14778) (out=14464) (deflated 2%)
-  adding: audio/Salli/alternatetextforanimage.mp3	(in=17913) (out=17608) (deflated 2%)
-  adding: audio/Salli/examplesthatillustrateorsupportthecurrenttopic.mp3	(in=29981) (out=29467) (deflated 2%)
-  adding: audio/Salli/definitionlisttermentry.mp3	(in=16972) (out=16533) (deflated 3%)
-  adding: audio/Salli/optionalheadingforthetermsinadescriptionlist.mp3	(in=28414) (out=28001) (deflated 1%)
-  adding: audio/Salli/descriptionofaterminadefinitionlistentry.mp3	(in=28884) (out=28320) (deflated 2%)
-  adding: audio/Salli/Anentryinadefinitionlist.mp3	(in=20107) (out=19811) (deflated 1%)
-  adding: audio/Salli/listoftermsandtheirdefinitions.mp3	(in=21204) (out=20618) (deflated 3%)
-  adding: audio/Joanna/	(in=0) (out=0) (stored 0%)
-  adding: audio/Joanna/definitionlist.mp3	(in=11173) (out=10844) (deflated 3%)
-  adding: audio/Joanna/optionalheadingfordescriptionsinadefinitionlist.mp3	(in=28570) (out=27888) (deflated 2%)
-  adding: audio/Joanna/asectionthatcontainsexamples.mp3	(in=19950) (out=19496) (deflated 2%)
-  adding: audio/Joanna/definitionlisttermheading.mp3	(in=15248) (out=14957) (deflated 2%)
-  adding: audio/Joanna/citation.mp3	(in=8352) (out=8071) (deflated 3%)
-  adding: audio/Joanna/definitionlistdescriptionentry.mp3	(in=18853) (out=18400) (deflated 2%)
-  adding: audio/Joanna/aterminadefinitionlistentry.mp3	(in=18696) (out=18122) (deflated 3%)
-  adding: audio/Joanna/definitionlistentry.mp3	(in=13681) (out=13295) (deflated 3%)
-  adding: audio/Joanna/referstoabookorarticle.mp3	(in=16188) (out=15616) (deflated 4%)
-  adding: audio/Joanna/example.mp3	(in=6941) (out=6728) (deflated 3%)
-  adding: audio/Joanna/alternate.mp3	(in=7881) (out=7673) (deflated 3%)
-  adding: audio/Joanna/containsoptionalheadingsfortermsanddescriptionsinadefinitionlist.mp3	(in=38758) (out=38110) (deflated 2%)
-  adding: audio/Joanna/definitionlistdescriptionheading.mp3	(in=18696) (out=18253) (deflated 2%)
-  adding: audio/Joanna/definitionlistheaders.mp3	(in=13367) (out=13066) (deflated 2%)
-  adding: audio/Joanna/alternatetextforanimage.mp3	(in=15875) (out=15315) (deflated 4%)
-  adding: audio/Joanna/examplesthatillustrateorsupportthecurrenttopic.mp3	(in=28570) (out=28000) (deflated 2%)
-  adding: audio/Joanna/definitionlisttermentry.mp3	(in=16502) (out=16099) (deflated 2%)
-  adding: audio/Joanna/optionalheadingforthetermsinadescriptionlist.mp3	(in=26219) (out=25685) (deflated 2%)
-  adding: audio/Joanna/descriptionofaterminadefinitionlistentry.mp3	(in=25593) (out=25027) (deflated 2%)
-  adding: audio/Joanna/Anentryinadefinitionlist.mp3	(in=18696) (out=18228) (deflated 3%)
-  adding: audio/Joanna/listoftermsandtheirdefinitions.mp3	(in=18226) (out=17840) (deflated 2%)
-  adding: audio/Ivy/	(in=0) (out=0) (stored 0%)
-  adding: audio/Ivy/definitionlist.mp3	(in=11173) (out=11005) (deflated 2%)
-  adding: audio/Ivy/optionalheadingfordescriptionsinadefinitionlist.mp3	(in=30295) (out=29874) (deflated 1%)
-  adding: audio/Ivy/asectionthatcontainsexamples.mp3	(in=19637) (out=19165) (deflated 2%)
-  adding: audio/Ivy/definitionlisttermheading.mp3	(in=17129) (out=16560) (deflated 3%)
-  adding: audio/Ivy/citation.mp3	(in=7255) (out=6984) (deflated 4%)
-  adding: audio/Ivy/definitionlistdescriptionentry.mp3	(in=19793) (out=19359) (deflated 2%)
-  adding: audio/Ivy/aterminadefinitionlistentry.mp3	(in=19480) (out=19043) (deflated 2%)
-  adding: audio/Ivy/definitionlistentry.mp3	(in=14308) (out=13910) (deflated 3%)
-  adding: audio/Ivy/referstoabookorarticle.mp3	(in=17913) (out=17486) (deflated 2%)
-  adding: audio/Ivy/example.mp3	(in=6628) (out=6354) (deflated 4%)
-  adding: audio/Ivy/alternate.mp3	(in=7568) (out=7434) (deflated 2%)
-  adding: audio/Ivy/containsoptionalheadingsfortermsanddescriptionsinadefinitionlist.mp3	(in=41736) (out=41233) (deflated 1%)
-  adding: audio/Ivy/definitionlistdescriptionheading.mp3	(in=19637) (out=19181) (deflated 2%)
-  adding: audio/Ivy/definitionlistheaders.mp3	(in=15405) (out=14874) (deflated 3%)
-  adding: audio/Ivy/alternatetextforanimage.mp3	(in=15718) (out=15369) (deflated 2%)
-  adding: audio/Ivy/examplesthatillustrateorsupportthecurrenttopic.mp3	(in=28727) (out=28374) (deflated 1%)
-  adding: audio/Ivy/definitionlisttermentry.mp3	(in=17129) (out=16697) (deflated 3%)
-  adding: audio/Ivy/optionalheadingforthetermsinadescriptionlist.mp3	(in=27787) (out=27412) (deflated 1%)
-  adding: audio/Ivy/descriptionofaterminadefinitionlistentry.mp3	(in=27003) (out=26477) (deflated 2%)
-  adding: audio/Ivy/Anentryinadefinitionlist.mp3	(in=19793) (out=19506) (deflated 1%)
-  adding: audio/Ivy/listoftermsandtheirdefinitions.mp3	(in=20577) (out=20089) (deflated 2%)
-  adding: audio/Justin/	(in=0) (out=0) (stored 0%)
-  adding: audio/Justin/definitionlist.mp3	(in=11643) (out=11337) (deflated 3%)
-  adding: audio/Justin/optionalheadingfordescriptionsinadefinitionlist.mp3	(in=29668) (out=29108) (deflated 2%)
-  adding: audio/Justin/asectionthatcontainsexamples.mp3	(in=19637) (out=19169) (deflated 2%)
-  adding: audio/Justin/definitionlisttermheading.mp3	(in=16972) (out=16489) (deflated 3%)
-  adding: audio/Justin/citation.mp3	(in=8195) (out=7901) (deflated 4%)
-  adding: audio/Justin/definitionlistdescriptionentry.mp3	(in=23085) (out=22552) (deflated 2%)
-  adding: audio/Justin/aterminadefinitionlistentry.mp3	(in=20577) (out=20093) (deflated 2%)
-  adding: audio/Justin/definitionlistentry.mp3	(in=14935) (out=14522) (deflated 3%)
-  adding: audio/Justin/referstoabookorarticle.mp3	(in=16972) (out=16486) (deflated 3%)
-  adding: audio/Justin/example.mp3	(in=7255) (out=6924) (deflated 5%)
-  adding: audio/Justin/alternate.mp3	(in=6628) (out=6323) (deflated 5%)
-  adding: audio/Justin/containsoptionalheadingsfortermsanddescriptionsinadefinitionlist.mp3	(in=39699) (out=39055) (deflated 2%)
-  adding: audio/Justin/definitionlistdescriptionheading.mp3	(in=20890) (out=20354) (deflated 3%)
-  adding: audio/Justin/definitionlistheaders.mp3	(in=16032) (out=15593) (deflated 3%)
-  adding: audio/Justin/alternatetextforanimage.mp3	(in=16502) (out=16070) (deflated 3%)
-  adding: audio/Justin/examplesthatillustrateorsupportthecurrenttopic.mp3	(in=28414) (out=27918) (deflated 2%)
-  adding: audio/Justin/definitionlisttermentry.mp3	(in=17286) (out=16822) (deflated 3%)
-  adding: audio/Justin/optionalheadingforthetermsinadescriptionlist.mp3	(in=27630) (out=27108) (deflated 2%)
-  adding: audio/Justin/descriptionofaterminadefinitionlistentry.mp3	(in=27160) (out=26597) (deflated 2%)
-  adding: audio/Justin/Anentryinadefinitionlist.mp3	(in=18069) (out=17673) (deflated 2%)
-  adding: audio/Justin/listoftermsandtheirdefinitions.mp3	(in=20107) (out=19617) (deflated 2%)
-  adding: aaaManifest.data	(in=2246) (out=810) (deflated 64%)
-  adding: perlManifest.pl	(in=10646) (out=2290) (deflated 78%)
-total bytes=5826643, compressed=5691214 -> 2% savings
-
-2017-10-29 at 18:01:30 Step: compileApp
-2017-10-29 at 18:01:34 Step: copyLinksToGitHub
-2017-10-29 at 18:01:38 Step: copyFilesIntoPositionOnWebServer
+2017-10-29 at 18:06:45 Step: parseSource
+2017-10-29 at 18:06:45 Good source file!
+2017-10-29 at 18:06:45 Step: loadAssets
+2017-10-29 at 18:06:45 Step: multiplyPhotosByFacts
+2017-10-29 at 18:06:45 Step: genJavaManifest
+2017-10-29 at 18:06:45 Step: genJsonManifest
+2017-10-29 at 18:06:45 Step: genGameHtml
+2017-10-29 at 18:06:45 Step: genHtmlAssets
+2017-10-29 at 18:06:45 Step: zipAssets
+2017-10-29 at 18:06:46 Step: compileApp
+2017-10-29 at 18:06:50 Step: copyLinksToGitHub
+2017-10-29 at 18:06:50 Step: copyFilesIntoPositionOnWebServer
 --------------------------------------------------------------------------------
 do {
   my $a = bless({
@@ -345,11 +32,13 @@ do {
       log           => [
                          "",
                          "",
-                         "libpng error: Read Error\nlibpng error: Read Error\nCrunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
+                         "libpng error: Read Error\nCrunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
                          "",
                          "",
                          "Enter Passphrase for keystore: jar signed.\n\nWarning: \nNo -tsa or -tsacert is provided and this jar is not timestamped. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.",
                          "\njar verified.\n\nWarning: \nThis jar contains entries whose certificate chain is not validated.\nThis jar contains signatures that does not include a timestamp. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.\n\nRe-run with the -verbose and -certs options for more details.",
+                         "Success",
+                         "Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.appaapps.photoapp.Dita/.Activity }",
                        ],
       package       => "com.appaapps.photoapp.Dita",
       parameters    => "philiprbrenan,Dita,http://www.appaapps.com/users/philiprbrenan/Dita/zip/Dita.zip",
@@ -411,20 +100,19 @@ do {
     error => undef,
     iconFile => "/tmp/AppaAppsPhotoApp/cache/images/icon.jpg",
     log => [
-      "2017-10-29 at 18:01:26 Generate AppaAppsPhotoApp version 20171021-222\n",
-      "2017-10-29 at 18:01:30 Step: parseSource",
-      "2017-10-29 at 18:01:30 Good source file!",
-      "2017-10-29 at 18:01:30 Step: loadAssets",
-      "2017-10-29 at 18:01:30 Step: multiplyPhotosByFacts",
-      "2017-10-29 at 18:01:30 Step: genJavaManifest",
-      "2017-10-29 at 18:01:30 Step: genJsonManifest",
-      "2017-10-29 at 18:01:30 Step: genGameHtml",
-      "2017-10-29 at 18:01:30 Step: genHtmlAssets",
-      "2017-10-29 at 18:01:30 Step: zipAssets",
-      "2017-10-29 at 18:01:30   adding: audio/\t(in=0) (out=0) (stored 0%)\n  adding: audio/Kimberly/\t(in=0) (out=0) (stored 0%)\n  adding: audio/Kimberly/definitionlist.mp3\t(in=11800) (out=11630) (deflated 1%)\n  adding: audio/Kimberly/optionalheadingfordescriptionsinadefinitionlist.mp3\t(in=31078) (out=30634) (deflated 1%)\n  adding: audio/Kimberly/asectionthatcontainsexamples.mp3\t(in=23241) (out=22765) (deflated 2%)\n  adding: audio/Kimberly/definitionlisttermheading.mp3\t(in=18696) (out=18256) (deflated 2%)\n  adding: audio/Kimberly/citation.mp3\t(in=9292) (out=8850) (deflated 5%)\n  adding: audio/Kimberly/definitionlistdescriptionentry.mp3\t(in=21204) (out=20702) (deflated 2%)\n  adding: audio/Kimberly/aterminadefinitionlistentry.mp3\t(in=20577) (out=20092) (deflated 2%)\n  adding: audio/Kimberly/definitionlistentry.mp3\t(in=14778) (out=14392) (deflated 3%)\n  adding: audio/Kimberly/referstoabookorarticle.mp3\t(in=16815) (out=16346) (deflated 3%)\n  adding: audio/Kimberly/example.mp3\t(in=6941) (out=6502) (deflated 6%)\n  adding: audio/Kimberly/alternate.mp3\t(in=9292) (out=9123) (deflated 2%)\n  adding: audio/Kimberly/containsoptionalheadingsfortermsanddescriptionsinadefinitionlist.mp3\t(in=45341) (out=44724) (deflated 1%)\n  adding: audio/Kimberly/definitionlistdescriptionheading.mp3\t(in=20890) (out=20261) (deflated 3%)\n  adding: audio/Kimberly/definitionlistheaders.mp3\t(in=15248) (out=14887) (deflated 2%)\n  adding: audio/Kimberly/alternatetextforanimage.mp3\t(in=17442) (out=17182) (deflated 1%)\n  adding: audio/Kimberly/examplesthatillustrateorsupportthecurrenttopic.mp3\t(in=31862) (out=31292) (deflated 2%)\n  adding: audio/Kimberly/definitionlisttermentry.mp3\t(in=18539) (out=17962) (deflated 3%)\n  adding: audio/Kimberly/optionalheadingforthetermsinadescriptionlist.mp3\t(in=30138) (out=29659) (deflated 2%)\n  adding: audio/Kimberly/descriptionofaterminadefinitionlistentry.mp3\t(in=30295) (out=29635) (deflated 2%)\n  adding: audio/Kimberly/Anentryinadefinitionlist.mp3\t(in=19950) (out=19643) (deflated 2%)\n  adding: audio/Kimberly/listoftermsandtheirdefinitions.mp3\t(in=21831) (out=21462) (deflated 2%)\n  adding: audio/Kendra/\t(in=0) (out=0) (stored 0%)\n  adding: audio/Kendra/definitionlist.mp3\t(in=11016) (out=10773) (deflated 2%)\n  adding: audio/Kendra/optionalheadingfordescriptionsinadefinitionlist.mp3\t(in=32175) (out=31578) (deflated 2%)\n  adding: audio/Kendra/asectionthatcontainsexamples.mp3\t(in=22144) (out=21638) (deflated 2%)\n  adding: audio/Kendra/definitionlisttermheading.mp3\t(in=17913) (out=17416) (deflated 3%)\n  adding: audio/Kendra/citation.mp3\t(in=8979) (out=8632) (deflated 4%)\n  adding: audio/Kendra/definitionlistdescriptionentry.mp3\t(in=21674) (out=21047) (deflated 3%)\n  adding: audio/Kendra/aterminadefinitionlistentry.mp3\t(in=21674) (out=21111) (deflated 3%)\n  adding: audio/Kendra/definitionlistentry.mp3\t(in=14621) (out=14219) (deflated 3%)\n  adding: audio/Kendra/referstoabookorarticle.mp3\t(in=17599) (out=17106) (deflated 3%)\n  adding: audio/Kendra/example.mp3\t(in=7881) (out=7577) (deflated 4%)\n  adding: audio/Kendra/alternate.mp3\t(in=8352) (out=8193) (deflated 2%)\n  adding: audio/Kendra/containsoptionalheadingsfortermsanddescriptionsinadefinitionlist.mp3\t(in=44557) (out=43906) (deflated 1%)\n  adding: audio/Kendra/definitionlistdescriptionheading.mp3\t(in=21047) (out=20400) (deflated 3%)\n  adding: audio/Kendra/definitionlistheaders.mp3\t(in=16659) (out=16299) (deflated 2%)\n  adding: audio/Kendra/alternatetextforanimage.mp3\t(in=17756) (out=17489) (deflated 2%)\n  adding: audio/Kendra/examplesthatillustrateorsupportthecurrenttopic.mp3\t(in=30765) (out=30229) (deflated 2%)\n  adding: audio/Kendra/definitionlisttermentry.mp3\t(in=18696) (out=18086) (deflated 3%)\n  adding: audio/Kendra/optionalheadingforthetermsinadescriptionlist.mp3\t(in=30295) (out=29762) (deflated 2%)\n  adding: audio/Kendra/descriptionofaterminadefinitionlistentry.mp3\t(in=28570) (out=27923) (deflated 2%)\n  adding: audio/Kendra/Anentryinadefinitionlist.mp3\t(in=18853) (out=18527) (deflated 2%)\n  adding: audio/Kendra/listoftermsandtheirdefinitions.mp3\t(in=21204) (out=20765) (deflated 2%)\n  adding: audio/Geraint/\t(in=0) (out=0) (stored 0%)\n  adding: audio/Geraint/definitionlist.mp3\t(in=10703) (out=10476) (deflated 2%)\n  adding: audio/Geraint/optionalheadingfordescriptionsinadefinitionlist.mp3\t(in=29354) (out=28844) (deflated 2%)\n  adding: audio/Geraint/asectionthatcontainsexamples.mp3\t(in=21674) (out=21120) (deflated 3%)\n  adding: audio/Geraint/definitionlisttermheading.mp3\t(in=16815) (out=16234) (deflated 3%)\n  adding: audio/Geraint/citation.mp3\t(in=8038) (out=7734) (deflated 4%)\n  adding: audio/Geraint/definitionlistdescriptionentry.mp3\t(in=20890) (out=20382) (deflated 2%)\n  adding: audio/Geraint/aterminadefinitionlistentry.mp3\t(in=19637) (out=19067) (deflated 3%)\n  adding: audio/Geraint/definitionlistentry.mp3\t(in=14151) (out=13716) (deflated 3%)\n  adding: audio/Geraint/referstoabookorarticle.mp3\t(in=16815) (out=16385) (deflated 3%)\n  adding: audio/Geraint/example.mp3\t(in=6314) (out=5978) (deflated 5%)\n  adding: audio/Geraint/alternate.mp3\t(in=8195) (out=7987) (deflated 3%)\n  adding: audio/Geraint/containsoptionalheadingsfortermsanddescriptionsinadefinitionlist.mp3\t(in=41736) (out=41130) (deflated 1%)\n  adding: audio/Geraint/definitionlistdescriptionheading.mp3\t(in=21047) (out=20551) (deflated 2%)\n  adding: audio/Geraint/definitionlistheaders.mp3\t(in=14621) (out=14190) (deflated 3%)\n  adding: audio/Geraint/alternatetextforanimage.mp3\t(in=15718) (out=15294) (deflated 3%)\n  adding: audio/Geraint/examplesthatillustrateorsupportthecurrenttopic.mp3\t(in=32646) (out=32123) (deflated 2%)\n  adding: audio/Geraint/definitionlisttermentry.mp3\t(in=16502) (out=16083) (deflated 3%)\n  adding: audio/Geraint/optionalheadingforthetermsinadescriptionlist.mp3\t(in=28257) (out=27812) (deflated 2%)\n  adding: audio/Geraint/descriptionofaterminadefinitionlistentry.mp3\t(in=28100) (out=27534) (deflated 2%)\n  adding: audio/Geraint/Anentryinadefinitionlist.mp3\t(in=18383) (out=18012) (deflated 2%)\n  adding: audio/Geraint/listoftermsandtheirdefinitions.mp3\t(in=19323) (out=18889) (deflated 2%)\n  adding: audio/Amy/\t(in=0) (out=0) (stored 0%)\n  adding: audio/Amy/definitionlist.mp3\t(in=10389) (out=10207) (deflated 2%)\n  adding: audio/Amy/optionalheadingfordescriptionsinadefinitionlist.mp3\t(in=30138) (out=29620) (deflated 2%)\n  adding: audio/Amy/asectionthatcontainsexamples.mp3\t(in=22615) (out=22185) (deflated 2%)\n  adding: audio/Amy/definitionlisttermheading.mp3\t(in=17442) (out=17008) (deflated 2%)\n  adding: audio/Amy/citation.mp3\t(in=8038) (out=7728) (deflated 4%)\n  adding: audio/Amy/definitionlistdescriptionentry.mp3\t(in=21047) (out=20606) (deflated 2%)\n  adding: audio/Amy/aterminadefinitionlistentry.mp3\t(in=21047) (out=20611) (deflated 2%)\n  adding: audio/Amy/definitionlistentry.mp3\t(in=14151) (out=13809) (deflated 2%)\n  adding: audio/Amy/referstoabookorarticle.mp3\t(in=17129) (out=16699) (deflated 3%)\n  adding: audio/Amy/example.mp3\t(in=7568) (out=7274) (deflated 4%)\n  adding: audio/Amy/alternate.mp3\t(in=8038) (out=7881) (deflated 2%)\n  adding: audio/Amy/containsoptionalheadingsfortermsanddescriptionsinadefinitionlist.mp3\t(in=41423) (out=40685) (deflated 2%)\n  adding: audio/Amy/definitionlistdescriptionheading.mp3\t(in=19950) (out=19638) (deflated 2%)\n  adding: audio/Amy/definitionlistheaders.mp3\t(in=13837) (out=13444) (deflated 3%)\n  adding: audio/Amy/alternatetextforanimage.mp3\t(in=17286) (out=16911) (deflated 2%)\n  adding: audio/Amy/examplesthatillustrateorsupportthecurrenttopic.mp3\t(in=31705) (out=31256) (deflated 1%)\n  adding: audio/Amy/definitionlisttermentry.mp3\t(in=16815) (out=16400) (deflated 2%)\n  adding: audio/Amy/optionalheadingforthetermsinadescriptionlist.mp3\t(in=26219) (out=25830) (deflated 1%)\n  adding: audio/Amy/descriptionofaterminadefinitionlistentry.mp3\t(in=29668) (out=29076) (deflated 2%)\n  adding: audio/Amy/Anentryinadefinitionlist.mp3\t(in=19480) (out=19135) (deflated 2%)\n  adding: audio/Amy/listoftermsandtheirdefinitions.mp3\t(in=19793) (out=19533) (deflated 1%)\n  adding: audio/Emma/\t(in=0) (out=0) (stored 0%)\n  adding: audio/Emma/definitionlist.mp3\t(in=12427) (out=12172) (deflated 2%)\n  adding: audio/Emma/optionalheadingfordescriptionsinadefinitionlist.mp3\t(in=30608) (out=30181) (deflated 1%)\n  adding: audio/Emma/asectionthatcontainsexamples.mp3\t(in=23085) (out=22545) (deflated 2%)\n  adding: audio/Emma/definitionlisttermheading.mp3\t(in=18539) (out=18091) (deflated 2%)\n  adding: audio/Emma/citation.mp3\t(in=7881) (out=7451) (deflated 5%)\n  adding: audio/Emma/definitionlistdescriptionentry.mp3\t(in=23398) (out=22897) (deflated 2%)\n  adding: audio/Emma/aterminadefinitionlistentry.mp3\t(in=23555) (out=23031) (deflated 2%)\n  adding: audio/Emma/definitionlistentry.mp3\t(in=15875) (out=15460) (deflated 3%)\n  adding: audio/Emma/referstoabookorarticle.mp3\t(in=17129) (out=16681) (deflated 3%)\n  adding: audio/Emma/example.mp3\t(in=8352) (out=8025) (deflated 4%)\n  adding: audio/Emma/alternate.mp3\t(in=6941) (out=6681) (deflated 4%)\n  adding: audio/Emma/containsoptionalheadingsfortermsanddescriptionsinadefinitionlist.mp3\t(in=43460) (out=42873) (deflated 1%)\n  adding: audio/Emma/definitionlistdescriptionheading.mp3\t(in=22144) (out=21677) (deflated 2%)\n  adding: audio/Emma/definitionlistheaders.mp3\t(in=17286) (out=16824) (deflated 3%)\n  adding: audio/Emma/alternatetextforanimage.mp3\t(in=15718) (out=15387) (deflated 2%)\n  adding: audio/Emma/examplesthatillustrateorsupportthecurrenttopic.mp3\t(in=30451) (out=30006) (deflated 1%)\n  adding: audio/Emma/definitionlisttermentry.mp3\t(in=19010) (out=18431) (deflated 3%)\n  adding: audio/Emma/optionalheadingforthetermsinadescriptionlist.mp3\t(in=28414) (out=27942) (deflated 2%)\n  adding: audio/Emma/descriptionofaterminadefinitionlistentry.mp3\t(in=31548) (out=30944) (deflated 2%)\n  adding: audio/Emma/Anentryinadefinitionlist.mp3\t(in=21204) (out=20909) (deflated 1%)\n  adding: audio/Emma/listoftermsandtheirdefinitions.mp3\t(in=21047) (out=20631) (deflated 2%)\n  adding: audio/Raveena/\t(in=0) (out=0) (stored 0%)\n  adding: audio/Raveena/definitionlist.mp3\t(in=11800) (out=11592) (deflated 2%)\n  adding: audio/Raveena/optionalheadingfordescriptionsinadefinitionlist.mp3\t(in=32332) (out=31784) (deflated 2%)\n  adding: audio/Raveena/asectionthatcontainsexamples.mp3\t(in=22301) (out=21811) (deflated 2%)\n  adding: audio/Raveena/definitionlisttermheading.mp3\t(in=16815) (out=16403) (deflated 2%)\n  adding: audio/Raveena/citation.mp3\t(in=8038) (out=7735) (deflated 4%)\n  adding: audio/Raveena/definitionlistdescriptionentry.mp3\t(in=23712) (out=23191) (deflated 2%)\n  adding: audio/Raveena/aterminadefinitionlistentry.mp3\t(in=21361) (out=20877) (deflated 2%)\n  adding: audio/Raveena/definitionlistentry.mp3\t(in=15091) (out=14695) (deflated 3%)\n  adding: audio/Raveena/referstoabookorarticle.mp3\t(in=17286) (out=16812) (deflated 3%)\n  adding: audio/Raveena/example.mp3\t(in=7098) (out=6786) (deflated 4%)\n  adding: audio/Raveena/alternate.mp3\t(in=7725) (out=7516) (deflated 3%)\n  adding: audio/Raveena/containsoptionalheadingsfortermsanddescriptionsinadefinitionlist.mp3\t(in=44401) (out=43765) (deflated 1%)\n  adding: audio/Raveena/definitionlistdescriptionheading.mp3\t(in=20890) (out=20416) (deflated 2%)\n  adding: audio/Raveena/definitionlistheaders.mp3\t(in=15405) (out=15035) (deflated 2%)\n  adding: audio/Raveena/alternatetextforanimage.mp3\t(in=16972) (out=16551) (deflated 2%)\n  adding: audio/Raveena/examplesthatillustrateorsupportthecurrenttopic.mp3\t(in=30451) (out=29896) (deflated 2%)\n  adding: audio/Raveena/definitionlisttermentry.mp3\t(in=17442) (out=17019) (deflated 2%)\n  adding: audio/Raveena/optionalheadingforthetermsinadescriptionlist.mp3\t(in=28100) (out=27620) (deflated 2%)\n  adding: audio/Raveena/descriptionofaterminadefinitionlistentry.mp3\t(in=27630) (out=26905) (deflated 3%)\n  adding: audio/Raveena/Anentryinadefinitionlist.mp3\t(in=20107) (out=19742) (deflated 2%)\n  adding: audio/Raveena/listoftermsandtheirdefinitions.mp3\t(in=21047) (out=20721) (deflated 2%)\n  adding: audio/Russell/\t(in=0) (out=0) (stored 0%)\n  adding: audio/Russell/definitionlist.mp3\t(in=10076) (out=9948) (deflated 1%)\n  adding: audio/Russell/optionalheadingfordescriptionsinadefinitionlist.mp3\t(in=27003) (out=26632) (deflated 1%)\n  adding: audio/Russell/asectionthatcontainsexamples.mp3\t(in=19166) (out=18711) (deflated 2%)\n  adding: audio/Russell/definitionlisttermheading.mp3\t(in=14778) (out=14377) (deflated 3%)\n  adding: audio/Russell/citation.mp3\t(in=8195) (out=7847) (deflated 4%)\n  adding: audio/Russell/definitionlistdescriptionentry.mp3\t(in=18226) (out=17776) (deflated 2%)\n  adding: audio/Russell/aterminadefinitionlistentry.mp3\t(in=17913) (out=17395) (deflated 3%)\n  adding: audio/Russell/definitionlistentry.mp3\t(in=12427) (out=12064) (deflated 3%)\n  adding: audio/Russell/referstoabookorarticle.mp3\t(in=16659) (out=16214) (deflated 3%)\n  adding: audio/Russell/example.mp3\t(in=6157) (out=5877) (deflated 5%)\n  adding: audio/Russell/alternate.mp3\t(in=6471) (out=6273) (deflated 3%)\n  adding: audio/Russell/containsoptionalheadingsfortermsanddescriptionsinadefinitionlist.mp3\t(in=37504) (out=37022) (deflated 1%)\n  adding: audio/Russell/definitionlistdescriptionheading.mp3\t(in=17599) (out=17339) (deflated 1%)\n  adding: audio/Russell/definitionlistheaders.mp3\t(in=12897) (out=12600) (deflated 2%)\n  adding: audio/Russell/alternatetextforanimage.mp3\t(in=15405) (out=15036) (deflated 2%)\n  adding: audio/Russell/examplesthatillustrateorsupportthecurrenttopic.mp3\t(in=27317) (out=26617) (deflated 3%)\n  adding: audio/Russell/definitionlisttermentry.mp3\t(in=14621) (out=14112) (deflated 3%)\n  adding: audio/Russell/optionalheadingforthetermsinadescriptionlist.mp3\t(in=25436) (out=25052) (deflated 2%)\n  adding: audio/Russell/descriptionofaterminadefinitionlistentry.mp3\t(in=24339) (out=23790) (deflated 2%)\n  adding: audio/Russell/Anentryinadefinitionlist.mp3\t(in=18539) (out=18231) (deflated 2%)\n  adding: audio/Russell/listoftermsandtheirdefinitions.mp3\t(in=19323) (out=18890) (deflated 2%)\n  adding: audio/Brian/\t(in=0) (out=0) (stored 0%)\n  adding: audio/Brian/definitionlist.mp3\t(in=12270) (out=11994) (deflated 2%)\n  adding: audio/Brian/optionalheadingfordescriptionsinadefinitionlist.mp3\t(in=30608) (out=30075) (deflated 2%)\n  adding: audio/Brian/asectionthatcontainsexamples.mp3\t(in=24495) (out=24190) (deflated 1%)\n  adding: audio/Brian/definitionlisttermheading.mp3\t(in=19793) (out=19393) (deflated 2%)\n  adding: audio/Brian/citation.mp3\t(in=8665) (out=8356) (deflated 4%)\n  adding: audio/Brian/definitionlistdescriptionentry.mp3\t(in=24966) (out=24438) (deflated 2%)\n  adding: audio/Brian/aterminadefinitionlistentry.mp3\t(in=20890) (out=20427) (deflated 2%)\n  adding: audio/Brian/definitionlistentry.mp3\t(in=15718) (out=15291) (deflated 3%)\n  adding: audio/Brian/referstoabookorarticle.mp3\t(in=20734) (out=20228) (deflated 2%)\n  adding: audio/Brian/example.mp3\t(in=9135) (out=8805) (deflated 4%)\n  adding: audio/Brian/alternate.mp3\t(in=8038) (out=7789) (deflated 3%)\n  adding: audio/Brian/containsoptionalheadingsfortermsanddescriptionsinadefinitionlist.mp3\t(in=45655) (out=45040) (deflated 1%)\n  adding: audio/Brian/definitionlistdescriptionheading.mp3\t(in=23241) (out=22875) (deflated 2%)\n  adding: audio/Brian/definitionlistheaders.mp3\t(in=18383) (out=17927) (deflated 2%)\n  adding: audio/Brian/alternatetextforanimage.mp3\t(in=20577) (out=20117) (deflated 2%)\n  adding: audio/Brian/examplesthatillustrateorsupportthecurrenttopic.mp3\t(in=29668) (out=29073) (deflated 2%)\n  adding: audio/Brian/definitionlisttermentry.mp3\t(in=19010) (out=18552) (deflated 2%)\n  adding: audio/Brian/optionalheadingforthetermsinadescriptionlist.mp3\t(in=29511) (out=29068) (deflated 2%)\n  adding: audio/Brian/descriptionofaterminadefinitionlistentry.mp3\t(in=27944) (out=27353) (deflated 2%)\n  adding: audio/Brian/Anentryinadefinitionlist.mp3\t(in=18226) (out=17940) (deflated 2%)\n  adding: audio/Brian/listoftermsandtheirdefinitions.mp3\t(in=23241) (out=22732) (deflated 2%)\n  adding: audio/Joey/\t(in=0) (out=0) (stored 0%)\n  adding: audio/Joey/definitionlist.mp3\t(in=11800) (out=11539) (deflated 2%)\n  adding: audio/Joey/optionalheadingfordescriptionsinadefinitionlist.mp3\t(in=29824) (out=29334) (deflated 2%)\n  adding: audio/Joey/asectionthatcontainsexamples.mp3\t(in=21517) (out=21088) (deflated 2%)\n  adding: audio/Joey/definitionlisttermheading.mp3\t(in=18696) (out=18247) (deflated 2%)\n  adding: audio/Joey/citation.mp3\t(in=9135) (out=8829) (deflated 3%)\n  adding: audio/Joey/definitionlistdescriptionentry.mp3\t(in=21204) (out=20732) (deflated 2%)\n  adding: audio/Joey/aterminadefinitionlistentry.mp3\t(in=21517) (out=21105) (deflated 2%)\n  adding: audio/Joey/definitionlistentry.mp3\t(in=15718) (out=15430) (deflated 2%)\n  adding: audio/Joey/referstoabookorarticle.mp3\t(in=17286) (out=16981) (deflated 2%)\n  adding: audio/Joey/example.mp3\t(in=6471) (out=6384) (deflated 1%)\n  adding: audio/Joey/alternate.mp3\t(in=6157) (out=5902) (deflated 4%)\n  adding: audio/Joey/containsoptionalheadingsfortermsanddescriptionsinadefinitionlist.mp3\t(in=42050) (out=41368) (deflated 2%)\n  adding: audio/Joey/definitionlistdescriptionheading.mp3\t(in=21361) (out=20885) (deflated 2%)\n  adding: audio/Joey/definitionlistheaders.mp3\t(in=17599) (out=17267) (deflated 2%)\n  adding: audio/Joey/alternatetextforanimage.mp3\t(in=16502) (out=16176) (deflated 2%)\n  adding: audio/Joey/examplesthatillustrateorsupportthecurrenttopic.mp3\t(in=32019) (out=31357) (deflated 2%)\n  adding: audio/Joey/definitionlisttermentry.mp3\t(in=18383) (out=17969) (deflated 2%)\n  adding: audio/Joey/optionalheadingforthetermsinadescriptionlist.mp3\t(in=28414) (out=27888) (deflated 2%)\n  adding: audio/Joey/descriptionofaterminadefinitionlistentry.mp3\t(in=29824) (out=29370) (deflated 2%)\n  adding: audio/Joey/Anentryinadefinitionlist.mp3\t(in=20107) (out=19716) (deflated 2%)\n  adding: audio/Joey/listoftermsandtheirdefinitions.mp3\t(in=21674) (out=21315) (deflated 2%)\n  adding: audio/Nicole/\t(in=0) (out=0) (stored 0%)\n  adding: audio/Nicole/definitionlist.mp3\t(in=9762) (out=9426) (deflated 3%)\n  adding: audio/Nicole/optionalheadingfordescriptionsinadefinitionlist.mp3\t(in=29197) (out=28689) (deflated 2%)\n  adding: audio/Nicole/asectionthatcontainsexamples.mp3\t(in=19950) (out=19358) (deflated 3%)\n  adding: audio/Nicole/definitionlisttermheading.mp3\t(in=15405) (out=14993) (deflated 3%)\n  adding: audio/Nicole/citation.mp3\t(in=8979) (out=8517) (deflated 5%)\n  adding: audio/Nicole/definitionlistdescriptionentry.mp3\t(in=20264) (out=19893) (deflated 2%)\n  adding: audio/Nicole/aterminadefinitionlistentry.mp3\t(in=20890) (out=20379) (deflated 2%)\n  adding: audio/Nicole/definitionlistentry.mp3\t(in=13994) (out=13604) (deflated 3%)\n  adding: audio/Nicole/referstoabookorarticle.mp3\t(in=16659) (out=16225) (deflated 3%)\n  adding: audio/Nicole/example.mp3\t(in=6471) (out=6180) (deflated 4%)\n  adding: audio/Nicole/alternate.mp3\t(in=7255) (out=7079) (deflated 2%)\n  adding: audio/Nicole/containsoptionalheadingsfortermsanddescriptionsinadefinitionlist.mp3\t(in=39228) (out=38528) (deflated 2%)\n  adding: audio/Nicole/definitionlistdescriptionheading.mp3\t(in=19480) (out=19027) (deflated 2%)\n  adding: audio/Nicole/definitionlistheaders.mp3\t(in=13524) (out=13216) (deflated 2%)\n  adding: audio/Nicole/alternatetextforanimage.mp3\t(in=15875) (out=15566) (deflated 2%)\n  adding: audio/Nicole/examplesthatillustrateorsupportthecurrenttopic.mp3\t(in=29197) (out=28589) (deflated 2%)\n  adding: audio/Nicole/definitionlisttermentry.mp3\t(in=16188) (out=15807) (deflated 2%)\n  adding: audio/Nicole/optionalheadingforthetermsinadescriptionlist.mp3\t(in=26219) (out=25773) (deflated 2%)\n  adding: audio/Nicole/descriptionofaterminadefinitionlistentry.mp3\t(in=26690) (out=26120) (deflated 2%)\n  adding: audio/Nicole/Anentryinadefinitionlist.mp3\t(in=18069) (out=17767) (deflated 2%)\n  adding: audio/Nicole/listoftermsandtheirdefinitions.mp3\t(in=20107) (out=19556) (deflated 3%)\n  adding: audio/Salli/\t(in=0) (out=0) (stored 0%)\n  adding: audio/Salli/definitionlist.mp3\t(in=11330) (out=11153) (deflated 2%)\n  adding: audio/Salli/optionalheadingfordescriptionsinadefinitionlist.mp3\t(in=32175) (out=31707) (deflated 1%)\n  adding: audio/Salli/asectionthatcontainsexamples.mp3\t(in=19793) (out=19398) (deflated 2%)\n  adding: audio/Salli/definitionlisttermheading.mp3\t(in=16972) (out=16559) (deflated 2%)\n  adding: audio/Salli/citation.mp3\t(in=7881) (out=7583) (deflated 4%)\n  adding: audio/Salli/definitionlistdescriptionentry.mp3\t(in=21047) (out=20575) (deflated 2%)\n  adding: audio/Salli/aterminadefinitionlistentry.mp3\t(in=21831) (out=21291) (deflated 2%)\n  adding: audio/Salli/definitionlistentry.mp3\t(in=14778) (out=14391) (deflated 3%)\n  adding: audio/Salli/referstoabookorarticle.mp3\t(in=17286) (out=16788) (deflated 3%)\n  adding: audio/Salli/example.mp3\t(in=6628) (out=6331) (deflated 4%)\n  adding: audio/Salli/alternate.mp3\t(in=8195) (out=7985) (deflated 3%)\n  adding: audio/Salli/containsoptionalheadingsfortermsanddescriptionsinadefinitionlist.mp3\t(in=43617) (out=42940) (deflated 2%)\n  adding: audio/Salli/definitionlistdescriptionheading.mp3\t(in=19950) (out=19678) (deflated 1%)\n  adding: audio/Salli/definitionlistheaders.mp3\t(in=14778) (out=14464) (deflated 2%)\n  adding: audio/Salli/alternatetextforanimage.mp3\t(in=17913) (out=17608) (deflated 2%)\n  adding: audio/Salli/examplesthatillustrateorsupportthecurrenttopic.mp3\t(in=29981) (out=29467) (deflated 2%)\n  adding: audio/Salli/definitionlisttermentry.mp3\t(in=16972) (out=16533) (deflated 3%)\n  adding: audio/Salli/optionalheadingforthetermsinadescriptionlist.mp3\t(in=28414) (out=28001) (deflated 1%)\n  adding: audio/Salli/descriptionofaterminadefinitionlistentry.mp3\t(in=28884) (out=28320) (deflated 2%)\n  adding: audio/Salli/Anentryinadefinitionlist.mp3\t(in=20107) (out=19811) (deflated 1%)\n  adding: audio/Salli/listoftermsandtheirdefinitions.mp3\t(in=21204) (out=20618) (deflated 3%)\n  adding: audio/Joanna/\t(in=0) (out=0) (stored 0%)\n  adding: audio/Joanna/definitionlist.mp3\t(in=11173) (out=10844) (deflated 3%)\n  adding: audio/Joanna/optionalheadingfordescriptionsinadefinitionlist.mp3\t(in=28570) (out=27888) (deflated 2%)\n  adding: audio/Joanna/asectionthatcontainsexamples.mp3\t(in=19950) (out=19496) (deflated 2%)\n  adding: audio/Joanna/definitionlisttermheading.mp3\t(in=15248) (out=14957) (deflated 2%)\n  adding: audio/Joanna/citation.mp3\t(in=8352) (out=8071) (deflated 3%)\n  adding: audio/Joanna/definitionlistdescriptionentry.mp3\t(in=18853) (out=18400) (deflated 2%)\n  adding: audio/Joanna/aterminadefinitionlistentry.mp3\t(in=18696) (out=18122) (deflated 3%)\n  adding: audio/Joanna/definitionlistentry.mp3\t(in=13681) (out=13295) (deflated 3%)\n  adding: audio/Joanna/referstoabookorarticle.mp3\t(in=16188) (out=15616) (deflated 4%)\n  adding: audio/Joanna/example.mp3\t(in=6941) (out=6728) (deflated 3%)\n  adding: audio/Joanna/alternate.mp3\t(in=7881) (out=7673) (deflated 3%)\n  adding: audio/Joanna/containsoptionalheadingsfortermsanddescriptionsinadefinitionlist.mp3\t(in=38758) (out=38110) (deflated 2%)\n  adding: audio/Joanna/definitionlistdescriptionheading.mp3\t(in=18696) (out=18253) (deflated 2%)\n  adding: audio/Joanna/definitionlistheaders.mp3\t(in=13367) (out=13066) (deflated 2%)\n  adding: audio/Joanna/alternatetextforanimage.mp3\t(in=15875) (out=15315) (deflated 4%)\n  adding: audio/Joanna/examplesthatillustrateorsupportthecurrenttopic.mp3\t(in=28570) (out=28000) (deflated 2%)\n  adding: audio/Joanna/definitionlisttermentry.mp3\t(in=16502) (out=16099) (deflated 2%)\n  adding: audio/Joanna/optionalheadingforthetermsinadescriptionlist.mp3\t(in=26219) (out=25685) (deflated 2%)\n  adding: audio/Joanna/descriptionofaterminadefinitionlistentry.mp3\t(in=25593) (out=25027) (deflated 2%)\n  adding: audio/Joanna/Anentryinadefinitionlist.mp3\t(in=18696) (out=18228) (deflated 3%)\n  adding: audio/Joanna/listoftermsandtheirdefinitions.mp3\t(in=18226) (out=17840) (deflated 2%)\n  adding: audio/Ivy/\t(in=0) (out=0) (stored 0%)\n  adding: audio/Ivy/definitionlist.mp3\t(in=11173) (out=11005) (deflated 2%)\n  adding: audio/Ivy/optionalheadingfordescriptionsinadefinitionlist.mp3\t(in=30295) (out=29874) (deflated 1%)\n  adding: audio/Ivy/asectionthatcontainsexamples.mp3\t(in=19637) (out=19165) (deflated 2%)\n  adding: audio/Ivy/definitionlisttermheading.mp3\t(in=17129) (out=16560) (deflated 3%)\n  adding: audio/Ivy/citation.mp3\t(in=7255) (out=6984) (deflated 4%)\n  adding: audio/Ivy/definitionlistdescriptionentry.mp3\t(in=19793) (out=19359) (deflated 2%)\n  adding: audio/Ivy/aterminadefinitionlistentry.mp3\t(in=19480) (out=19043) (deflated 2%)\n  adding: audio/Ivy/definitionlistentry.mp3\t(in=14308) (out=13910) (deflated 3%)\n  adding: audio/Ivy/referstoabookorarticle.mp3\t(in=17913) (out=17486) (deflated 2%)\n  adding: audio/Ivy/example.mp3\t(in=6628) (out=6354) (deflated 4%)\n  adding: audio/Ivy/alternate.mp3\t(in=7568) (out=7434) (deflated 2%)\n  adding: audio/Ivy/containsoptionalheadingsfortermsanddescriptionsinadefinitionlist.mp3\t(in=41736) (out=41233) (deflated 1%)\n  adding: audio/Ivy/definitionlistdescriptionheading.mp3\t(in=19637) (out=19181) (deflated 2%)\n  adding: audio/Ivy/definitionlistheaders.mp3\t(in=15405) (out=14874) (deflated 3%)\n  adding: audio/Ivy/alternatetextforanimage.mp3\t(in=15718) (out=15369) (deflated 2%)\n  adding: audio/Ivy/examplesthatillustrateorsupportthecurrenttopic.mp3\t(in=28727) (out=28374) (deflated 1%)\n  adding: audio/Ivy/definitionlisttermentry.mp3\t(in=17129) (out=16697) (deflated 3%)\n  adding: audio/Ivy/optionalheadingforthetermsinadescriptionlist.mp3\t(in=27787) (out=27412) (deflated 1%)\n  adding: audio/Ivy/descriptionofaterminadefinitionlistentry.mp3\t(in=27003) (out=26477) (deflated 2%)\n  adding: audio/Ivy/Anentryinadefinitionlist.mp3\t(in=19793) (out=19506) (deflated 1%)\n  adding: audio/Ivy/listoftermsandtheirdefinitions.mp3\t(in=20577) (out=20089) (deflated 2%)\n  adding: audio/Justin/\t(in=0) (out=0) (stored 0%)\n  adding: audio/Justin/definitionlist.mp3\t(in=11643) (out=11337) (deflated 3%)\n  adding: audio/Justin/optionalheadingfordescriptionsinadefinitionlist.mp3\t(in=29668) (out=29108) (deflated 2%)\n  adding: audio/Justin/asectionthatcontainsexamples.mp3\t(in=19637) (out=19169) (deflated 2%)\n  adding: audio/Justin/definitionlisttermheading.mp3\t(in=16972) (out=16489) (deflated 3%)\n  adding: audio/Justin/citation.mp3\t(in=8195) (out=7901) (deflated 4%)\n  adding: audio/Justin/definitionlistdescriptionentry.mp3\t(in=23085) (out=22552) (deflated 2%)\n  adding: audio/Justin/aterminadefinitionlistentry.mp3\t(in=20577) (out=20093) (deflated 2%)\n  adding: audio/Justin/definitionlistentry.mp3\t(in=14935) (out=14522) (deflated 3%)\n  adding: audio/Justin/referstoabookorarticle.mp3\t(in=16972) (out=16486) (deflated 3%)\n  adding: audio/Justin/example.mp3\t(in=7255) (out=6924) (deflated 5%)\n  adding: audio/Justin/alternate.mp3\t(in=6628) (out=6323) (deflated 5%)\n  adding: audio/Justin/containsoptionalheadingsfortermsanddescriptionsinadefinitionlist.mp3\t(in=39699) (out=39055) (deflated 2%)\n  adding: audio/Justin/definitionlistdescriptionheading.mp3\t(in=20890) (out=20354) (deflated 3%)\n  adding: audio/Justin/definitionlistheaders.mp3\t(in=16032) (out=15593) (deflated 3%)\n  adding: audio/Justin/alternatetextforanimage.mp3\t(in=16502) (out=16070) (deflated 3%)\n  adding: audio/Justin/examplesthatillustrateorsupportthecurrenttopic.mp3\t(in=28414) (out=27918) (deflated 2%)\n  adding: audio/Justin/definitionlisttermentry.mp3\t(in=17286) (out=16822) (deflated 3%)\n  adding: audio/Justin/optionalheadingforthetermsinadescriptionlist.mp3\t(in=27630) (out=27108) (deflated 2%)\n  adding: audio/Justin/descriptionofaterminadefinitionlistentry.mp3\t(in=27160) (out=26597) (deflated 2%)\n  adding: audio/Justin/Anentryinadefinitionlist.mp3\t(in=18069) (out=17673) (deflated 2%)\n  adding: audio/Justin/listoftermsandtheirdefinitions.mp3\t(in=20107) (out=19617) (deflated 2%)\n  adding: aaaManifest.data\t(in=2246) (out=810) (deflated 64%)\n  adding: perlManifest.pl\t(in=10646) (out=2290) (deflated 78%)\ntotal bytes=5826643, compressed=5691214 -> 2% savings\n",
-      "2017-10-29 at 18:01:30 Step: compileApp",
-      "2017-10-29 at 18:01:34 Step: copyLinksToGitHub",
-      "2017-10-29 at 18:01:38 Step: copyFilesIntoPositionOnWebServer",
+      "2017-10-29 at 18:06:41 Generate AppaAppsPhotoApp version 20171021-222\n",
+      "2017-10-29 at 18:06:45 Step: parseSource",
+      "2017-10-29 at 18:06:45 Good source file!",
+      "2017-10-29 at 18:06:45 Step: loadAssets",
+      "2017-10-29 at 18:06:45 Step: multiplyPhotosByFacts",
+      "2017-10-29 at 18:06:45 Step: genJavaManifest",
+      "2017-10-29 at 18:06:45 Step: genJsonManifest",
+      "2017-10-29 at 18:06:45 Step: genGameHtml",
+      "2017-10-29 at 18:06:45 Step: genHtmlAssets",
+      "2017-10-29 at 18:06:45 Step: zipAssets",
+      "2017-10-29 at 18:06:46 Step: compileApp",
+      "2017-10-29 at 18:06:50 Step: copyLinksToGitHub",
+      "2017-10-29 at 18:06:50 Step: copyFilesIntoPositionOnWebServer",
     ],
     parsedCmds => [
       'fix',
