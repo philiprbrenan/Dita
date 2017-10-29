@@ -1,19 +1,28 @@
-SUCCESS!
-2017-10-29 at 21:43:00 Generate AppaAppsPhotoApp version 20171021-222
+Failed.
+2017-10-29 at 21:45:39 Generate AppaAppsPhotoApp version 20171021-222
 
-2017-10-29 at 21:43:04 Step: parseSource
-2017-10-29 at 21:43:04 Good source file!
-2017-10-29 at 21:43:04 Step: loadAssets
-2017-10-29 at 21:43:04 Step: multiplyPhotosByFacts
-2017-10-29 at 21:43:04 Step: genJavaManifest
-2017-10-29 at 21:43:04 Step: genJsonManifest
-2017-10-29 at 21:43:04 Step: genGameHtml
-2017-10-29 at 21:43:04 Step: genHtmlAssets
-2017-10-29 at 21:43:04 Step: zipAssets
-2017-10-29 at 21:43:05 Step: copyFilesIntoPositionOnWebServer
-2017-10-29 at 21:43:16 Step: compileApp
-2017-10-29 at 21:43:20 Step: copyLinksToGitHub
-2017-10-29 at 21:43:27 Step: copyFilesIntoPositionOnWebServer
+2017-10-29 at 21:45:42 Step: parseSource
+2017-10-29 at 21:45:42 Good source file!
+2017-10-29 at 21:45:42 Step: loadAssets
+2017-10-29 at 21:45:42 Step: multiplyPhotosByFacts
+2017-10-29 at 21:45:42 Step: genJavaManifest
+2017-10-29 at 21:45:42 Step: genJsonManifest
+2017-10-29 at 21:45:42 Step: genGameHtml
+2017-10-29 at 21:45:42 Step: genHtmlAssets
+2017-10-29 at 21:45:42 Step: zipAssets
+2017-10-29 at 21:45:43 Step: copyFilesIntoPositionOnWebServer
+2017-10-29 at 21:45:53 Step: compileApp
+2017-10-29 at 21:45:54 Unable to create apk file /tmp/AppaAppsPhotoApp/build/bin/Dita.apk in build folder:
+/tmp/AppaAppsPhotoApp/users/philiprbrenan/Dita/
+Java errors
+ at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 449.
+	Android::Build::make(Android::Build=HASH(0x2f361e8)) called at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 541
+	Android::Build::compile(Android::Build=HASH(0x2f361e8)) called at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 581
+	Android::Build::run(Android::Build=HASH(0x2f361e8)) called at AppaAppsPhotoApp.pl line 2004
+	eval {...} called at AppaAppsPhotoApp.pl line 2004
+	Manifest::compileApp(Manifest=HASH(0x2d39058)) called at AppaAppsPhotoApp.pl line 460
+	main::genApplicationDescriptionFromSourceFile() called at AppaAppsPhotoApp.pl line 2111
+
 --------------------------------------------------------------------------------
 do {
   my $a = bless({
@@ -32,14 +41,7 @@ do {
       libs          => [],
       log           => [
                          "",
-                         "",
-                         "libpng error: Read Error\nlibpng error: Read Error\nlibpng error: Read Error\nCrunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
-                         "",
-                         "",
-                         "Enter Passphrase for keystore: jar signed.\n\nWarning: \nNo -tsa or -tsacert is provided and this jar is not timestamped. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.",
-                         "\njar verified.\n\nWarning: \nThis jar contains entries whose certificate chain is not validated.\nThis jar contains signatures that does not include a timestamp. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.\n\nRe-run with the -verbose and -certs options for more details.",
-                         "Success",
-                         "Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.appaapps.photoapp.Dita/.Activity }",
+                         "/home/phil/z/java/appState/AppState.java:651: error: ')' expected\nsay(\"AAAA startRace\", raceCourse.size() \" out of \", photos.size());\n                                       ^\n/home/phil/z/java/appState/AppState.java:651: error: illegal start of expression\nsay(\"AAAA startRace\", raceCourse.size() \" out of \", photos.size());\n                                                  ^\n/home/phil/z/java/appState/AppState.java:651: error: ';' expected\nsay(\"AAAA startRace\", raceCourse.size() \" out of \", photos.size());\n                                                          ^\n/home/phil/z/java/appState/AppState.java:651: error: ';' expected\nsay(\"AAAA startRace\", raceCourse.size() \" out of \", photos.size());\n                                                                 ^\n4 errors",
                        ],
       package       => "com.appaapps.photoapp.Dita",
       parameters    => "philiprbrenan,Dita,http://www.appaapps.com/users/philiprbrenan/Dita/zip/Dita.zip",
@@ -98,23 +100,22 @@ do {
       title => "Dita tags",
       titleFile => undef,
     }, "ParsedCmd"),
-    error => undef,
+    error => 1,
     iconFile => "/tmp/AppaAppsPhotoApp/cache/images/icon.jpg",
     log => [
-      "2017-10-29 at 21:43:00 Generate AppaAppsPhotoApp version 20171021-222\n",
-      "2017-10-29 at 21:43:04 Step: parseSource",
-      "2017-10-29 at 21:43:04 Good source file!",
-      "2017-10-29 at 21:43:04 Step: loadAssets",
-      "2017-10-29 at 21:43:04 Step: multiplyPhotosByFacts",
-      "2017-10-29 at 21:43:04 Step: genJavaManifest",
-      "2017-10-29 at 21:43:04 Step: genJsonManifest",
-      "2017-10-29 at 21:43:04 Step: genGameHtml",
-      "2017-10-29 at 21:43:04 Step: genHtmlAssets",
-      "2017-10-29 at 21:43:04 Step: zipAssets",
-      "2017-10-29 at 21:43:05 Step: copyFilesIntoPositionOnWebServer",
-      "2017-10-29 at 21:43:16 Step: compileApp",
-      "2017-10-29 at 21:43:20 Step: copyLinksToGitHub",
-      "2017-10-29 at 21:43:27 Step: copyFilesIntoPositionOnWebServer",
+      "2017-10-29 at 21:45:39 Generate AppaAppsPhotoApp version 20171021-222\n",
+      "2017-10-29 at 21:45:42 Step: parseSource",
+      "2017-10-29 at 21:45:42 Good source file!",
+      "2017-10-29 at 21:45:42 Step: loadAssets",
+      "2017-10-29 at 21:45:42 Step: multiplyPhotosByFacts",
+      "2017-10-29 at 21:45:42 Step: genJavaManifest",
+      "2017-10-29 at 21:45:42 Step: genJsonManifest",
+      "2017-10-29 at 21:45:42 Step: genGameHtml",
+      "2017-10-29 at 21:45:42 Step: genHtmlAssets",
+      "2017-10-29 at 21:45:42 Step: zipAssets",
+      "2017-10-29 at 21:45:43 Step: copyFilesIntoPositionOnWebServer",
+      "2017-10-29 at 21:45:53 Step: compileApp",
+      "2017-10-29 at 21:45:54 Unable to create apk file /tmp/AppaAppsPhotoApp/build/bin/Dita.apk in build folder:\n/tmp/AppaAppsPhotoApp/users/philiprbrenan/Dita/\nJava errors\n at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 449.\n\tAndroid::Build::make(Android::Build=HASH(0x2f361e8)) called at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 541\n\tAndroid::Build::compile(Android::Build=HASH(0x2f361e8)) called at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 581\n\tAndroid::Build::run(Android::Build=HASH(0x2f361e8)) called at AppaAppsPhotoApp.pl line 2004\n\teval {...} called at AppaAppsPhotoApp.pl line 2004\n\tManifest::compileApp(Manifest=HASH(0x2d39058)) called at AppaAppsPhotoApp.pl line 460\n\tmain::genApplicationDescriptionFromSourceFile() called at AppaAppsPhotoApp.pl line 2111\n",
     ],
     parsedCmds => [
       'fix',
@@ -523,7 +524,7 @@ do {
     ],
     source => "\napp Dita=Dita tags\n  maximages = 8\n  icon = https://raw.githubusercontent.com/philiprbrenan/Dita/master/icon.jpg\n  author=philiprbrenan\n  email = philiprbrenan\@gmail.com\n# language=en\n\n# alt\nphoto alt=alternate\n  afewchars=alt\n\nfact alt.1 = alternate text for an image\n\nphoto cite=citation\n  afewchars=cite\n\nfact cite.1 = refers to a book or article\n\n# dd\nphoto dd=definition list description entry\n  afewchars=dd\n\nfact dd.1 = description of a term in a definition list entry\n\n# ddhd\nphoto ddhd=definition list description heading\n  afewchars=ddhd\n\nfact ddhd.1 = optional heading for descriptions in a definition list\n\n# dl\nphoto dl=definition list\n  afewchars=dl\n\nfact dl.1 = list of terms and their definitions\n\n# dlentry\nphoto dlentry=definition list entry\n  afewchars=dlentry\n\nfact dlentry.1 = An entry in a definition list\n\n# dlhead\nphoto dlhead=definition list headers\n  afewchars=dlhead\n\nfact dlhead.1 = contains optional headings for terms and descriptions in a definition list\n\n# dt\nphoto dt=definition list term entry\n  afewchars=dt\n\nfact dt.1 = a term in a definition list entry\n\n# dthd\nphoto dthd=definition list term heading\n  afewchars=dthd\n\nfact dthd.1 = optional heading for the terms in a description list\n\n# example\nphoto example=example\n  afewchars=example\n\nfact example.1 = a section that contains examples\nfact example.2 = examples that illustrate or support the current topic\n",
     sourceFileSha => "8fea943807ea0ab3b1a1fc32e3b7f316624340d2",
-    step => "completed",
+    step => "compileApp",
   }, "Manifest");
   $a->{parsedCmds}[0] = $a->{app};
   $a;
