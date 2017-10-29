@@ -1,19 +1,19 @@
 SUCCESS!
-2017-10-29 at 18:51:36 Generate AppaAppsPhotoApp version 20171021-222
+2017-10-29 at 19:07:44 Generate AppaAppsPhotoApp version 20171021-222
 
-2017-10-29 at 18:51:40 Step: parseSource
-2017-10-29 at 18:51:40 Good source file!
-2017-10-29 at 18:51:40 Step: loadAssets
-2017-10-29 at 18:51:40 Step: multiplyPhotosByFacts
-2017-10-29 at 18:51:40 Step: genJavaManifest
-2017-10-29 at 18:51:40 Step: genJsonManifest
-2017-10-29 at 18:51:40 Step: genGameHtml
-2017-10-29 at 18:51:40 Step: genHtmlAssets
-2017-10-29 at 18:51:40 Step: zipAssets
-2017-10-29 at 18:51:40 Step: copyFilesIntoPositionOnWebServer
-2017-10-29 at 18:51:51 Step: compileApp
-2017-10-29 at 18:51:55 Step: copyLinksToGitHub
-2017-10-29 at 18:52:02 Step: copyFilesIntoPositionOnWebServer
+2017-10-29 at 19:07:48 Step: parseSource
+2017-10-29 at 19:07:48 Good source file!
+2017-10-29 at 19:07:48 Step: loadAssets
+2017-10-29 at 19:07:48 Step: multiplyPhotosByFacts
+2017-10-29 at 19:07:48 Step: genJavaManifest
+2017-10-29 at 19:07:48 Step: genJsonManifest
+2017-10-29 at 19:07:48 Step: genGameHtml
+2017-10-29 at 19:07:48 Step: genHtmlAssets
+2017-10-29 at 19:07:48 Step: zipAssets
+2017-10-29 at 19:07:49 Step: copyFilesIntoPositionOnWebServer
+2017-10-29 at 19:07:59 Step: compileApp
+2017-10-29 at 19:08:04 Step: copyLinksToGitHub
+2017-10-29 at 19:08:11 Step: copyFilesIntoPositionOnWebServer
 --------------------------------------------------------------------------------
 do {
   my $a = bless({
@@ -33,7 +33,7 @@ do {
       log           => [
                          "",
                          "",
-                         "Crunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
+                         "libpng error: Not a PNG file\nCrunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
                          "",
                          "",
                          "Enter Passphrase for keystore: jar signed.\n\nWarning: \nNo -tsa or -tsacert is provided and this jar is not timestamped. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.",
@@ -101,20 +101,20 @@ do {
     error => undef,
     iconFile => "/tmp/AppaAppsPhotoApp/cache/images/icon.jpg",
     log => [
-      "2017-10-29 at 18:51:36 Generate AppaAppsPhotoApp version 20171021-222\n",
-      "2017-10-29 at 18:51:40 Step: parseSource",
-      "2017-10-29 at 18:51:40 Good source file!",
-      "2017-10-29 at 18:51:40 Step: loadAssets",
-      "2017-10-29 at 18:51:40 Step: multiplyPhotosByFacts",
-      "2017-10-29 at 18:51:40 Step: genJavaManifest",
-      "2017-10-29 at 18:51:40 Step: genJsonManifest",
-      "2017-10-29 at 18:51:40 Step: genGameHtml",
-      "2017-10-29 at 18:51:40 Step: genHtmlAssets",
-      "2017-10-29 at 18:51:40 Step: zipAssets",
-      "2017-10-29 at 18:51:40 Step: copyFilesIntoPositionOnWebServer",
-      "2017-10-29 at 18:51:51 Step: compileApp",
-      "2017-10-29 at 18:51:55 Step: copyLinksToGitHub",
-      "2017-10-29 at 18:52:02 Step: copyFilesIntoPositionOnWebServer",
+      "2017-10-29 at 19:07:44 Generate AppaAppsPhotoApp version 20171021-222\n",
+      "2017-10-29 at 19:07:48 Step: parseSource",
+      "2017-10-29 at 19:07:48 Good source file!",
+      "2017-10-29 at 19:07:48 Step: loadAssets",
+      "2017-10-29 at 19:07:48 Step: multiplyPhotosByFacts",
+      "2017-10-29 at 19:07:48 Step: genJavaManifest",
+      "2017-10-29 at 19:07:48 Step: genJsonManifest",
+      "2017-10-29 at 19:07:48 Step: genGameHtml",
+      "2017-10-29 at 19:07:48 Step: genHtmlAssets",
+      "2017-10-29 at 19:07:48 Step: zipAssets",
+      "2017-10-29 at 19:07:49 Step: copyFilesIntoPositionOnWebServer",
+      "2017-10-29 at 19:07:59 Step: compileApp",
+      "2017-10-29 at 19:08:04 Step: copyLinksToGitHub",
+      "2017-10-29 at 19:08:11 Step: copyFilesIntoPositionOnWebServer",
     ],
     parsedCmds => [
       'fix',
