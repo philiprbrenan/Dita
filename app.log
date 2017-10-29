@@ -1,19 +1,19 @@
 SUCCESS!
-2017-10-29 at 19:57:35 Generate AppaAppsPhotoApp version 20171021-222
+2017-10-29 at 21:43:00 Generate AppaAppsPhotoApp version 20171021-222
 
-2017-10-29 at 19:57:40 Step: parseSource
-2017-10-29 at 19:57:40 Good source file!
-2017-10-29 at 19:57:40 Step: loadAssets
-2017-10-29 at 19:57:40 Step: multiplyPhotosByFacts
-2017-10-29 at 19:57:40 Step: genJavaManifest
-2017-10-29 at 19:57:40 Step: genJsonManifest
-2017-10-29 at 19:57:40 Step: genGameHtml
-2017-10-29 at 19:57:40 Step: genHtmlAssets
-2017-10-29 at 19:57:40 Step: zipAssets
-2017-10-29 at 19:57:40 Step: copyFilesIntoPositionOnWebServer
-2017-10-29 at 19:57:51 Step: compileApp
-2017-10-29 at 19:59:39 Step: copyLinksToGitHub
-2017-10-29 at 19:59:44 Step: copyFilesIntoPositionOnWebServer
+2017-10-29 at 21:43:04 Step: parseSource
+2017-10-29 at 21:43:04 Good source file!
+2017-10-29 at 21:43:04 Step: loadAssets
+2017-10-29 at 21:43:04 Step: multiplyPhotosByFacts
+2017-10-29 at 21:43:04 Step: genJavaManifest
+2017-10-29 at 21:43:04 Step: genJsonManifest
+2017-10-29 at 21:43:04 Step: genGameHtml
+2017-10-29 at 21:43:04 Step: genHtmlAssets
+2017-10-29 at 21:43:04 Step: zipAssets
+2017-10-29 at 21:43:05 Step: copyFilesIntoPositionOnWebServer
+2017-10-29 at 21:43:16 Step: compileApp
+2017-10-29 at 21:43:20 Step: copyLinksToGitHub
+2017-10-29 at 21:43:27 Step: copyFilesIntoPositionOnWebServer
 --------------------------------------------------------------------------------
 do {
   my $a = bless({
@@ -33,13 +33,13 @@ do {
       log           => [
                          "",
                          "",
-                         "Crunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
+                         "libpng error: Read Error\nlibpng error: Read Error\nlibpng error: Read Error\nCrunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
                          "",
                          "",
                          "Enter Passphrase for keystore: jar signed.\n\nWarning: \nNo -tsa or -tsacert is provided and this jar is not timestamped. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.",
                          "\njar verified.\n\nWarning: \nThis jar contains entries whose certificate chain is not validated.\nThis jar contains signatures that does not include a timestamp. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.\n\nRe-run with the -verbose and -certs options for more details.",
                          "Success",
-                         "Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.appaapps.photoapp.Dita/.Activity }\nandroid.os.DeadObjectException\n\tat android.os.BinderProxy.transactNative(Native Method)\n\tat android.os.BinderProxy.transact(Binder.java:615)\n\tat android.app.ActivityManagerProxy.startActivityAsUser(ActivityManagerNative.java:3106)\n\tat com.android.commands.am.Am.runStart(Am.java:635)\n\tat com.android.commands.am.Am.onRun(Am.java:388)\n\tat com.android.internal.os.BaseCommand.run(BaseCommand.java:51)\n\tat com.android.commands.am.Am.main(Am.java:121)\n\tat com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)\n\tat com.android.internal.os.RuntimeInit.main(RuntimeInit.java:262)",
+                         "Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.appaapps.photoapp.Dita/.Activity }",
                        ],
       package       => "com.appaapps.photoapp.Dita",
       parameters    => "philiprbrenan,Dita,http://www.appaapps.com/users/philiprbrenan/Dita/zip/Dita.zip",
@@ -101,20 +101,20 @@ do {
     error => undef,
     iconFile => "/tmp/AppaAppsPhotoApp/cache/images/icon.jpg",
     log => [
-      "2017-10-29 at 19:57:35 Generate AppaAppsPhotoApp version 20171021-222\n",
-      "2017-10-29 at 19:57:40 Step: parseSource",
-      "2017-10-29 at 19:57:40 Good source file!",
-      "2017-10-29 at 19:57:40 Step: loadAssets",
-      "2017-10-29 at 19:57:40 Step: multiplyPhotosByFacts",
-      "2017-10-29 at 19:57:40 Step: genJavaManifest",
-      "2017-10-29 at 19:57:40 Step: genJsonManifest",
-      "2017-10-29 at 19:57:40 Step: genGameHtml",
-      "2017-10-29 at 19:57:40 Step: genHtmlAssets",
-      "2017-10-29 at 19:57:40 Step: zipAssets",
-      "2017-10-29 at 19:57:40 Step: copyFilesIntoPositionOnWebServer",
-      "2017-10-29 at 19:57:51 Step: compileApp",
-      "2017-10-29 at 19:59:39 Step: copyLinksToGitHub",
-      "2017-10-29 at 19:59:44 Step: copyFilesIntoPositionOnWebServer",
+      "2017-10-29 at 21:43:00 Generate AppaAppsPhotoApp version 20171021-222\n",
+      "2017-10-29 at 21:43:04 Step: parseSource",
+      "2017-10-29 at 21:43:04 Good source file!",
+      "2017-10-29 at 21:43:04 Step: loadAssets",
+      "2017-10-29 at 21:43:04 Step: multiplyPhotosByFacts",
+      "2017-10-29 at 21:43:04 Step: genJavaManifest",
+      "2017-10-29 at 21:43:04 Step: genJsonManifest",
+      "2017-10-29 at 21:43:04 Step: genGameHtml",
+      "2017-10-29 at 21:43:04 Step: genHtmlAssets",
+      "2017-10-29 at 21:43:04 Step: zipAssets",
+      "2017-10-29 at 21:43:05 Step: copyFilesIntoPositionOnWebServer",
+      "2017-10-29 at 21:43:16 Step: compileApp",
+      "2017-10-29 at 21:43:20 Step: copyLinksToGitHub",
+      "2017-10-29 at 21:43:27 Step: copyFilesIntoPositionOnWebServer",
     ],
     parsedCmds => [
       'fix',
