@@ -1,10 +1,10 @@
 Failed.
-2017-10-29 at 13:50:38 Generate AppaAppsPhotoApp version 20171021-222
+2017-10-29 at 13:57:58 Generate AppaAppsPhotoApp version 20171021-222
 
-2017-10-29 at 13:50:43 Step: parseSource
-2017-10-29 at 13:50:43 Good source file!
-2017-10-29 at 13:50:43 Step: loadAssets
-2017-10-29 at 13:50:44 Failed to generate audio file
+2017-10-29 at 13:58:02 Step: parseSource
+2017-10-29 at 13:58:02 Good source file!
+2017-10-29 at 13:58:02 Step: loadAssets
+2017-10-29 at 13:58:02 Failed to generate audio file
 /tmp/AppaAppsPhotoApp/users/philiprbrenan/Dita/assets/audio/Amy/alt.mp3
 
 [Errno 2] No such file or directory: u'/tmp/AppaAppsPhotoApp/users/philiprbrenan/Dita/assets/audio/Amy/alt.mp3'
@@ -32,11 +32,11 @@ do {
     }, "ParsedCmd"),
     error => 1,
     log => [
-      "2017-10-29 at 13:50:38 Generate AppaAppsPhotoApp version 20171021-222\n",
-      "2017-10-29 at 13:50:43 Step: parseSource",
-      "2017-10-29 at 13:50:43 Good source file!",
-      "2017-10-29 at 13:50:43 Step: loadAssets",
-      "2017-10-29 at 13:50:44 Failed to generate audio file\n/tmp/AppaAppsPhotoApp/users/philiprbrenan/Dita/assets/audio/Amy/alt.mp3\n\n[Errno 2] No such file or directory: u'/tmp/AppaAppsPhotoApp/users/philiprbrenan/Dita/assets/audio/Amy/alt.mp3'\n",
+      "2017-10-29 at 13:57:58 Generate AppaAppsPhotoApp version 20171021-222\n",
+      "2017-10-29 at 13:58:02 Step: parseSource",
+      "2017-10-29 at 13:58:02 Good source file!",
+      "2017-10-29 at 13:58:02 Step: loadAssets",
+      "2017-10-29 at 13:58:02 Failed to generate audio file\n/tmp/AppaAppsPhotoApp/users/philiprbrenan/Dita/assets/audio/Amy/alt.mp3\n\n[Errno 2] No such file or directory: u'/tmp/AppaAppsPhotoApp/users/philiprbrenan/Dita/assets/audio/Amy/alt.mp3'\n",
     ],
     parsedCmds => [
       'fix',
