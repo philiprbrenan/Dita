@@ -1,0 +1,61 @@
+
+app ditaTags=Dita tags
+  author=phil
+  email = philiprbrenan@gmail.com
+# language=en
+
+# alt
+photo alt=<alt>
+  afewchars=alt
+
+fact alt.1 = alternate text for an image
+
+
+# dd
+photo dd=<dd>
+  afewchars=dd
+
+fact dd.1 = description of a term in a definition list entry
+
+# dd
+photo ddhd=<ddhd>
+  afewchars=ddhd
+
+fact ddhd.1 = optional heading for descriptions in a definition list
+
+# dl
+photo dl=<dl>
+  afewchars=dl
+
+fact dl.1 = list of terms and their definitions
+
+# dlentry
+photo dlentry=<dlentry>
+  afewchars=dlentry
+
+fact dlentry.1 = An entry in a definition list
+
+# dlhead
+photo dlhead=<dlhead>
+  afewchars=dlhead
+
+fact dlhead.1 = contains optional headings for terms and descriptions in a definition list
+
+# dt
+photo dt=<dt>
+  afewchars=dt
+
+fact dt.1 = a term in a definition list entry
+
+# dthd
+photo dthd=<dthd>
+  afewchars=dthd
+
+fact dthd.1 = optional heading for the terms in a description list
+
+# example
+photo example=<example>
+  afewchars=example
+
+fact dthd.1 = a section for containing examples
+fact dthd.2 = examples that illustrate or support the current topic
