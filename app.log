@@ -1,22 +1,22 @@
 SUCCESS!
-2017-10-29 at 17:55:00 Generate AppaAppsPhotoApp version 20171021-222
+2017-10-29 at 17:55:28 Generate AppaAppsPhotoApp version 20171021-222
 
-2017-10-29 at 17:55:04 Step: parseSource
-2017-10-29 at 17:55:04 Good source file!
-2017-10-29 at 17:55:04 Step: loadAssets
-2017-10-29 at 17:55:05 Step: multiplyPhotosByFacts
-2017-10-29 at 17:55:05 Step: genJavaManifest
-2017-10-29 at 17:55:05 Step: genJsonManifest
-2017-10-29 at 17:55:05 Step: genGameHtml
-2017-10-29 at 17:55:05 Step: genHtmlAssets
-2017-10-29 at 17:55:05 Step: zipAssets
-2017-10-29 at 17:55:05   adding: aaaManifest.data	(in=2246) (out=810) (deflated 64%)
-  adding: perlManifest.pl	(in=10646) (out=2347) (deflated 78%)
-total bytes=12892, compressed=3157 -> 76% savings
+2017-10-29 at 17:55:32 Step: parseSource
+2017-10-29 at 17:55:32 Good source file!
+2017-10-29 at 17:55:32 Step: loadAssets
+2017-10-29 at 17:55:32 Step: multiplyPhotosByFacts
+2017-10-29 at 17:55:32 Step: genJavaManifest
+2017-10-29 at 17:55:32 Step: genJsonManifest
+2017-10-29 at 17:55:32 Step: genGameHtml
+2017-10-29 at 17:55:32 Step: genHtmlAssets
+2017-10-29 at 17:55:32 Step: zipAssets
+2017-10-29 at 17:55:32   adding: aaaManifest.data	(in=2246) (out=810) (deflated 64%)
+  adding: perlManifest.pl	(in=10646) (out=2284) (deflated 79%)
+total bytes=12892, compressed=3094 -> 76% savings
 
-2017-10-29 at 17:55:05 Step: compileApp
-2017-10-29 at 17:55:08 Step: copyLinksToGitHub
-2017-10-29 at 17:55:12 Step: copyFilesIntoPositionOnWebServer
+2017-10-29 at 17:55:32 Step: compileApp
+2017-10-29 at 17:55:37 Step: copyLinksToGitHub
+2017-10-29 at 17:55:41 Step: copyFilesIntoPositionOnWebServer
 --------------------------------------------------------------------------------
 do {
   my $a = bless({
@@ -36,7 +36,7 @@ do {
       log           => [
                          "",
                          "",
-                         "libpng error: IDAT: invalid distance too far back\nCrunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
+                         "libpng error: Read Error\nCrunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
                          "",
                          "",
                          "Enter Passphrase for keystore: jar signed.\n\nWarning: \nNo -tsa or -tsacert is provided and this jar is not timestamped. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.",
@@ -102,20 +102,20 @@ do {
     error => undef,
     iconFile => "/tmp/AppaAppsPhotoApp/cache/images/icon.jpg",
     log => [
-      "2017-10-29 at 17:55:00 Generate AppaAppsPhotoApp version 20171021-222\n",
-      "2017-10-29 at 17:55:04 Step: parseSource",
-      "2017-10-29 at 17:55:04 Good source file!",
-      "2017-10-29 at 17:55:04 Step: loadAssets",
-      "2017-10-29 at 17:55:05 Step: multiplyPhotosByFacts",
-      "2017-10-29 at 17:55:05 Step: genJavaManifest",
-      "2017-10-29 at 17:55:05 Step: genJsonManifest",
-      "2017-10-29 at 17:55:05 Step: genGameHtml",
-      "2017-10-29 at 17:55:05 Step: genHtmlAssets",
-      "2017-10-29 at 17:55:05 Step: zipAssets",
-      "2017-10-29 at 17:55:05   adding: aaaManifest.data\t(in=2246) (out=810) (deflated 64%)\n  adding: perlManifest.pl\t(in=10646) (out=2347) (deflated 78%)\ntotal bytes=12892, compressed=3157 -> 76% savings\n",
-      "2017-10-29 at 17:55:05 Step: compileApp",
-      "2017-10-29 at 17:55:08 Step: copyLinksToGitHub",
-      "2017-10-29 at 17:55:12 Step: copyFilesIntoPositionOnWebServer",
+      "2017-10-29 at 17:55:28 Generate AppaAppsPhotoApp version 20171021-222\n",
+      "2017-10-29 at 17:55:32 Step: parseSource",
+      "2017-10-29 at 17:55:32 Good source file!",
+      "2017-10-29 at 17:55:32 Step: loadAssets",
+      "2017-10-29 at 17:55:32 Step: multiplyPhotosByFacts",
+      "2017-10-29 at 17:55:32 Step: genJavaManifest",
+      "2017-10-29 at 17:55:32 Step: genJsonManifest",
+      "2017-10-29 at 17:55:32 Step: genGameHtml",
+      "2017-10-29 at 17:55:32 Step: genHtmlAssets",
+      "2017-10-29 at 17:55:32 Step: zipAssets",
+      "2017-10-29 at 17:55:32   adding: aaaManifest.data\t(in=2246) (out=810) (deflated 64%)\n  adding: perlManifest.pl\t(in=10646) (out=2284) (deflated 79%)\ntotal bytes=12892, compressed=3094 -> 76% savings\n",
+      "2017-10-29 at 17:55:32 Step: compileApp",
+      "2017-10-29 at 17:55:37 Step: copyLinksToGitHub",
+      "2017-10-29 at 17:55:41 Step: copyFilesIntoPositionOnWebServer",
     ],
     parsedCmds => [
       'fix',
