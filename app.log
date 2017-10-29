@@ -12,15 +12,11 @@ Failed.
 2017-10-29 at 14:22:46 Step: genHtmlAssets
 2017-10-29 at 14:22:46 Step: zipAssets
 2017-10-29 at 14:22:46 Step: compileApp
-2017-10-29 at 14:22:46 Unable to create apk file /tmp/AppaAppsPhotoApp/build/bin/ditatags.apk in build folder:
+2017-10-29 at 14:22:54 Unable to create apk file /tmp/AppaAppsPhotoApp/build/bin/ditatags.apk in build folder:
 /tmp/AppaAppsPhotoApp/users/philiprbrenan/Dita/
-Unable to create icon:
-convert: Not a JPEG file: starts with 0x0a 0x0a `/tmp/AppaAppsPhotoApp/cache/images/icon.jpg' @ error/jpeg.c/JPEGErrorHandler/322.
-convert: no images defined `/tmp/AppaAppsPhotoApp/build/icon.png' @ error/convert.c/ConvertImageCommand/3210.
- at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 213.
-	Android::Build::pushIcon(Android::Build=HASH(0x2ba3798), "/tmp/AppaAppsPhotoApp/cache/images/icon.jpg", 72, "h") called at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 233
-	Android::Build::pushIcons(Android::Build=HASH(0x2ba3798)) called at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 336
-	Android::Build::create(Android::Build=HASH(0x2ba3798)) called at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 540
+Java errors
+ at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 449.
+	Android::Build::make(Android::Build=HASH(0x2ba3798)) called at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 541
 	Android::Build::compile(Android::Build=HASH(0x2ba3798)) called at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 581
 	Android::Build::run(Android::Build=HASH(0x2ba3798)) called at AppaAppsPhotoApp.pl line 1978
 	eval {...} called at AppaAppsPhotoApp.pl line 1978
@@ -43,7 +39,10 @@ do {
       keyStoreFile  => "/home/phil/AppaAppsPhotoApp/keys/genApp.keystore",
       keyStorePwd   => "genApp",
       libs          => [],
-      log           => [],
+      log           => [
+                         "/tmp/AppaAppsPhotoApp/build/AndroidManifest.xml:11: error: Error: No resource found that matches the given name (at 'icon' with value '\@drawable/ic_launcher').",
+                         "/tmp/AppaAppsPhotoApp/build/gen/com/appaapps/genapp/Activity.java:49: error: package R does not exist\n    parameters  = getResources().getString(R.string.parameters);                // The parameters supplied with the app\n                                            ^\n/tmp/AppaAppsPhotoApp/build/gen/com/appaapps/genapp/Activity.java:57: error: package R does not exist\n    packageName = getResources().getString(R.string.packageName);               // The package name of this app == domain.appname\n                                            ^\n2 errors",
+                       ],
       package       => "com.appaapps.photoapp.ditatags",
       parameters    => "philiprbrenan,Dita,http://www.appaapps.com/users/philiprbrenan/Dita/zip/dita.zip",
       permissions   => [
@@ -116,7 +115,7 @@ do {
       "2017-10-29 at 14:22:46 Step: genHtmlAssets",
       "2017-10-29 at 14:22:46 Step: zipAssets",
       "2017-10-29 at 14:22:46 Step: compileApp",
-      "2017-10-29 at 14:22:46 Unable to create apk file /tmp/AppaAppsPhotoApp/build/bin/ditatags.apk in build folder:\n/tmp/AppaAppsPhotoApp/users/philiprbrenan/Dita/\nUnable to create icon:\nconvert: Not a JPEG file: starts with 0x0a 0x0a `/tmp/AppaAppsPhotoApp/cache/images/icon.jpg' \@ error/jpeg.c/JPEGErrorHandler/322.\nconvert: no images defined `/tmp/AppaAppsPhotoApp/build/icon.png' \@ error/convert.c/ConvertImageCommand/3210.\n at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 213.\n\tAndroid::Build::pushIcon(Android::Build=HASH(0x2ba3798), \"/tmp/AppaAppsPhotoApp/cache/images/icon.jpg\", 72, \"h\") called at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 233\n\tAndroid::Build::pushIcons(Android::Build=HASH(0x2ba3798)) called at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 336\n\tAndroid::Build::create(Android::Build=HASH(0x2ba3798)) called at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 540\n\tAndroid::Build::compile(Android::Build=HASH(0x2ba3798)) called at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 581\n\tAndroid::Build::run(Android::Build=HASH(0x2ba3798)) called at AppaAppsPhotoApp.pl line 1978\n\teval {...} called at AppaAppsPhotoApp.pl line 1978\n\tManifest::compileApp(Manifest=HASH(0x29bc118)) called at AppaAppsPhotoApp.pl line 455\n\tmain::genApplicationDescriptionFromSourceFile() called at AppaAppsPhotoApp.pl line 2089\n",
+      "2017-10-29 at 14:22:54 Unable to create apk file /tmp/AppaAppsPhotoApp/build/bin/ditatags.apk in build folder:\n/tmp/AppaAppsPhotoApp/users/philiprbrenan/Dita/\nJava errors\n at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 449.\n\tAndroid::Build::make(Android::Build=HASH(0x2ba3798)) called at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 541\n\tAndroid::Build::compile(Android::Build=HASH(0x2ba3798)) called at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 581\n\tAndroid::Build::run(Android::Build=HASH(0x2ba3798)) called at AppaAppsPhotoApp.pl line 1978\n\teval {...} called at AppaAppsPhotoApp.pl line 1978\n\tManifest::compileApp(Manifest=HASH(0x29bc118)) called at AppaAppsPhotoApp.pl line 455\n\tmain::genApplicationDescriptionFromSourceFile() called at AppaAppsPhotoApp.pl line 2089\n",
     ],
     parsedCmds => [
       'fix',
