@@ -1,22 +1,22 @@
 SUCCESS!
-2017-10-29 at 17:48:48 Generate AppaAppsPhotoApp version 20171021-222
+2017-10-29 at 17:52:50 Generate AppaAppsPhotoApp version 20171021-222
 
-2017-10-29 at 17:48:52 Step: parseSource
-2017-10-29 at 17:48:52 Good source file!
-2017-10-29 at 17:48:52 Step: loadAssets
-2017-10-29 at 17:48:52 Step: multiplyPhotosByFacts
-2017-10-29 at 17:48:52 Step: genJavaManifest
-2017-10-29 at 17:48:52 Step: genJsonManifest
-2017-10-29 at 17:48:52 Step: genGameHtml
-2017-10-29 at 17:48:52 Step: genHtmlAssets
-2017-10-29 at 17:48:52 Step: zipAssets
-2017-10-29 at 17:48:52   adding: aaaManifest.data	(in=2246) (out=810) (deflated 64%)
-  adding: perlManifest.pl	(in=10646) (out=2303) (deflated 78%)
-total bytes=12892, compressed=3113 -> 76% savings
+2017-10-29 at 17:52:54 Step: parseSource
+2017-10-29 at 17:52:54 Good source file!
+2017-10-29 at 17:52:54 Step: loadAssets
+2017-10-29 at 17:52:54 Step: multiplyPhotosByFacts
+2017-10-29 at 17:52:54 Step: genJavaManifest
+2017-10-29 at 17:52:54 Step: genJsonManifest
+2017-10-29 at 17:52:54 Step: genGameHtml
+2017-10-29 at 17:52:54 Step: genHtmlAssets
+2017-10-29 at 17:52:54 Step: zipAssets
+2017-10-29 at 17:52:54   adding: aaaManifest.data	(in=2246) (out=810) (deflated 64%)
+  adding: perlManifest.pl	(in=10646) (out=2293) (deflated 78%)
+total bytes=12892, compressed=3103 -> 76% savings
 
-2017-10-29 at 17:48:52 Step: compileApp
-2017-10-29 at 17:48:56 Step: copyLinksToGitHub
-2017-10-29 at 17:49:00 Step: copyFilesIntoPositionOnWebServer
+2017-10-29 at 17:52:54 Step: compileApp
+2017-10-29 at 17:52:58 Step: copyLinksToGitHub
+2017-10-29 at 17:53:02 Step: copyFilesIntoPositionOnWebServer
 --------------------------------------------------------------------------------
 do {
   my $a = bless({
@@ -102,20 +102,20 @@ do {
     error => undef,
     iconFile => "/tmp/AppaAppsPhotoApp/cache/images/icon.jpg",
     log => [
-      "2017-10-29 at 17:48:48 Generate AppaAppsPhotoApp version 20171021-222\n",
-      "2017-10-29 at 17:48:52 Step: parseSource",
-      "2017-10-29 at 17:48:52 Good source file!",
-      "2017-10-29 at 17:48:52 Step: loadAssets",
-      "2017-10-29 at 17:48:52 Step: multiplyPhotosByFacts",
-      "2017-10-29 at 17:48:52 Step: genJavaManifest",
-      "2017-10-29 at 17:48:52 Step: genJsonManifest",
-      "2017-10-29 at 17:48:52 Step: genGameHtml",
-      "2017-10-29 at 17:48:52 Step: genHtmlAssets",
-      "2017-10-29 at 17:48:52 Step: zipAssets",
-      "2017-10-29 at 17:48:52   adding: aaaManifest.data\t(in=2246) (out=810) (deflated 64%)\n  adding: perlManifest.pl\t(in=10646) (out=2303) (deflated 78%)\ntotal bytes=12892, compressed=3113 -> 76% savings\n",
-      "2017-10-29 at 17:48:52 Step: compileApp",
-      "2017-10-29 at 17:48:56 Step: copyLinksToGitHub",
-      "2017-10-29 at 17:49:00 Step: copyFilesIntoPositionOnWebServer",
+      "2017-10-29 at 17:52:50 Generate AppaAppsPhotoApp version 20171021-222\n",
+      "2017-10-29 at 17:52:54 Step: parseSource",
+      "2017-10-29 at 17:52:54 Good source file!",
+      "2017-10-29 at 17:52:54 Step: loadAssets",
+      "2017-10-29 at 17:52:54 Step: multiplyPhotosByFacts",
+      "2017-10-29 at 17:52:54 Step: genJavaManifest",
+      "2017-10-29 at 17:52:54 Step: genJsonManifest",
+      "2017-10-29 at 17:52:54 Step: genGameHtml",
+      "2017-10-29 at 17:52:54 Step: genHtmlAssets",
+      "2017-10-29 at 17:52:54 Step: zipAssets",
+      "2017-10-29 at 17:52:54   adding: aaaManifest.data\t(in=2246) (out=810) (deflated 64%)\n  adding: perlManifest.pl\t(in=10646) (out=2293) (deflated 78%)\ntotal bytes=12892, compressed=3103 -> 76% savings\n",
+      "2017-10-29 at 17:52:54 Step: compileApp",
+      "2017-10-29 at 17:52:58 Step: copyLinksToGitHub",
+      "2017-10-29 at 17:53:02 Step: copyFilesIntoPositionOnWebServer",
     ],
     parsedCmds => [
       'fix',
