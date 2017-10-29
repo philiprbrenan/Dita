@@ -1,19 +1,19 @@
 SUCCESS!
-2017-10-29 at 19:44:27 Generate AppaAppsPhotoApp version 20171021-222
+2017-10-29 at 19:57:35 Generate AppaAppsPhotoApp version 20171021-222
 
-2017-10-29 at 19:44:35 Step: parseSource
-2017-10-29 at 19:44:35 Good source file!
-2017-10-29 at 19:44:35 Step: loadAssets
-2017-10-29 at 19:44:35 Step: multiplyPhotosByFacts
-2017-10-29 at 19:44:35 Step: genJavaManifest
-2017-10-29 at 19:44:35 Step: genJsonManifest
-2017-10-29 at 19:44:35 Step: genGameHtml
-2017-10-29 at 19:44:35 Step: genHtmlAssets
-2017-10-29 at 19:44:35 Step: zipAssets
-2017-10-29 at 19:44:35 Step: copyFilesIntoPositionOnWebServer
-2017-10-29 at 19:44:47 Step: compileApp
-2017-10-29 at 19:46:19 Step: copyLinksToGitHub
-2017-10-29 at 19:46:23 Step: copyFilesIntoPositionOnWebServer
+2017-10-29 at 19:57:40 Step: parseSource
+2017-10-29 at 19:57:40 Good source file!
+2017-10-29 at 19:57:40 Step: loadAssets
+2017-10-29 at 19:57:40 Step: multiplyPhotosByFacts
+2017-10-29 at 19:57:40 Step: genJavaManifest
+2017-10-29 at 19:57:40 Step: genJsonManifest
+2017-10-29 at 19:57:40 Step: genGameHtml
+2017-10-29 at 19:57:40 Step: genHtmlAssets
+2017-10-29 at 19:57:40 Step: zipAssets
+2017-10-29 at 19:57:40 Step: copyFilesIntoPositionOnWebServer
+2017-10-29 at 19:57:51 Step: compileApp
+2017-10-29 at 19:59:39 Step: copyLinksToGitHub
+2017-10-29 at 19:59:44 Step: copyFilesIntoPositionOnWebServer
 --------------------------------------------------------------------------------
 do {
   my $a = bless({
@@ -33,7 +33,7 @@ do {
       log           => [
                          "",
                          "",
-                         "libpng error: bad adaptive filter value\nCrunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
+                         "Crunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
                          "",
                          "",
                          "Enter Passphrase for keystore: jar signed.\n\nWarning: \nNo -tsa or -tsacert is provided and this jar is not timestamped. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.",
@@ -101,20 +101,20 @@ do {
     error => undef,
     iconFile => "/tmp/AppaAppsPhotoApp/cache/images/icon.jpg",
     log => [
-      "2017-10-29 at 19:44:27 Generate AppaAppsPhotoApp version 20171021-222\n",
-      "2017-10-29 at 19:44:35 Step: parseSource",
-      "2017-10-29 at 19:44:35 Good source file!",
-      "2017-10-29 at 19:44:35 Step: loadAssets",
-      "2017-10-29 at 19:44:35 Step: multiplyPhotosByFacts",
-      "2017-10-29 at 19:44:35 Step: genJavaManifest",
-      "2017-10-29 at 19:44:35 Step: genJsonManifest",
-      "2017-10-29 at 19:44:35 Step: genGameHtml",
-      "2017-10-29 at 19:44:35 Step: genHtmlAssets",
-      "2017-10-29 at 19:44:35 Step: zipAssets",
-      "2017-10-29 at 19:44:35 Step: copyFilesIntoPositionOnWebServer",
-      "2017-10-29 at 19:44:47 Step: compileApp",
-      "2017-10-29 at 19:46:19 Step: copyLinksToGitHub",
-      "2017-10-29 at 19:46:23 Step: copyFilesIntoPositionOnWebServer",
+      "2017-10-29 at 19:57:35 Generate AppaAppsPhotoApp version 20171021-222\n",
+      "2017-10-29 at 19:57:40 Step: parseSource",
+      "2017-10-29 at 19:57:40 Good source file!",
+      "2017-10-29 at 19:57:40 Step: loadAssets",
+      "2017-10-29 at 19:57:40 Step: multiplyPhotosByFacts",
+      "2017-10-29 at 19:57:40 Step: genJavaManifest",
+      "2017-10-29 at 19:57:40 Step: genJsonManifest",
+      "2017-10-29 at 19:57:40 Step: genGameHtml",
+      "2017-10-29 at 19:57:40 Step: genHtmlAssets",
+      "2017-10-29 at 19:57:40 Step: zipAssets",
+      "2017-10-29 at 19:57:40 Step: copyFilesIntoPositionOnWebServer",
+      "2017-10-29 at 19:57:51 Step: compileApp",
+      "2017-10-29 at 19:59:39 Step: copyLinksToGitHub",
+      "2017-10-29 at 19:59:44 Step: copyFilesIntoPositionOnWebServer",
     ],
     parsedCmds => [
       'fix',
