@@ -1,20 +1,80 @@
-Failed.
-2017-10-29 at 15:29:43 Generate AppaAppsPhotoApp version 20171021-222
+SUCCESS!
+2017-10-29 at 15:31:42 Generate AppaAppsPhotoApp version 20171021-222
 
-2017-10-29 at 15:29:47 Step: parseSource
-2017-10-29 at 15:29:47 Good source file!
-2017-10-29 at 15:29:47 Step: loadAssets
-2017-10-29 at 15:29:47 Step: multiplyPhotosByFacts
-2017-10-29 at 15:29:47 Step: genJavaManifest
-2017-10-29 at 15:29:47 Step: genJsonManifest
-2017-10-29 at 15:29:47 Step: genGameHtml
-2017-10-29 at 15:29:47 Step: genHtmlAssets
-2017-10-29 at 15:29:47 Step: zipAssets
-2017-10-29 at 15:29:47 Unable to create zip file /tmp/AppaAppsPhotoApp/users/philiprbrenan/Dita/zip/Dita/zip
-
+2017-10-29 at 15:31:46 Step: parseSource
+2017-10-29 at 15:31:46 Good source file!
+2017-10-29 at 15:31:46 Step: loadAssets
+2017-10-29 at 15:31:46 Step: multiplyPhotosByFacts
+2017-10-29 at 15:31:46 Step: genJavaManifest
+2017-10-29 at 15:31:46 Step: genJsonManifest
+2017-10-29 at 15:31:46 Step: genGameHtml
+2017-10-29 at 15:31:46 Step: genHtmlAssets
+2017-10-29 at 15:31:46 Step: zipAssets
+2017-10-29 at 15:31:46 Step: compileApp
+2017-10-29 at 15:31:51 Step: copyLinksToGitHub
+2017-10-29 at 15:31:55 Step: copyFilesIntoPositionOnWebServer
 --------------------------------------------------------------------------------
 do {
   my $a = bless({
+    android => bless({
+      action        => "run",
+      activity      => "Activity",
+      buildFolder   => "/tmp/AppaAppsPhotoApp/build/",
+      buildTools    => "/home/phil/Android/sdk/build-tools/25.0.2/",
+      debug         => 0,
+      device        => "emulator-5554",
+      home          => "/home/phil/AppaAppsPhotoApp/",
+      icon          => "/tmp/AppaAppsPhotoApp/cache/images/icon.jpg",
+      keyAlias      => "genApp",
+      keyStoreFile  => "/home/phil/AppaAppsPhotoApp/keys/genApp.keystore",
+      keyStorePwd   => "genApp",
+      libs          => [],
+      log           => [
+                         "",
+                         "",
+                         "libpng error: Read Error\nCrunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
+                         "",
+                         "",
+                         "Enter Passphrase for keystore: jar signed.\n\nWarning: \nNo -tsa or -tsacert is provided and this jar is not timestamped. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.",
+                         "\njar verified.\n\nWarning: \nThis jar contains entries whose certificate chain is not validated.\nThis jar contains signatures that does not include a timestamp. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.\n\nRe-run with the -verbose and -certs options for more details.",
+                       ],
+      package       => "com.appaapps.photoapp.Dita",
+      parameters    => "philiprbrenan,Dita,http://www.appaapps.com/users/philiprbrenan/Dita/zip/Dita.zip",
+      permissions   => [
+                         "INTERNET",
+                         "ACCESS_WIFI_STATE",
+                         "ACCESS_NETWORK_STATE",
+                         "WRITE_EXTERNAL_STORAGE",
+                         "READ_EXTERNAL_STORAGE",
+                         "RECEIVE_BOOT_COMPLETED",
+                         "READ_CONTACTS",
+                       ],
+      platform      => "/home/phil/Android/sdk/platforms/android-25/",
+      platformTools => "/home/phil/Android/sdk/platform-tools/",
+      sdkLevels     => [15, 25],
+      src           => [
+                         "/home/phil/z/java/appState/AppState.java",
+                         "/home/phil/z/java/choices/Choices.java",
+                         "/home/phil/z/java/coloursTransformed/ColoursTransformed.java",
+                         "/home/phil/z/java/download/File.java",
+                         "/home/phil/z/java/email/Email.java",
+                         "/home/phil/z/java/fourier/Fourier.java",
+                         "/home/phil/z/java/gradients/Gradients.java",
+                         "/home/phil/z/java/download/Url.java",
+                         "/home/phil/z/java/log/Log.java",
+                         "/home/phil/z/java/maths/Maths.java",
+                         "/home/phil/z/java/randomChoice/RandomChoice.java",
+                         "/home/phil/z/java/save/Save.java",
+                         "/home/phil/z/java/sound/Midi.java",
+                         "/home/phil/z/java/sound/Sound.java",
+                         "/home/phil/z/java/sound/Speech.java",
+                         "/home/phil/z/java/svg/Svg.java",
+                         "/home/phil/z/java/unpackappdescription/Unpackappdescription.java",
+                         "/home/phil/z/java/unzip/Unzip.java",
+                       ],
+      title         => "Dita tags",
+      version       => 20171029,
+    }, "Android::Build"),
     app => bless({
       cmd => "app",
       end => 5,
@@ -35,20 +95,22 @@ do {
       title => "Dita tags",
       titleFile => undef,
     }, "ParsedCmd"),
-    error => 1,
+    error => undef,
     iconFile => "/tmp/AppaAppsPhotoApp/cache/images/icon.jpg",
     log => [
-      "2017-10-29 at 15:29:43 Generate AppaAppsPhotoApp version 20171021-222\n",
-      "2017-10-29 at 15:29:47 Step: parseSource",
-      "2017-10-29 at 15:29:47 Good source file!",
-      "2017-10-29 at 15:29:47 Step: loadAssets",
-      "2017-10-29 at 15:29:47 Step: multiplyPhotosByFacts",
-      "2017-10-29 at 15:29:47 Step: genJavaManifest",
-      "2017-10-29 at 15:29:47 Step: genJsonManifest",
-      "2017-10-29 at 15:29:47 Step: genGameHtml",
-      "2017-10-29 at 15:29:47 Step: genHtmlAssets",
-      "2017-10-29 at 15:29:47 Step: zipAssets",
-      "2017-10-29 at 15:29:47 Unable to create zip file /tmp/AppaAppsPhotoApp/users/philiprbrenan/Dita/zip/Dita/zip\n",
+      "2017-10-29 at 15:31:42 Generate AppaAppsPhotoApp version 20171021-222\n",
+      "2017-10-29 at 15:31:46 Step: parseSource",
+      "2017-10-29 at 15:31:46 Good source file!",
+      "2017-10-29 at 15:31:46 Step: loadAssets",
+      "2017-10-29 at 15:31:46 Step: multiplyPhotosByFacts",
+      "2017-10-29 at 15:31:46 Step: genJavaManifest",
+      "2017-10-29 at 15:31:46 Step: genJsonManifest",
+      "2017-10-29 at 15:31:46 Step: genGameHtml",
+      "2017-10-29 at 15:31:46 Step: genHtmlAssets",
+      "2017-10-29 at 15:31:46 Step: zipAssets",
+      "2017-10-29 at 15:31:46 Step: compileApp",
+      "2017-10-29 at 15:31:51 Step: copyLinksToGitHub",
+      "2017-10-29 at 15:31:55 Step: copyFilesIntoPositionOnWebServer",
     ],
     parsedCmds => [
       'fix',
@@ -485,7 +547,7 @@ do {
     ],
     source => "\napp Dita=Dita tags\n  icon = https://raw.githubusercontent.com/philiprbrenan/Dita/master/icon.jpg\n  author=philiprbrenan\n  email = philiprbrenan\@gmail.com\n# language=en\n\n# alt\nphoto alt=alternate\n  afewchars=alt\n\nfact alt.1 = alternate text for an image\n\nphoto cite=citation\n  afewchars=cite\n\nfact alt.2 = refers to a book or article\n\n\n# dd\nphoto dd=definition list description entry\n  afewchars=dd\n\nfact dd.1 = description of a term in a definition list entry\n\n# dd\nphoto ddhd=definition list description heading\n  afewchars=ddhd\n\nfact ddhd.1 = optional heading for descriptions in a definition list\n\n# dl\nphoto dl=definition list\n  afewchars=dl\n\nfact dl.1 = list of terms and their definitions\n\n# dlentry\nphoto dlentry=definition list entry\n  afewchars=dlentry\n\nfact dlentry.1 = An entry in a definition list\n\n# dlhead\nphoto dlhead=definition list headers\n  afewchars=dlhead\n\nfact dlhead.1 = contains optional headings for terms and descriptions in a definition list\n\n# dt\nphoto dt=definition list term entry\n  afewchars=dt\n\nfact dt.1 = a term in a definition list entry\n\n# dthd\nphoto dthd=definition list term heading\n  afewchars=dthd\n\nfact dthd.1 = optional heading for the terms in a description list\n\n# example\nphoto example=example\n  afewchars=example\n\nfact example.1 = a section that contains examples\nfact example.2 = examples that illustrate or support the current topic\n",
     sourceFileSha => "82ae908035bc21a32c96f219bf313f9ed992b016",
-    step => "zipAssets",
+    step => "completed",
   }, "Manifest");
   $a->{parsedCmds}[0] = $a->{app};
   $a;
