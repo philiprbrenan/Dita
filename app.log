@@ -1,10 +1,10 @@
 Failed.
-2017-10-29 at 13:44:32 Generate AppaAppsPhotoApp version 20171021-222
+2017-10-29 at 13:46:56 Generate AppaAppsPhotoApp version 20171021-222
 
-2017-10-29 at 13:44:35 Step: parseSource
-2017-10-29 at 13:44:35 Good source file!
-2017-10-29 at 13:44:35 Step: loadAssets
-2017-10-29 at 13:44:36 Failed to generate audio file
+2017-10-29 at 13:47:00 Step: parseSource
+2017-10-29 at 13:47:00 Good source file!
+2017-10-29 at 13:47:00 Step: loadAssets
+2017-10-29 at 13:47:01 Failed to generate audio file
 /tmp/AppaAppsPhotoApp/users/philiprbrenan/Dita/assets/audio/Amy/alt.mp3
 
 An error occurred (InvalidSsmlException) when calling the SynthesizeSpeech operation: Invalid SSML request
@@ -32,11 +32,11 @@ do {
     }, "ParsedCmd"),
     error => 1,
     log => [
-      "2017-10-29 at 13:44:32 Generate AppaAppsPhotoApp version 20171021-222\n",
-      "2017-10-29 at 13:44:35 Step: parseSource",
-      "2017-10-29 at 13:44:35 Good source file!",
-      "2017-10-29 at 13:44:35 Step: loadAssets",
-      "2017-10-29 at 13:44:36 Failed to generate audio file\n/tmp/AppaAppsPhotoApp/users/philiprbrenan/Dita/assets/audio/Amy/alt.mp3\n\nAn error occurred (InvalidSsmlException) when calling the SynthesizeSpeech operation: Invalid SSML request\n",
+      "2017-10-29 at 13:46:56 Generate AppaAppsPhotoApp version 20171021-222\n",
+      "2017-10-29 at 13:47:00 Step: parseSource",
+      "2017-10-29 at 13:47:00 Good source file!",
+      "2017-10-29 at 13:47:00 Step: loadAssets",
+      "2017-10-29 at 13:47:01 Failed to generate audio file\n/tmp/AppaAppsPhotoApp/users/philiprbrenan/Dita/assets/audio/Amy/alt.mp3\n\nAn error occurred (InvalidSsmlException) when calling the SynthesizeSpeech operation: Invalid SSML request\n",
     ],
     parsedCmds => [
       'fix',
