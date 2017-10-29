@@ -1,19 +1,19 @@
 SUCCESS!
-2017-10-29 at 18:15:15 Generate AppaAppsPhotoApp version 20171021-222
+2017-10-29 at 18:37:32 Generate AppaAppsPhotoApp version 20171021-222
 
-2017-10-29 at 18:15:19 Step: parseSource
-2017-10-29 at 18:15:19 Good source file!
-2017-10-29 at 18:15:19 Step: loadAssets
-2017-10-29 at 18:15:19 Step: multiplyPhotosByFacts
-2017-10-29 at 18:15:19 Step: genJavaManifest
-2017-10-29 at 18:15:19 Step: genJsonManifest
-2017-10-29 at 18:15:19 Step: genGameHtml
-2017-10-29 at 18:15:19 Step: genHtmlAssets
-2017-10-29 at 18:15:19 Step: zipAssets
-2017-10-29 at 18:15:19 Step: copyFilesIntoPositionOnWebServer
-2017-10-29 at 18:15:41 Step: compileApp
-2017-10-29 at 18:15:46 Step: copyLinksToGitHub
-2017-10-29 at 18:15:51 Step: copyFilesIntoPositionOnWebServer
+2017-10-29 at 18:37:36 Step: parseSource
+2017-10-29 at 18:37:36 Good source file!
+2017-10-29 at 18:37:36 Step: loadAssets
+2017-10-29 at 18:37:36 Step: multiplyPhotosByFacts
+2017-10-29 at 18:37:36 Step: genJavaManifest
+2017-10-29 at 18:37:36 Step: genJsonManifest
+2017-10-29 at 18:37:36 Step: genGameHtml
+2017-10-29 at 18:37:36 Step: genHtmlAssets
+2017-10-29 at 18:37:36 Step: zipAssets
+2017-10-29 at 18:37:36 Step: copyFilesIntoPositionOnWebServer
+2017-10-29 at 18:37:47 Step: compileApp
+2017-10-29 at 18:37:54 Step: copyLinksToGitHub
+2017-10-29 at 18:38:02 Step: copyFilesIntoPositionOnWebServer
 --------------------------------------------------------------------------------
 do {
   my $a = bless({
@@ -101,20 +101,20 @@ do {
     error => undef,
     iconFile => "/tmp/AppaAppsPhotoApp/cache/images/icon.jpg",
     log => [
-      "2017-10-29 at 18:15:15 Generate AppaAppsPhotoApp version 20171021-222\n",
-      "2017-10-29 at 18:15:19 Step: parseSource",
-      "2017-10-29 at 18:15:19 Good source file!",
-      "2017-10-29 at 18:15:19 Step: loadAssets",
-      "2017-10-29 at 18:15:19 Step: multiplyPhotosByFacts",
-      "2017-10-29 at 18:15:19 Step: genJavaManifest",
-      "2017-10-29 at 18:15:19 Step: genJsonManifest",
-      "2017-10-29 at 18:15:19 Step: genGameHtml",
-      "2017-10-29 at 18:15:19 Step: genHtmlAssets",
-      "2017-10-29 at 18:15:19 Step: zipAssets",
-      "2017-10-29 at 18:15:19 Step: copyFilesIntoPositionOnWebServer",
-      "2017-10-29 at 18:15:41 Step: compileApp",
-      "2017-10-29 at 18:15:46 Step: copyLinksToGitHub",
-      "2017-10-29 at 18:15:51 Step: copyFilesIntoPositionOnWebServer",
+      "2017-10-29 at 18:37:32 Generate AppaAppsPhotoApp version 20171021-222\n",
+      "2017-10-29 at 18:37:36 Step: parseSource",
+      "2017-10-29 at 18:37:36 Good source file!",
+      "2017-10-29 at 18:37:36 Step: loadAssets",
+      "2017-10-29 at 18:37:36 Step: multiplyPhotosByFacts",
+      "2017-10-29 at 18:37:36 Step: genJavaManifest",
+      "2017-10-29 at 18:37:36 Step: genJsonManifest",
+      "2017-10-29 at 18:37:36 Step: genGameHtml",
+      "2017-10-29 at 18:37:36 Step: genHtmlAssets",
+      "2017-10-29 at 18:37:36 Step: zipAssets",
+      "2017-10-29 at 18:37:36 Step: copyFilesIntoPositionOnWebServer",
+      "2017-10-29 at 18:37:47 Step: compileApp",
+      "2017-10-29 at 18:37:54 Step: copyLinksToGitHub",
+      "2017-10-29 at 18:38:02 Step: copyFilesIntoPositionOnWebServer",
     ],
     parsedCmds => [
       'fix',
@@ -466,13 +466,6 @@ do {
       }, "ParsedCmd"),
       bless({
         cmd => "photoFact",
-        name => 2,
-        parsedKeys => bless({ cmd => "photoFact", name => 2, title => 3 }, "ParsedKeys"),
-        title => 3,
-        titleFile => undef,
-      }, "ParsedCmd"),
-      bless({
-        cmd => "photoFact",
         name => 3,
         parsedKeys => bless({ cmd => "photoFact", name => 3, title => 3 }, "ParsedKeys"),
         title => 3,
@@ -483,20 +476,6 @@ do {
         name => 4,
         parsedKeys => bless({ cmd => "photoFact", name => 4, title => 4 }, "ParsedKeys"),
         title => 4,
-        titleFile => undef,
-      }, "ParsedCmd"),
-      bless({
-        cmd => "photoFact",
-        name => 4,
-        parsedKeys => bless({ cmd => "photoFact", name => 4, title => 5 }, "ParsedKeys"),
-        title => 5,
-        titleFile => undef,
-      }, "ParsedCmd"),
-      bless({
-        cmd => "photoFact",
-        name => 4,
-        parsedKeys => bless({ cmd => "photoFact", name => 4, title => 6 }, "ParsedKeys"),
-        title => 6,
         titleFile => undef,
       }, "ParsedCmd"),
       bless({
@@ -518,13 +497,6 @@ do {
         name => 7,
         parsedKeys => bless({ cmd => "photoFact", name => 7, title => 7 }, "ParsedKeys"),
         title => 7,
-        titleFile => undef,
-      }, "ParsedCmd"),
-      bless({
-        cmd => "photoFact",
-        name => 7,
-        parsedKeys => bless({ cmd => "photoFact", name => 7, title => 8 }, "ParsedKeys"),
-        title => 8,
         titleFile => undef,
       }, "ParsedCmd"),
       bless({
