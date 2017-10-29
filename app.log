@@ -1,18 +1,18 @@
 SUCCESS!
-2017-10-29 at 15:31:42 Generate AppaAppsPhotoApp version 20171021-222
+2017-10-29 at 15:45:09 Generate AppaAppsPhotoApp version 20171021-222
 
-2017-10-29 at 15:31:46 Step: parseSource
-2017-10-29 at 15:31:46 Good source file!
-2017-10-29 at 15:31:46 Step: loadAssets
-2017-10-29 at 15:31:46 Step: multiplyPhotosByFacts
-2017-10-29 at 15:31:46 Step: genJavaManifest
-2017-10-29 at 15:31:46 Step: genJsonManifest
-2017-10-29 at 15:31:46 Step: genGameHtml
-2017-10-29 at 15:31:46 Step: genHtmlAssets
-2017-10-29 at 15:31:46 Step: zipAssets
-2017-10-29 at 15:31:46 Step: compileApp
-2017-10-29 at 15:31:51 Step: copyLinksToGitHub
-2017-10-29 at 15:31:55 Step: copyFilesIntoPositionOnWebServer
+2017-10-29 at 15:45:12 Step: parseSource
+2017-10-29 at 15:45:12 Good source file!
+2017-10-29 at 15:45:12 Step: loadAssets
+2017-10-29 at 15:45:12 Step: multiplyPhotosByFacts
+2017-10-29 at 15:45:12 Step: genJavaManifest
+2017-10-29 at 15:45:12 Step: genJsonManifest
+2017-10-29 at 15:45:12 Step: genGameHtml
+2017-10-29 at 15:45:12 Step: genHtmlAssets
+2017-10-29 at 15:45:12 Step: zipAssets
+2017-10-29 at 15:45:12 Step: compileApp
+2017-10-29 at 15:45:19 Step: copyLinksToGitHub
+2017-10-29 at 15:45:19 Step: copyFilesIntoPositionOnWebServer
 --------------------------------------------------------------------------------
 do {
   my $a = bless({
@@ -37,6 +37,8 @@ do {
                          "",
                          "Enter Passphrase for keystore: jar signed.\n\nWarning: \nNo -tsa or -tsacert is provided and this jar is not timestamped. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.",
                          "\njar verified.\n\nWarning: \nThis jar contains entries whose certificate chain is not validated.\nThis jar contains signatures that does not include a timestamp. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.\n\nRe-run with the -verbose and -certs options for more details.",
+                         "Success",
+                         "Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.appaapps.photoapp.Dita/.Activity }",
                        ],
       package       => "com.appaapps.photoapp.Dita",
       parameters    => "philiprbrenan,Dita,http://www.appaapps.com/users/philiprbrenan/Dita/zip/Dita.zip",
@@ -98,19 +100,19 @@ do {
     error => undef,
     iconFile => "/tmp/AppaAppsPhotoApp/cache/images/icon.jpg",
     log => [
-      "2017-10-29 at 15:31:42 Generate AppaAppsPhotoApp version 20171021-222\n",
-      "2017-10-29 at 15:31:46 Step: parseSource",
-      "2017-10-29 at 15:31:46 Good source file!",
-      "2017-10-29 at 15:31:46 Step: loadAssets",
-      "2017-10-29 at 15:31:46 Step: multiplyPhotosByFacts",
-      "2017-10-29 at 15:31:46 Step: genJavaManifest",
-      "2017-10-29 at 15:31:46 Step: genJsonManifest",
-      "2017-10-29 at 15:31:46 Step: genGameHtml",
-      "2017-10-29 at 15:31:46 Step: genHtmlAssets",
-      "2017-10-29 at 15:31:46 Step: zipAssets",
-      "2017-10-29 at 15:31:46 Step: compileApp",
-      "2017-10-29 at 15:31:51 Step: copyLinksToGitHub",
-      "2017-10-29 at 15:31:55 Step: copyFilesIntoPositionOnWebServer",
+      "2017-10-29 at 15:45:09 Generate AppaAppsPhotoApp version 20171021-222\n",
+      "2017-10-29 at 15:45:12 Step: parseSource",
+      "2017-10-29 at 15:45:12 Good source file!",
+      "2017-10-29 at 15:45:12 Step: loadAssets",
+      "2017-10-29 at 15:45:12 Step: multiplyPhotosByFacts",
+      "2017-10-29 at 15:45:12 Step: genJavaManifest",
+      "2017-10-29 at 15:45:12 Step: genJsonManifest",
+      "2017-10-29 at 15:45:12 Step: genGameHtml",
+      "2017-10-29 at 15:45:12 Step: genHtmlAssets",
+      "2017-10-29 at 15:45:12 Step: zipAssets",
+      "2017-10-29 at 15:45:12 Step: compileApp",
+      "2017-10-29 at 15:45:19 Step: copyLinksToGitHub",
+      "2017-10-29 at 15:45:19 Step: copyFilesIntoPositionOnWebServer",
     ],
     parsedCmds => [
       'fix',
