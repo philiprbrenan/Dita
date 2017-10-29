@@ -1,8 +1,8 @@
 Failed.
-2017-10-29 at 15:13:32 Generate AppaAppsPhotoApp version 20171021-222
+2017-10-29 at 15:13:50 Generate AppaAppsPhotoApp version 20171021-222
 
-2017-10-29 at 15:13:36 Step: parseSource
-2017-10-29 at 15:13:36 The app command name keyword is "$n" but it should be "$gApp"The app command author keyword is "$a" but it should be "$gUser"
+2017-10-29 at 15:13:53 Step: parseSource
+2017-10-29 at 15:13:53 The app command name keyword is "ditatags" but it should be "Dita"The app command author keyword is "phil" but it should be "philiprbrenan"
 --------------------------------------------------------------------------------
 do {
   my $a = bless({
@@ -26,9 +26,9 @@ do {
     }, "ParsedCmd"),
     error => 2,
     log => [
-      "2017-10-29 at 15:13:32 Generate AppaAppsPhotoApp version 20171021-222\n",
-      "2017-10-29 at 15:13:36 Step: parseSource",
-      "2017-10-29 at 15:13:36 The app command name keyword is \"\$n\" but it should be \"\$gApp\"The app command author keyword is \"\$a\" but it should be \"\$gUser\"",
+      "2017-10-29 at 15:13:50 Generate AppaAppsPhotoApp version 20171021-222\n",
+      "2017-10-29 at 15:13:53 Step: parseSource",
+      "2017-10-29 at 15:13:53 The app command name keyword is \"ditatags\" but it should be \"Dita\"The app command author keyword is \"phil\" but it should be \"philiprbrenan\"",
     ],
     parsedCmds => [
       'fix',
