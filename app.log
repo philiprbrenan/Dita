@@ -1,26 +1,29 @@
 Failed.
-2017-10-29 at 14:22:42 Generate AppaAppsPhotoApp version 20171021-222
+2017-10-29 at 14:23:33 Generate AppaAppsPhotoApp version 20171021-222
 
-2017-10-29 at 14:22:45 Step: parseSource
-2017-10-29 at 14:22:45 Good source file!
-2017-10-29 at 14:22:45 Step: loadAssets
-2017-10-29 at 14:22:46 -rw-rw-r-- 1 phil phil 31449 Oct 29 14:22 /tmp/AppaAppsPhotoApp/cache/images/icon.jpg
-2017-10-29 at 14:22:46 Step: multiplyPhotosByFacts
-2017-10-29 at 14:22:46 Step: genJavaManifest
-2017-10-29 at 14:22:46 Step: genJsonManifest
-2017-10-29 at 14:22:46 Step: genGameHtml
-2017-10-29 at 14:22:46 Step: genHtmlAssets
-2017-10-29 at 14:22:46 Step: zipAssets
-2017-10-29 at 14:22:46 Step: compileApp
-2017-10-29 at 14:22:54 Unable to create apk file /tmp/AppaAppsPhotoApp/build/bin/ditatags.apk in build folder:
+2017-10-29 at 14:23:37 Step: parseSource
+2017-10-29 at 14:23:37 Good source file!
+2017-10-29 at 14:23:37 Step: loadAssets
+2017-10-29 at 14:23:37 Step: multiplyPhotosByFacts
+2017-10-29 at 14:23:37 Step: genJavaManifest
+2017-10-29 at 14:23:37 Step: genJsonManifest
+2017-10-29 at 14:23:37 Step: genGameHtml
+2017-10-29 at 14:23:37 Step: genHtmlAssets
+2017-10-29 at 14:23:37 Step: zipAssets
+2017-10-29 at 14:23:37 Step: compileApp
+2017-10-29 at 14:23:37 Unable to create apk file /tmp/AppaAppsPhotoApp/build/bin/ditatags.apk in build folder:
 /tmp/AppaAppsPhotoApp/users/philiprbrenan/Dita/
-Java errors
- at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 449.
-	Android::Build::make(Android::Build=HASH(0x2ba3798)) called at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 541
-	Android::Build::compile(Android::Build=HASH(0x2ba3798)) called at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 581
-	Android::Build::run(Android::Build=HASH(0x2ba3798)) called at AppaAppsPhotoApp.pl line 1978
+Unable to create icon:
+convert: Not a JPEG file: starts with 0x0a 0x0a `/tmp/AppaAppsPhotoApp/cache/images/icon.jpg' @ error/jpeg.c/JPEGErrorHandler/322.
+convert: no images defined `/tmp/AppaAppsPhotoApp/build/icon.png' @ error/convert.c/ConvertImageCommand/3210.
+ at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 213.
+	Android::Build::pushIcon(Android::Build=HASH(0x2202848), "/tmp/AppaAppsPhotoApp/cache/images/icon.jpg", 48, "m") called at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 233
+	Android::Build::pushIcons(Android::Build=HASH(0x2202848)) called at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 336
+	Android::Build::create(Android::Build=HASH(0x2202848)) called at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 540
+	Android::Build::compile(Android::Build=HASH(0x2202848)) called at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 581
+	Android::Build::run(Android::Build=HASH(0x2202848)) called at AppaAppsPhotoApp.pl line 1978
 	eval {...} called at AppaAppsPhotoApp.pl line 1978
-	Manifest::compileApp(Manifest=HASH(0x29bc118)) called at AppaAppsPhotoApp.pl line 455
+	Manifest::compileApp(Manifest=HASH(0x1fff298)) called at AppaAppsPhotoApp.pl line 455
 	main::genApplicationDescriptionFromSourceFile() called at AppaAppsPhotoApp.pl line 2089
 
 --------------------------------------------------------------------------------
@@ -39,10 +42,7 @@ do {
       keyStoreFile  => "/home/phil/AppaAppsPhotoApp/keys/genApp.keystore",
       keyStorePwd   => "genApp",
       libs          => [],
-      log           => [
-                         "/tmp/AppaAppsPhotoApp/build/AndroidManifest.xml:11: error: Error: No resource found that matches the given name (at 'icon' with value '\@drawable/ic_launcher').",
-                         "/tmp/AppaAppsPhotoApp/build/gen/com/appaapps/genapp/Activity.java:49: error: package R does not exist\n    parameters  = getResources().getString(R.string.parameters);                // The parameters supplied with the app\n                                            ^\n/tmp/AppaAppsPhotoApp/build/gen/com/appaapps/genapp/Activity.java:57: error: package R does not exist\n    packageName = getResources().getString(R.string.packageName);               // The package name of this app == domain.appname\n                                            ^\n2 errors",
-                       ],
+      log           => [],
       package       => "com.appaapps.photoapp.ditatags",
       parameters    => "philiprbrenan,Dita,http://www.appaapps.com/users/philiprbrenan/Dita/zip/dita.zip",
       permissions   => [
@@ -89,7 +89,7 @@ do {
         author    => "phil",
         cmd       => "app",
         email     => "philiprbrenan\@gmail.com",
-        icon      => "https://github.com/philiprbrenan/Dita/blob/master/icon.jpg",
+        icon      => "https://raw.githubusercontent.com/philiprbrenan/Dita/master/icon.jpg",
         language  => "en",
         maximages => 2,
         name      => "ditatags",
@@ -103,19 +103,18 @@ do {
     error => 1,
     iconFile => "/tmp/AppaAppsPhotoApp/cache/images/icon.jpg",
     log => [
-      "2017-10-29 at 14:22:42 Generate AppaAppsPhotoApp version 20171021-222\n",
-      "2017-10-29 at 14:22:45 Step: parseSource",
-      "2017-10-29 at 14:22:45 Good source file!",
-      "2017-10-29 at 14:22:45 Step: loadAssets",
-      "2017-10-29 at 14:22:46 -rw-rw-r-- 1 phil phil 31449 Oct 29 14:22 /tmp/AppaAppsPhotoApp/cache/images/icon.jpg",
-      "2017-10-29 at 14:22:46 Step: multiplyPhotosByFacts",
-      "2017-10-29 at 14:22:46 Step: genJavaManifest",
-      "2017-10-29 at 14:22:46 Step: genJsonManifest",
-      "2017-10-29 at 14:22:46 Step: genGameHtml",
-      "2017-10-29 at 14:22:46 Step: genHtmlAssets",
-      "2017-10-29 at 14:22:46 Step: zipAssets",
-      "2017-10-29 at 14:22:46 Step: compileApp",
-      "2017-10-29 at 14:22:54 Unable to create apk file /tmp/AppaAppsPhotoApp/build/bin/ditatags.apk in build folder:\n/tmp/AppaAppsPhotoApp/users/philiprbrenan/Dita/\nJava errors\n at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 449.\n\tAndroid::Build::make(Android::Build=HASH(0x2ba3798)) called at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 541\n\tAndroid::Build::compile(Android::Build=HASH(0x2ba3798)) called at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 581\n\tAndroid::Build::run(Android::Build=HASH(0x2ba3798)) called at AppaAppsPhotoApp.pl line 1978\n\teval {...} called at AppaAppsPhotoApp.pl line 1978\n\tManifest::compileApp(Manifest=HASH(0x29bc118)) called at AppaAppsPhotoApp.pl line 455\n\tmain::genApplicationDescriptionFromSourceFile() called at AppaAppsPhotoApp.pl line 2089\n",
+      "2017-10-29 at 14:23:33 Generate AppaAppsPhotoApp version 20171021-222\n",
+      "2017-10-29 at 14:23:37 Step: parseSource",
+      "2017-10-29 at 14:23:37 Good source file!",
+      "2017-10-29 at 14:23:37 Step: loadAssets",
+      "2017-10-29 at 14:23:37 Step: multiplyPhotosByFacts",
+      "2017-10-29 at 14:23:37 Step: genJavaManifest",
+      "2017-10-29 at 14:23:37 Step: genJsonManifest",
+      "2017-10-29 at 14:23:37 Step: genGameHtml",
+      "2017-10-29 at 14:23:37 Step: genHtmlAssets",
+      "2017-10-29 at 14:23:37 Step: zipAssets",
+      "2017-10-29 at 14:23:37 Step: compileApp",
+      "2017-10-29 at 14:23:37 Unable to create apk file /tmp/AppaAppsPhotoApp/build/bin/ditatags.apk in build folder:\n/tmp/AppaAppsPhotoApp/users/philiprbrenan/Dita/\nUnable to create icon:\nconvert: Not a JPEG file: starts with 0x0a 0x0a `/tmp/AppaAppsPhotoApp/cache/images/icon.jpg' \@ error/jpeg.c/JPEGErrorHandler/322.\nconvert: no images defined `/tmp/AppaAppsPhotoApp/build/icon.png' \@ error/convert.c/ConvertImageCommand/3210.\n at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 213.\n\tAndroid::Build::pushIcon(Android::Build=HASH(0x2202848), \"/tmp/AppaAppsPhotoApp/cache/images/icon.jpg\", 48, \"m\") called at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 233\n\tAndroid::Build::pushIcons(Android::Build=HASH(0x2202848)) called at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 336\n\tAndroid::Build::create(Android::Build=HASH(0x2202848)) called at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 540\n\tAndroid::Build::compile(Android::Build=HASH(0x2202848)) called at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 581\n\tAndroid::Build::run(Android::Build=HASH(0x2202848)) called at AppaAppsPhotoApp.pl line 1978\n\teval {...} called at AppaAppsPhotoApp.pl line 1978\n\tManifest::compileApp(Manifest=HASH(0x1fff298)) called at AppaAppsPhotoApp.pl line 455\n\tmain::genApplicationDescriptionFromSourceFile() called at AppaAppsPhotoApp.pl line 2089\n",
     ],
     parsedCmds => [
       'fix',
@@ -550,8 +549,8 @@ do {
         titleFile => undef,
       }, "ParsedCmd"),
     ],
-    source => "\napp ditaTags=Dita tags\n  icon = https://github.com/philiprbrenan/Dita/blob/master/icon.jpg\n  author=phil\n  email = philiprbrenan\@gmail.com\n# language=en\n\n# alt\nphoto alt=alternate\n  afewchars=alt\n\nfact alt.1 = alternate text for an image\n\nphoto cite=citation\n  afewchars=cite\n\nfact alt.2 = refers to a book or article\n\n\n# dd\nphoto dd=definition list description entry\n  afewchars=dd\n\nfact dd.1 = description of a term in a definition list entry\n\n# dd\nphoto ddhd=definition list description heading\n  afewchars=ddhd\n\nfact ddhd.1 = optional heading for descriptions in a definition list\n\n# dl\nphoto dl=definition list\n  afewchars=dl\n\nfact dl.1 = list of terms and their definitions\n\n# dlentry\nphoto dlentry=definition list entry\n  afewchars=dlentry\n\nfact dlentry.1 = An entry in a definition list\n\n# dlhead\nphoto dlhead=definition list headers\n  afewchars=dlhead\n\nfact dlhead.1 = contains optional headings for terms and descriptions in a definition list\n\n# dt\nphoto dt=definition list term entry\n  afewchars=dt\n\nfact dt.1 = a term in a definition list entry\n\n# dthd\nphoto dthd=definition list term heading\n  afewchars=dthd\n\nfact dthd.1 = optional heading for the terms in a description list\n\n# example\nphoto example=example\n  afewchars=example\n\nfact example.1 = a section that contains examples\nfact example.2 = examples that illustrate or support the current topic\n",
-    sourceFileSha => "502f6bb69c5e0ab39abf7e08dce3bf4c606dd136",
+    source => "\napp ditaTags=Dita tags\n  icon = https://raw.githubusercontent.com/philiprbrenan/Dita/master/icon.jpg\n  author=phil\n  email = philiprbrenan\@gmail.com\n# language=en\n\n# alt\nphoto alt=alternate\n  afewchars=alt\n\nfact alt.1 = alternate text for an image\n\nphoto cite=citation\n  afewchars=cite\n\nfact alt.2 = refers to a book or article\n\n\n# dd\nphoto dd=definition list description entry\n  afewchars=dd\n\nfact dd.1 = description of a term in a definition list entry\n\n# dd\nphoto ddhd=definition list description heading\n  afewchars=ddhd\n\nfact ddhd.1 = optional heading for descriptions in a definition list\n\n# dl\nphoto dl=definition list\n  afewchars=dl\n\nfact dl.1 = list of terms and their definitions\n\n# dlentry\nphoto dlentry=definition list entry\n  afewchars=dlentry\n\nfact dlentry.1 = An entry in a definition list\n\n# dlhead\nphoto dlhead=definition list headers\n  afewchars=dlhead\n\nfact dlhead.1 = contains optional headings for terms and descriptions in a definition list\n\n# dt\nphoto dt=definition list term entry\n  afewchars=dt\n\nfact dt.1 = a term in a definition list entry\n\n# dthd\nphoto dthd=definition list term heading\n  afewchars=dthd\n\nfact dthd.1 = optional heading for the terms in a description list\n\n# example\nphoto example=example\n  afewchars=example\n\nfact example.1 = a section that contains examples\nfact example.2 = examples that illustrate or support the current topic\n",
+    sourceFileSha => "329dc4a9c7b8656874aac4a538f44a7ee3529f16",
     step => "compileApp",
   }, "Manifest");
   $a->{parsedCmds}[0] = $a->{app};
