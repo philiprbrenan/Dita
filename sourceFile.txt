@@ -15,7 +15,7 @@ fact alt.1 = alternate text for an image
 photo cite=citation
   afewchars=cite
 
-fact cite.1 = refers to a book or article
+fact cite.1 = refers to a book or an article
 
 # dd
 photo dd=definition list description entry
