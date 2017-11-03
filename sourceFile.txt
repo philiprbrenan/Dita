@@ -1,7 +1,7 @@
 
 app Dita=Dita tags
   maximages = 8
-  icon = https://raw.githubusercontent.com/philiprbrenan/Dita/master/icon.jpg
+  icon  = https://raw.githubusercontent.com/philiprbrenan/Dita/master/icon.jpg
   author= philiprbrenan
   email = philiprbrenan@gmail.com
 # language=en
