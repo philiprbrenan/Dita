@@ -1,18 +1,18 @@
 SUCCESS!
-2017-11-03 at 00:53:50 Generate AppaAppsPhotoApp version 20171103-111
+2017-11-03 at 01:36:30 Generate AppaAppsPhotoApp version 20171103-2222
 ["philiprbrenan/Dita"]
-2017-11-03 at 00:53:51 Step: parseSource
-2017-11-03 at 00:53:51 Good source file!
-2017-11-03 at 00:53:51 Step: loadAssets
-2017-11-03 at 00:53:51 Step: multiplyPhotosByFacts
-2017-11-03 at 00:53:51 Step: genJavaManifest
-2017-11-03 at 00:53:51 Step: genJsonManifest
-2017-11-03 at 00:53:51 Step: genGameHtml
-2017-11-03 at 00:53:51 Step: genHtmlAssets
-2017-11-03 at 00:53:51 Step: zipAssets
-2017-11-03 at 00:53:51 Step: compileApp
-2017-11-03 at 00:54:01 Step: copyLinksToGitHub
-2017-11-03 at 00:54:04 Step: copyFilesIntoPositionOnWebServer
+2017-11-03 at 01:36:31 Step: parseSource
+2017-11-03 at 01:36:31 Good source file!
+2017-11-03 at 01:36:31 Step: loadAssets
+2017-11-03 at 01:36:31 Step: multiplyPhotosByFacts
+2017-11-03 at 01:36:31 Step: genJavaManifest
+2017-11-03 at 01:36:31 Step: genJsonManifest
+2017-11-03 at 01:36:31 Step: genGameHtml
+2017-11-03 at 01:36:31 Step: genHtmlAssets
+2017-11-03 at 01:36:31 Step: zipAssets
+2017-11-03 at 01:36:32 Step: compileApp
+2017-11-03 at 01:36:41 Step: copyLinksToGitHub
+2017-11-03 at 01:36:43 Step: copyFilesIntoPositionOnWebServer
 --------------------------------------------------------------------------------
 do {
   my $a = bless({
@@ -93,19 +93,19 @@ do {
     error => undef,
     iconFile => "/tmp/AppaAppsPhotoApp/cache/images/icon.jpg",
     log => [
-      "2017-11-03 at 00:53:50 Generate AppaAppsPhotoApp version 20171103-111\n[\"philiprbrenan/Dita\"]",
-      "2017-11-03 at 00:53:51 Step: parseSource",
-      "2017-11-03 at 00:53:51 Good source file!",
-      "2017-11-03 at 00:53:51 Step: loadAssets",
-      "2017-11-03 at 00:53:51 Step: multiplyPhotosByFacts",
-      "2017-11-03 at 00:53:51 Step: genJavaManifest",
-      "2017-11-03 at 00:53:51 Step: genJsonManifest",
-      "2017-11-03 at 00:53:51 Step: genGameHtml",
-      "2017-11-03 at 00:53:51 Step: genHtmlAssets",
-      "2017-11-03 at 00:53:51 Step: zipAssets",
-      "2017-11-03 at 00:53:51 Step: compileApp",
-      "2017-11-03 at 00:54:01 Step: copyLinksToGitHub",
-      "2017-11-03 at 00:54:04 Step: copyFilesIntoPositionOnWebServer",
+      "2017-11-03 at 01:36:30 Generate AppaAppsPhotoApp version 20171103-2222\n[\"philiprbrenan/Dita\"]",
+      "2017-11-03 at 01:36:31 Step: parseSource",
+      "2017-11-03 at 01:36:31 Good source file!",
+      "2017-11-03 at 01:36:31 Step: loadAssets",
+      "2017-11-03 at 01:36:31 Step: multiplyPhotosByFacts",
+      "2017-11-03 at 01:36:31 Step: genJavaManifest",
+      "2017-11-03 at 01:36:31 Step: genJsonManifest",
+      "2017-11-03 at 01:36:31 Step: genGameHtml",
+      "2017-11-03 at 01:36:31 Step: genHtmlAssets",
+      "2017-11-03 at 01:36:31 Step: zipAssets",
+      "2017-11-03 at 01:36:32 Step: compileApp",
+      "2017-11-03 at 01:36:41 Step: copyLinksToGitHub",
+      "2017-11-03 at 01:36:43 Step: copyFilesIntoPositionOnWebServer",
     ],
     parsedCmds => [
       'fix',
@@ -512,8 +512,8 @@ do {
         titleFile => undef,
       }, "ParsedCmd"),
     ],
-    source => "\napp Dita=Dita tags\n  maximages = 8\n  icon  = https://raw.githubusercontent.com/philiprbrenan/Dita/master/icon.jpg\n  author= philiprbrenan\n  email = philiprbrenan\@gmail.com\n# language=en\n\n# alt\nphoto alt=alternate\n  afewchars=alt\n\nfact alt.1 = alternate text for an image\n\nphoto cite=citation\n  afewchars=cite\n\nfact cite.1 = refers to a book or article\n\n# dd\nphoto dd=definition list description entry\n  afewchars=dd\n\nfact dd.1 = description of a term in a definition list entry\n\n# ddhd\nphoto ddhd=definition list description heading\n  afewchars=ddhd\n\nfact ddhd.1 = optional heading for descriptions in a definition list\n\n# dl\nphoto dl=definition list\n  afewchars=dl\n\nfact dl.1 = list of terms and their definitions\n\n# dlentry\nphoto dlentry=definition list entry\n  afewchars=dlentry\n\nfact dlentry.1 = An entry in a definition list\n\n# dlhead\nphoto dlhead=definition list headers\n  afewchars=dlhead\n\nfact dlhead.1 = contains optional headings for terms and descriptions in a definition list\n\n# dt\nphoto dt=definition list term entry\n  afewchars=dt\n\nfact dt.1 = a term in a definition list entry\n\n# dthd\nphoto dthd=definition list term heading\n  afewchars=dthd\n\nfact dthd.1 = optional heading for the terms in a description list\n\n# example\nphoto example=example\n  afewchars=example\n\nfact example.1 = a section that contains examples\nfact example.2 = examples that illustrate or support the current topic\n",
-    sourceFileSha => "4b25a3790136ebf15f914a1114a76dc5de995174",
+    source => "\napp Dita   = Dita tags\n  maximages = 8\n  icon      = https://raw.githubusercontent.com/philiprbrenan/Dita/master/icon.jpg\n  author    = philiprbrenan\n  email     = philiprbrenan\@gmail.com\n# language  = en\n\n# alt\nphoto alt=alternate\n  afewchars=alt\n\nfact alt.1 = alternate text for an image\n\nphoto cite=citation\n  afewchars=cite\n\nfact cite.1 = refers to a book or article\n\n# dd\nphoto dd=definition list description entry\n  afewchars=dd\n\nfact dd.1 = description of a term in a definition list entry\n\n# ddhd\nphoto ddhd=definition list description heading\n  afewchars=ddhd\n\nfact ddhd.1 = optional heading for descriptions in a definition list\n\n# dl\nphoto dl=definition list\n  afewchars=dl\n\nfact dl.1 = list of terms and their definitions\n\n# dlentry\nphoto dlentry=definition list entry\n  afewchars=dlentry\n\nfact dlentry.1 = An entry in a definition list\n\n# dlhead\nphoto dlhead=definition list headers\n  afewchars=dlhead\n\nfact dlhead.1 = contains optional headings for terms and descriptions in a definition list\n\n# dt\nphoto dt=definition list term entry\n  afewchars=dt\n\nfact dt.1 = a term in a definition list entry\n\n# dthd\nphoto dthd=definition list term heading\n  afewchars=dthd\n\nfact dthd.1 = optional heading for the terms in a description list\n\n# example\nphoto example=example\n  afewchars=example\n\nfact example.1 = a section that contains examples\nfact example.2 = examples that illustrate or support the current topic\n",
+    sourceFileSha => "655e4c348efbd555084365a7259c78ea73f14fbc",
     step => "completed",
   }, "Manifest");
   $a->{parsedCmds}[0] = $a->{app};
