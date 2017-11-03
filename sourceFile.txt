@@ -7,7 +7,7 @@ app Dita=Dita tags
 # language=en
 
 # alt
-photo alt= alternate
+photo alt=alternate
   afewchars=alt
 
 fact alt.1 = alternate text for an image
