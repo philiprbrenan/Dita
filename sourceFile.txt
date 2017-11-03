@@ -1,5 +1,5 @@
 
-app Dita = Dita tags
+app Dita  = Dita tags
   maximages = 8
   icon      = https://raw.githubusercontent.com/philiprbrenan/Dita/master/icon.jpg
   author    = philiprbrenan
