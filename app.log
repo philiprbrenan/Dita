@@ -1,19 +1,18 @@
 SUCCESS!
-2017-11-03 at 00:16:27 Generate AppaAppsPhotoApp version 20171031-222
+2017-11-03 at 00:34:56 Generate AppaAppsPhotoApp version 20171031-222
 ["philiprbrenan/Dita"]
-2017-11-03 at 00:16:28 Step: parseSource
-2017-11-03 at 00:16:28 Good source file!
-2017-11-03 at 00:16:28 Step: loadAssets
-2017-11-03 at 00:16:28 -rw-r--r-- 1 root root 2012 Nov  3 00:16 /tmp/AppaAppsPhotoApp/cache/images/icon.jpg
-2017-11-03 at 00:20:55 Step: multiplyPhotosByFacts
-2017-11-03 at 00:20:55 Step: genJavaManifest
-2017-11-03 at 00:20:55 Step: genJsonManifest
-2017-11-03 at 00:20:55 Step: genGameHtml
-2017-11-03 at 00:20:55 Step: genHtmlAssets
-2017-11-03 at 00:20:55 Step: zipAssets
-2017-11-03 at 00:20:56 Step: compileApp
-2017-11-03 at 00:21:06 Step: copyLinksToGitHub
-2017-11-03 at 00:21:08 Step: copyFilesIntoPositionOnWebServer
+2017-11-03 at 00:34:58 Step: parseSource
+2017-11-03 at 00:34:58 Good source file!
+2017-11-03 at 00:34:58 Step: loadAssets
+2017-11-03 at 00:34:58 Step: multiplyPhotosByFacts
+2017-11-03 at 00:34:58 Step: genJavaManifest
+2017-11-03 at 00:34:58 Step: genJsonManifest
+2017-11-03 at 00:34:58 Step: genGameHtml
+2017-11-03 at 00:34:58 Step: genHtmlAssets
+2017-11-03 at 00:34:58 Step: zipAssets
+2017-11-03 at 00:34:58 Step: compileApp
+2017-11-03 at 00:35:09 Step: copyLinksToGitHub
+2017-11-03 at 00:35:11 Step: copyFilesIntoPositionOnWebServer
 --------------------------------------------------------------------------------
 do {
   my $a = bless({
@@ -25,7 +24,7 @@ do {
       debug         => 0,
       device        => "emulator-5554",
       editSource    => undef,
-      home          => "/var/www/cgi-bin/",
+      home          => "/",
       icon          => "/tmp/AppaAppsPhotoApp/cache/images/icon.jpg",
       keyAlias      => "genApp",
       keyStoreFile  => "/home/phil/AppaAppsPhotoApp/keys/genApp.keystore",
@@ -35,7 +34,7 @@ do {
                          "",
                          "warning: [options] bootstrap class path not set in conjunction with -source 1.7\n1 warning",
                          "",
-                         "libpng error: Read Error\nCrunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
+                         "Crunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
                          "",
                          "",
                          "Enter Passphrase for keystore: jar signed.\n\nWarning: \nNo -tsa or -tsacert is provided and this jar is not timestamped. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.",
@@ -94,20 +93,19 @@ do {
     error => undef,
     iconFile => "/tmp/AppaAppsPhotoApp/cache/images/icon.jpg",
     log => [
-      "2017-11-03 at 00:16:27 Generate AppaAppsPhotoApp version 20171031-222\n[\"philiprbrenan/Dita\"]",
-      "2017-11-03 at 00:16:28 Step: parseSource",
-      "2017-11-03 at 00:16:28 Good source file!",
-      "2017-11-03 at 00:16:28 Step: loadAssets",
-      "2017-11-03 at 00:16:28 -rw-r--r-- 1 root root 2012 Nov  3 00:16 /tmp/AppaAppsPhotoApp/cache/images/icon.jpg",
-      "2017-11-03 at 00:20:55 Step: multiplyPhotosByFacts",
-      "2017-11-03 at 00:20:55 Step: genJavaManifest",
-      "2017-11-03 at 00:20:55 Step: genJsonManifest",
-      "2017-11-03 at 00:20:55 Step: genGameHtml",
-      "2017-11-03 at 00:20:55 Step: genHtmlAssets",
-      "2017-11-03 at 00:20:55 Step: zipAssets",
-      "2017-11-03 at 00:20:56 Step: compileApp",
-      "2017-11-03 at 00:21:06 Step: copyLinksToGitHub",
-      "2017-11-03 at 00:21:08 Step: copyFilesIntoPositionOnWebServer",
+      "2017-11-03 at 00:34:56 Generate AppaAppsPhotoApp version 20171031-222\n[\"philiprbrenan/Dita\"]",
+      "2017-11-03 at 00:34:58 Step: parseSource",
+      "2017-11-03 at 00:34:58 Good source file!",
+      "2017-11-03 at 00:34:58 Step: loadAssets",
+      "2017-11-03 at 00:34:58 Step: multiplyPhotosByFacts",
+      "2017-11-03 at 00:34:58 Step: genJavaManifest",
+      "2017-11-03 at 00:34:58 Step: genJsonManifest",
+      "2017-11-03 at 00:34:58 Step: genGameHtml",
+      "2017-11-03 at 00:34:58 Step: genHtmlAssets",
+      "2017-11-03 at 00:34:58 Step: zipAssets",
+      "2017-11-03 at 00:34:58 Step: compileApp",
+      "2017-11-03 at 00:35:09 Step: copyLinksToGitHub",
+      "2017-11-03 at 00:35:11 Step: copyFilesIntoPositionOnWebServer",
     ],
     parsedCmds => [
       'fix',
@@ -514,8 +512,8 @@ do {
         titleFile => undef,
       }, "ParsedCmd"),
     ],
-    source => "\napp Dita=Dita tags\n  maximages = 8\n  icon = https://raw.githubusercontent.com/philiprbrenan/Dita/master/icon.jpg\n  author= philiprbrenan\n  email = philiprbrenan\@gmail.com\n# language=en\n\n# alt\nphoto alt=alternate\n  afewchars=alt\n\nfact alt.1 = alternate text for an image\n\nphoto cite=citation\n  afewchars=cite\n\nfact cite.1 = refers to a book or article\n\n# dd\nphoto dd=definition list description entry\n  afewchars=dd\n\nfact dd.1 = description of a term in a definition list entry\n\n# ddhd\nphoto ddhd=definition list description heading\n  afewchars=ddhd\n\nfact ddhd.1 = optional heading for descriptions in a definition list\n\n# dl\nphoto dl=definition list\n  afewchars=dl\n\nfact dl.1 = list of terms and their definitions\n\n# dlentry\nphoto dlentry=definition list entry\n  afewchars=dlentry\n\nfact dlentry.1 = An entry in a definition list\n\n# dlhead\nphoto dlhead=definition list headers\n  afewchars=dlhead\n\nfact dlhead.1 = contains optional headings for terms and descriptions in a definition list\n\n# dt\nphoto dt=definition list term entry\n  afewchars=dt\n\nfact dt.1 = a term in a definition list entry\n\n# dthd\nphoto dthd=definition list term heading\n  afewchars=dthd\n\nfact dthd.1 = optional heading for the terms in a description list\n\n# example\nphoto example=example\n  afewchars=example\n\nfact example.1 = a section that contains examples\nfact example.2 = examples that illustrate or support the current topic\n",
-    sourceFileSha => "88edced0d275c4c1f3896c46b33937e525d41ab1",
+    source => "\napp Dita=Dita tags\n  maximages = 8\n  icon  = https://raw.githubusercontent.com/philiprbrenan/Dita/master/icon.jpg\n  author= philiprbrenan\n  email = philiprbrenan\@gmail.com\n# language=en\n\n# alt\nphoto alt=alternate\n  afewchars=alt\n\nfact alt.1 = alternate text for an image\n\nphoto cite=citation\n  afewchars=cite\n\nfact cite.1 = refers to a book or article\n\n# dd\nphoto dd=definition list description entry\n  afewchars=dd\n\nfact dd.1 = description of a term in a definition list entry\n\n# ddhd\nphoto ddhd=definition list description heading\n  afewchars=ddhd\n\nfact ddhd.1 = optional heading for descriptions in a definition list\n\n# dl\nphoto dl=definition list\n  afewchars=dl\n\nfact dl.1 = list of terms and their definitions\n\n# dlentry\nphoto dlentry=definition list entry\n  afewchars=dlentry\n\nfact dlentry.1 = An entry in a definition list\n\n# dlhead\nphoto dlhead=definition list headers\n  afewchars=dlhead\n\nfact dlhead.1 = contains optional headings for terms and descriptions in a definition list\n\n# dt\nphoto dt=definition list term entry\n  afewchars=dt\n\nfact dt.1 = a term in a definition list entry\n\n# dthd\nphoto dthd=definition list term heading\n  afewchars=dthd\n\nfact dthd.1 = optional heading for the terms in a description list\n\n# example\nphoto example=example\n  afewchars=example\n\nfact example.1 = a section that contains examples\nfact example.2 = examples that illustrate or support the current topic\n",
+    sourceFileSha => "4b25a3790136ebf15f914a1114a76dc5de995174",
     step => "completed",
   }, "Manifest");
   $a->{parsedCmds}[0] = $a->{app};
