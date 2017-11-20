@@ -1,19 +1,19 @@
 SUCCESS!
 
-2017-11-20 at 19:55:03 Generate AppaAppsPhotoApp version 20171120-44 philiprbrenan/Dita
+2017-11-20 at 22:15:29 Generate AppaAppsPhotoApp version 20171120-66 philiprbrenan/Dita
 
-2017-11-20 at 19:55:05 Step: parseSource
-2017-11-20 at 19:55:05 <b>Good source file!</b>
-2017-11-20 at 19:55:05 Step: loadAssets
-2017-11-20 at 20:01:32 Step: multiplyPhotosByFacts
-2017-11-20 at 20:01:32 Step: genJavaManifest
-2017-11-20 at 20:01:32 Step: genJsonManifest
-2017-11-20 at 20:01:32 Step: genGameHtml
-2017-11-20 at 20:01:32 Step: genHtmlAssets
-2017-11-20 at 20:01:32 Step: zipAssets
-2017-11-20 at 20:01:33 Step: compileApp
-2017-11-20 at 20:01:44 Step: copyLinksToGitHub
-2017-11-20 at 20:01:46 Step: copyFilesIntoPositionOnWebServer
+2017-11-20 at 22:15:31 Step: parseSource
+2017-11-20 at 22:15:31 <b>Good source file!</b>
+2017-11-20 at 22:15:31 Step: loadAssets
+2017-11-20 at 22:21:50 Step: multiplyPhotosByFacts
+2017-11-20 at 22:21:50 Step: genJavaManifest
+2017-11-20 at 22:21:50 Step: genJsonManifest
+2017-11-20 at 22:21:50 Step: genGameHtml
+2017-11-20 at 22:21:50 Step: genHtmlAssets
+2017-11-20 at 22:21:50 Step: zipAssets
+2017-11-20 at 22:21:51 Step: compileApp
+2017-11-20 at 22:22:01 Step: copyLinksToGitHub
+2017-11-20 at 22:22:03 Step: copyFilesIntoPositionOnWebServer
 --------------------------------------------------------------------------------
 do {
   my $a = bless({
@@ -25,7 +25,7 @@ do {
       debug         => 0,
       device        => "-s emulator-5554",
       editSource    => undef,
-      home          => "/root/",
+      home          => "/",
       icon          => "/home/phil/AppaAppsPhotoApp/cache/images/icon.jpg",
       keyAlias      => "genApp",
       keyStoreFile  => "/home/phil/AppaAppsPhotoApp/keys/genApp.keystore",
@@ -71,12 +71,13 @@ do {
     }, "Android::Build"),
     app => bless({
       cmd => "app",
-      end => 6,
+      end => 7,
       index => 0,
       name => "Dita",
       parsedKeys => bless({
         author    => "philiprbrenan",
         cmd       => "app",
+        develop   => "yes",
         email     => "philiprbrenan\@gmail.com",
         icon      => "https://raw.githubusercontent.com/philiprbrenan/Dita/master/icon.jpg",
         language  => "en",
@@ -84,6 +85,7 @@ do {
         name      => "Dita",
         speakers  => "Amy Brian Emma Geraint Ivy Joanna Joey Justin Kendra Kimberly Nicole Raveena Russell Salli",
         title     => "Dita tags",
+        version   => "2017-11-20 at 22:15:31",
       }, "ParsedKeys"),
       start => 2,
       title => "Dita tags",
@@ -92,25 +94,25 @@ do {
     error => 0,
     iconFile => "/home/phil/AppaAppsPhotoApp/cache/images/icon.jpg",
     log => [
-      "\n2017-11-20 at 19:55:03 Generate AppaAppsPhotoApp version 20171120-44 philiprbrenan/Dita\n",
-      "2017-11-20 at 19:55:05 Step: parseSource",
-      "2017-11-20 at 19:55:05 <b>Good source file!</b>",
-      "2017-11-20 at 19:55:05 Step: loadAssets",
-      "2017-11-20 at 20:01:32 Step: multiplyPhotosByFacts",
-      "2017-11-20 at 20:01:32 Step: genJavaManifest",
-      "2017-11-20 at 20:01:32 Step: genJsonManifest",
-      "2017-11-20 at 20:01:32 Step: genGameHtml",
-      "2017-11-20 at 20:01:32 Step: genHtmlAssets",
-      "2017-11-20 at 20:01:32 Step: zipAssets",
-      "2017-11-20 at 20:01:33 Step: compileApp",
-      "2017-11-20 at 20:01:44 Step: copyLinksToGitHub",
-      "2017-11-20 at 20:01:46 Step: copyFilesIntoPositionOnWebServer",
+      "\n2017-11-20 at 22:15:29 Generate AppaAppsPhotoApp version 20171120-66 philiprbrenan/Dita\n",
+      "2017-11-20 at 22:15:31 Step: parseSource",
+      "2017-11-20 at 22:15:31 <b>Good source file!</b>",
+      "2017-11-20 at 22:15:31 Step: loadAssets",
+      "2017-11-20 at 22:21:50 Step: multiplyPhotosByFacts",
+      "2017-11-20 at 22:21:50 Step: genJavaManifest",
+      "2017-11-20 at 22:21:50 Step: genJsonManifest",
+      "2017-11-20 at 22:21:50 Step: genGameHtml",
+      "2017-11-20 at 22:21:50 Step: genHtmlAssets",
+      "2017-11-20 at 22:21:50 Step: zipAssets",
+      "2017-11-20 at 22:21:51 Step: compileApp",
+      "2017-11-20 at 22:22:01 Step: copyLinksToGitHub",
+      "2017-11-20 at 22:22:03 Step: copyFilesIntoPositionOnWebServer",
     ],
     parsedCmds => [
       'fix',
       bless({
         cmd => "photo",
-        end => 11,
+        end => 12,
         index => 0,
         name => "alt",
         parsedKeys => bless({
@@ -120,13 +122,13 @@ do {
           title => "alternate",
           titleFile => "alternate",
         }, "ParsedKeys"),
-        start => 10,
+        start => 11,
         title => "alternate",
         titleFile => "alternate",
       }, "ParsedCmd"),
       bless({
         cmd => "fact",
-        end => 13,
+        end => 14,
         index => 0,
         name => "alt.1",
         parsedKeys => bless({
@@ -135,13 +137,13 @@ do {
           title => "alternative description for an image",
           titleFile => "alternativedescriptionforanimage",
         }, "ParsedKeys"),
-        start => 13,
+        start => 14,
         title => "alternative description for an image",
         titleFile => "alternativedescriptionforanimage",
       }, "ParsedCmd"),
       bless({
         cmd => "photo",
-        end => 17,
+        end => 18,
         index => 1,
         name => "body",
         parsedKeys => bless({
@@ -151,13 +153,13 @@ do {
           title => "body",
           titleFile => "body",
         }, "ParsedKeys"),
-        start => 16,
+        start => 17,
         title => "body",
         titleFile => "body",
       }, "ParsedCmd"),
       bless({
         cmd => "fact",
-        end => 19,
+        end => 20,
         index => 1,
         name => "body.1",
         parsedKeys => bless({
@@ -166,13 +168,13 @@ do {
           title => "the generic element that contains all body content",
           titleFile => "thegenericelementthatcontainsallbodycontent",
         }, "ParsedKeys"),
-        start => 19,
+        start => 20,
         title => "the generic element that contains all body content",
         titleFile => "thegenericelementthatcontainsallbodycontent",
       }, "ParsedCmd"),
       bless({
         cmd => "photo",
-        end => 23,
+        end => 24,
         index => 2,
         name => "cite",
         parsedKeys => bless({
@@ -182,13 +184,13 @@ do {
           title => "citation",
           titleFile => "citation",
         }, "ParsedKeys"),
-        start => 22,
+        start => 23,
         title => "citation",
         titleFile => "citation",
       }, "ParsedCmd"),
       bless({
         cmd => "fact",
-        end => 25,
+        end => 26,
         index => 2,
         name => "cite.1",
         parsedKeys => bless({
@@ -197,13 +199,13 @@ do {
           title => "refers to a book or article",
           titleFile => "referstoabookorarticle",
         }, "ParsedKeys"),
-        start => 25,
+        start => 26,
         title => "refers to a book or article",
         titleFile => "referstoabookorarticle",
       }, "ParsedCmd"),
       bless({
         cmd => "photo",
-        end => 29,
+        end => 30,
         index => 3,
         name => "conbody",
         parsedKeys => bless({
@@ -213,13 +215,13 @@ do {
           title => "conbody",
           titleFile => "conbody",
         }, "ParsedKeys"),
-        start => 28,
+        start => 29,
         title => "conbody",
         titleFile => "conbody",
       }, "ParsedCmd"),
       bless({
         cmd => "fact",
-        end => 31,
+        end => 32,
         index => 3,
         name => "conbody.1",
         parsedKeys => bless({
@@ -228,13 +230,13 @@ do {
           title => "a specialization of a body for a concept topic",
           titleFile => "aspecializationofabodyforaconcepttopic",
         }, "ParsedKeys"),
-        start => 31,
+        start => 32,
         title => "a specialization of a body for a concept topic",
         titleFile => "aspecializationofabodyforaconcepttopic",
       }, "ParsedCmd"),
       bless({
         cmd => "fact",
-        end => 32,
+        end => 33,
         index => 4,
         name => "conbody.2",
         parsedKeys => bless({
@@ -243,13 +245,13 @@ do {
           title => "contains all body content for concept topics",
           titleFile => "containsallbodycontentforconcepttopics",
         }, "ParsedKeys"),
-        start => 32,
+        start => 33,
         title => "contains all body content for concept topics",
         titleFile => "containsallbodycontentforconcepttopics",
       }, "ParsedCmd"),
       bless({
         cmd => "photo",
-        end => 36,
+        end => 37,
         index => 4,
         name => "concept",
         parsedKeys => bless({
@@ -259,13 +261,13 @@ do {
           title => "concept topic",
           titleFile => "concepttopic",
         }, "ParsedKeys"),
-        start => 35,
+        start => 36,
         title => "concept topic",
         titleFile => "concepttopic",
       }, "ParsedCmd"),
       bless({
         cmd => "fact",
-        end => 38,
+        end => 39,
         index => 5,
         name => "cite.1",
         parsedKeys => bless({
@@ -274,13 +276,13 @@ do {
           title => "a specialization of a topic for conceptual material",
           titleFile => "aspecializationofatopicforconceptualmaterial",
         }, "ParsedKeys"),
-        start => 38,
+        start => 39,
         title => "a specialization of a topic for conceptual material",
         titleFile => "aspecializationofatopicforconceptualmaterial",
       }, "ParsedCmd"),
       bless({
         cmd => "fact",
-        end => 39,
+        end => 40,
         index => 6,
         name => "cite.2",
         parsedKeys => bless({
@@ -289,13 +291,13 @@ do {
           title => "contains conceptual information required to perform a task",
           titleFile => "containsconceptualinformationrequiredtoperformatask",
         }, "ParsedKeys"),
-        start => 39,
+        start => 40,
         title => "contains conceptual information required to perform a task",
         titleFile => "containsconceptualinformationrequiredtoperformatask",
       }, "ParsedCmd"),
       bless({
         cmd => "fact",
-        end => 40,
+        end => 41,
         index => 7,
         name => "cite.3",
         parsedKeys => bless({
@@ -304,13 +306,13 @@ do {
           title => "meant to be read once or twice, and remembered by the user",
           titleFile => "meanttobereadonceortwiceandrememberedbytheuser",
         }, "ParsedKeys"),
-        start => 40,
+        start => 41,
         title => "meant to be read once or twice, and remembered by the user",
         titleFile => "meanttobereadonceortwiceandrememberedbytheuser",
       }, "ParsedCmd"),
       bless({
         cmd => "photo",
-        end => 44,
+        end => 45,
         index => 5,
         name => "dd",
         parsedKeys => bless({
@@ -320,13 +322,13 @@ do {
           title => "definition list description entry",
           titleFile => "definitionlistdescriptionentry",
         }, "ParsedKeys"),
-        start => 43,
+        start => 44,
         title => "definition list description entry",
         titleFile => "definitionlistdescriptionentry",
       }, "ParsedCmd"),
       bless({
         cmd => "fact",
-        end => 46,
+        end => 47,
         index => 8,
         name => "dd.1",
         parsedKeys => bless({
@@ -335,13 +337,13 @@ do {
           title => "description of a term in a definition list entry",
           titleFile => "descriptionofaterminadefinitionlistentry",
         }, "ParsedKeys"),
-        start => 46,
+        start => 47,
         title => "description of a term in a definition list entry",
         titleFile => "descriptionofaterminadefinitionlistentry",
       }, "ParsedCmd"),
       bless({
         cmd => "photo",
-        end => 50,
+        end => 51,
         index => 6,
         name => "ddhd",
         parsedKeys => bless({
@@ -351,13 +353,13 @@ do {
           title => "definition list description heading",
           titleFile => "definitionlistdescriptionheading",
         }, "ParsedKeys"),
-        start => 49,
+        start => 50,
         title => "definition list description heading",
         titleFile => "definitionlistdescriptionheading",
       }, "ParsedCmd"),
       bless({
         cmd => "fact",
-        end => 52,
+        end => 53,
         index => 9,
         name => "ddhd.1",
         parsedKeys => bless({
@@ -366,13 +368,13 @@ do {
           title => "optional heading for descriptions in a definition list",
           titleFile => "optionalheadingfordescriptionsinadefinitionlist",
         }, "ParsedKeys"),
-        start => 52,
+        start => 53,
         title => "optional heading for descriptions in a definition list",
         titleFile => "optionalheadingfordescriptionsinadefinitionlist",
       }, "ParsedCmd"),
       bless({
         cmd => "photo",
-        end => 56,
+        end => 57,
         index => 7,
         name => "dl",
         parsedKeys => bless({
@@ -382,13 +384,13 @@ do {
           title => "definition list",
           titleFile => "definitionlist",
         }, "ParsedKeys"),
-        start => 55,
+        start => 56,
         title => "definition list",
         titleFile => "definitionlist",
       }, "ParsedCmd"),
       bless({
         cmd => "fact",
-        end => 58,
+        end => 59,
         index => 10,
         name => "dl.1",
         parsedKeys => bless({
@@ -397,13 +399,13 @@ do {
           title => "list of terms and their definitions",
           titleFile => "listoftermsandtheirdefinitions",
         }, "ParsedKeys"),
-        start => 58,
+        start => 59,
         title => "list of terms and their definitions",
         titleFile => "listoftermsandtheirdefinitions",
       }, "ParsedCmd"),
       bless({
         cmd => "photo",
-        end => 62,
+        end => 63,
         index => 8,
         name => "dlentry",
         parsedKeys => bless({
@@ -413,13 +415,13 @@ do {
           title => "definition list entry",
           titleFile => "definitionlistentry",
         }, "ParsedKeys"),
-        start => 61,
+        start => 62,
         title => "definition list entry",
         titleFile => "definitionlistentry",
       }, "ParsedCmd"),
       bless({
         cmd => "fact",
-        end => 64,
+        end => 65,
         index => 11,
         name => "dlentry.1",
         parsedKeys => bless({
@@ -428,13 +430,13 @@ do {
           title => "An entry in a definition list",
           titleFile => "Anentryinadefinitionlist",
         }, "ParsedKeys"),
-        start => 64,
+        start => 65,
         title => "An entry in a definition list",
         titleFile => "Anentryinadefinitionlist",
       }, "ParsedCmd"),
       bless({
         cmd => "photo",
-        end => 68,
+        end => 69,
         index => 9,
         name => "dlhead",
         parsedKeys => bless({
@@ -444,13 +446,13 @@ do {
           title => "definition list headers",
           titleFile => "definitionlistheaders",
         }, "ParsedKeys"),
-        start => 67,
+        start => 68,
         title => "definition list headers",
         titleFile => "definitionlistheaders",
       }, "ParsedCmd"),
       bless({
         cmd => "fact",
-        end => 70,
+        end => 71,
         index => 12,
         name => "dlhead.1",
         parsedKeys => bless({
@@ -459,13 +461,13 @@ do {
           title => "contains optional headings for terms and descriptions in a definition list",
           titleFile => "containsoptionalheadingsfortermsanddescriptionsinadefinitionlist",
         }, "ParsedKeys"),
-        start => 70,
+        start => 71,
         title => "contains optional headings for terms and descriptions in a definition list",
         titleFile => "containsoptionalheadingsfortermsanddescriptionsinadefinitionlist",
       }, "ParsedCmd"),
       bless({
         cmd => "photo",
-        end => 74,
+        end => 75,
         index => 10,
         name => "dt",
         parsedKeys => bless({
@@ -475,13 +477,13 @@ do {
           title => "definition list term entry",
           titleFile => "definitionlisttermentry",
         }, "ParsedKeys"),
-        start => 73,
+        start => 74,
         title => "definition list term entry",
         titleFile => "definitionlisttermentry",
       }, "ParsedCmd"),
       bless({
         cmd => "fact",
-        end => 76,
+        end => 77,
         index => 13,
         name => "dt.1",
         parsedKeys => bless({
@@ -490,13 +492,13 @@ do {
           title => "a term in a definition list entry",
           titleFile => "aterminadefinitionlistentry",
         }, "ParsedKeys"),
-        start => 76,
+        start => 77,
         title => "a term in a definition list entry",
         titleFile => "aterminadefinitionlistentry",
       }, "ParsedCmd"),
       bless({
         cmd => "photo",
-        end => 80,
+        end => 81,
         index => 11,
         name => "dthd",
         parsedKeys => bless({
@@ -506,13 +508,13 @@ do {
           title => "definition list term heading",
           titleFile => "definitionlisttermheading",
         }, "ParsedKeys"),
-        start => 79,
+        start => 80,
         title => "definition list term heading",
         titleFile => "definitionlisttermheading",
       }, "ParsedCmd"),
       bless({
         cmd => "fact",
-        end => 82,
+        end => 83,
         index => 14,
         name => "dthd.1",
         parsedKeys => bless({
@@ -521,13 +523,13 @@ do {
           title => "optional heading for the terms in a description list",
           titleFile => "optionalheadingforthetermsinadescriptionlist",
         }, "ParsedKeys"),
-        start => 82,
+        start => 83,
         title => "optional heading for the terms in a description list",
         titleFile => "optionalheadingforthetermsinadescriptionlist",
       }, "ParsedCmd"),
       bless({
         cmd => "photo",
-        end => 86,
+        end => 87,
         index => 12,
         name => "example",
         parsedKeys => bless({
@@ -537,13 +539,13 @@ do {
           title => "example",
           titleFile => "example",
         }, "ParsedKeys"),
-        start => 85,
+        start => 86,
         title => "example",
         titleFile => "example",
       }, "ParsedCmd"),
       bless({
         cmd => "fact",
-        end => 88,
+        end => 89,
         index => 15,
         name => "example.1",
         parsedKeys => bless({
@@ -552,13 +554,13 @@ do {
           title => "a section that contains examples",
           titleFile => "asectionthatcontainsexamples",
         }, "ParsedKeys"),
-        start => 88,
+        start => 89,
         title => "a section that contains examples",
         titleFile => "asectionthatcontainsexamples",
       }, "ParsedCmd"),
       bless({
         cmd => "fact",
-        end => 89,
+        end => 90,
         index => 16,
         name => "example.2",
         parsedKeys => bless({
@@ -567,13 +569,13 @@ do {
           title => "examples that illustrate or support the current topic",
           titleFile => "examplesthatillustrateorsupportthecurrenttopic",
         }, "ParsedKeys"),
-        start => 89,
+        start => 90,
         title => "examples that illustrate or support the current topic",
         titleFile => "examplesthatillustrateorsupportthecurrenttopic",
       }, "ParsedCmd"),
       bless({
         cmd => "photo",
-        end => 93,
+        end => 94,
         index => 13,
         name => "prolog",
         parsedKeys => bless({
@@ -583,13 +585,13 @@ do {
           title => "prolog",
           titleFile => "prolog",
         }, "ParsedKeys"),
-        start => 92,
+        start => 93,
         title => "prolog",
         titleFile => "prolog",
       }, "ParsedCmd"),
       bless({
         cmd => "fact",
-        end => 95,
+        end => 96,
         index => 17,
         name => "prolog.1",
         parsedKeys => bless({
@@ -598,13 +600,13 @@ do {
           title => "contains topic metadata",
           titleFile => "containstopicmetadata",
         }, "ParsedKeys"),
-        start => 95,
+        start => 96,
         title => "contains topic metadata",
         titleFile => "containstopicmetadata",
       }, "ParsedCmd"),
       bless({
         cmd => "photo",
-        end => 99,
+        end => 100,
         index => 14,
         name => "refbody",
         parsedKeys => bless({
@@ -614,13 +616,13 @@ do {
           title => "refbody",
           titleFile => "refbody",
         }, "ParsedKeys"),
-        start => 98,
+        start => 99,
         title => "refbody",
         titleFile => "refbody",
       }, "ParsedCmd"),
       bless({
         cmd => "fact",
-        end => 101,
+        end => 102,
         index => 18,
         name => "refbody.1",
         parsedKeys => bless({
@@ -629,13 +631,13 @@ do {
           title => "a specialization of a body for a reference topic",
           titleFile => "aspecializationofabodyforareferencetopic",
         }, "ParsedKeys"),
-        start => 101,
+        start => 102,
         title => "a specialization of a body for a reference topic",
         titleFile => "aspecializationofabodyforareferencetopic",
       }, "ParsedCmd"),
       bless({
         cmd => "fact",
-        end => 102,
+        end => 103,
         index => 19,
         name => "refbody.2",
         parsedKeys => bless({
@@ -644,13 +646,13 @@ do {
           title => "contains all body content for reference topics",
           titleFile => "containsallbodycontentforreferencetopics",
         }, "ParsedKeys"),
-        start => 102,
+        start => 103,
         title => "contains all body content for reference topics",
         titleFile => "containsallbodycontentforreferencetopics",
       }, "ParsedCmd"),
       bless({
         cmd => "photo",
-        end => 106,
+        end => 107,
         index => 15,
         name => "reference",
         parsedKeys => bless({
@@ -660,13 +662,13 @@ do {
           title => "reference",
           titleFile => "reference",
         }, "ParsedKeys"),
-        start => 105,
+        start => 106,
         title => "reference",
         titleFile => "reference",
       }, "ParsedCmd"),
       bless({
         cmd => "fact",
-        end => 108,
+        end => 109,
         index => 20,
         name => "reference.1",
         parsedKeys => bless({
@@ -675,13 +677,13 @@ do {
           title => "a specialization of a topic for reference material",
           titleFile => "aspecializationofatopicforreferencematerial",
         }, "ParsedKeys"),
-        start => 108,
+        start => 109,
         title => "a specialization of a topic for reference material",
         titleFile => "aspecializationofatopicforreferencematerial",
       }, "ParsedCmd"),
       bless({
         cmd => "fact",
-        end => 109,
+        end => 110,
         index => 21,
         name => "reference.2",
         parsedKeys => bless({
@@ -690,13 +692,13 @@ do {
           title => "contains look-up information, often in tables",
           titleFile => "containslookupinformationoftenintables",
         }, "ParsedKeys"),
-        start => 109,
+        start => 110,
         title => "contains look-up information, often in tables",
         titleFile => "containslookupinformationoftenintables",
       }, "ParsedCmd"),
       bless({
         cmd => "fact",
-        end => 110,
+        end => 111,
         index => 22,
         name => "reference.3",
         parsedKeys => bless({
@@ -705,13 +707,13 @@ do {
           title => "not meant to be remembered",
           titleFile => "notmeanttoberemembered",
         }, "ParsedKeys"),
-        start => 110,
+        start => 111,
         title => "not meant to be remembered",
         titleFile => "notmeanttoberemembered",
       }, "ParsedCmd"),
       bless({
         cmd => "photo",
-        end => 114,
+        end => 115,
         index => 16,
         name => "shortdesc",
         parsedKeys => bless({
@@ -721,13 +723,13 @@ do {
           title => "short description",
           titleFile => "shortdescription",
         }, "ParsedKeys"),
-        start => 113,
+        start => 114,
         title => "short description",
         titleFile => "shortdescription",
       }, "ParsedCmd"),
       bless({
         cmd => "fact",
-        end => 116,
+        end => 117,
         index => 23,
         name => "shortdesc.1",
         parsedKeys => bless({
@@ -736,13 +738,13 @@ do {
           title => "summaries the content in a topic",
           titleFile => "summariesthecontentinatopic",
         }, "ParsedKeys"),
-        start => 116,
+        start => 117,
         title => "summaries the content in a topic",
         titleFile => "summariesthecontentinatopic",
       }, "ParsedCmd"),
       bless({
         cmd => "fact",
-        end => 117,
+        end => 118,
         index => 24,
         name => "shortdesc.2",
         parsedKeys => bless({
@@ -751,13 +753,13 @@ do {
           title => "may appear in topic, or in the search results as an intro to a topic",
           titleFile => "mayappearintopicorinthesearchresultsasanintrotoatopic",
         }, "ParsedKeys"),
-        start => 117,
+        start => 118,
         title => "may appear in topic, or in the search results as an intro to a topic",
         titleFile => "mayappearintopicorinthesearchresultsasanintrotoatopic",
       }, "ParsedCmd"),
       bless({
         cmd => "photo",
-        end => 121,
+        end => 122,
         index => 17,
         name => "task",
         parsedKeys => bless({
@@ -767,13 +769,13 @@ do {
           title => "task topic",
           titleFile => "tasktopic",
         }, "ParsedKeys"),
-        start => 120,
+        start => 121,
         title => "task topic",
         titleFile => "tasktopic",
       }, "ParsedCmd"),
       bless({
         cmd => "fact",
-        end => 123,
+        end => 124,
         index => 25,
         name => "task.1",
         parsedKeys => bless({
@@ -782,13 +784,13 @@ do {
           title => "a specialization of a topic for task-based material",
           titleFile => "aspecializationofatopicfortaskbasedmaterial",
         }, "ParsedKeys"),
-        start => 123,
+        start => 124,
         title => "a specialization of a topic for task-based material",
         titleFile => "aspecializationofatopicfortaskbasedmaterial",
       }, "ParsedCmd"),
       bless({
         cmd => "fact",
-        end => 124,
+        end => 125,
         index => 26,
         name => "task.2",
         parsedKeys => bless({
@@ -797,13 +799,13 @@ do {
           title => "contains step by step instructions to accomplish a goal",
           titleFile => "containsstepbystepinstructionstoaccomplishagoal",
         }, "ParsedKeys"),
-        start => 124,
+        start => 125,
         title => "contains step by step instructions to accomplish a goal",
         titleFile => "containsstepbystepinstructionstoaccomplishagoal",
       }, "ParsedCmd"),
       bless({
         cmd => "fact",
-        end => 125,
+        end => 126,
         index => 27,
         name => "task.3",
         parsedKeys => bless({
@@ -812,13 +814,13 @@ do {
           title => "all other topics should support tasks",
           titleFile => "allothertopicsshouldsupporttasks",
         }, "ParsedKeys"),
-        start => 125,
+        start => 126,
         title => "all other topics should support tasks",
         titleFile => "allothertopicsshouldsupporttasks",
       }, "ParsedCmd"),
       bless({
         cmd => "photo",
-        end => 129,
+        end => 130,
         index => 18,
         name => "taskbody",
         parsedKeys => bless({
@@ -828,13 +830,13 @@ do {
           title => "taskbody",
           titleFile => "taskbody",
         }, "ParsedKeys"),
-        start => 128,
+        start => 129,
         title => "taskbody",
         titleFile => "taskbody",
       }, "ParsedCmd"),
       bless({
         cmd => "fact",
-        end => 131,
+        end => 132,
         index => 28,
         name => "taskbody.1",
         parsedKeys => bless({
@@ -843,13 +845,13 @@ do {
           title => "a specialization of a body for a task topic",
           titleFile => "aspecializationofabodyforatasktopic",
         }, "ParsedKeys"),
-        start => 131,
+        start => 132,
         title => "a specialization of a body for a task topic",
         titleFile => "aspecializationofabodyforatasktopic",
       }, "ParsedCmd"),
       bless({
         cmd => "fact",
-        end => 132,
+        end => 133,
         index => 29,
         name => "taskbody.2",
         parsedKeys => bless({
@@ -858,13 +860,13 @@ do {
           title => "contains all body content for task topics",
           titleFile => "containsallbodycontentfortasktopics",
         }, "ParsedKeys"),
-        start => 132,
+        start => 133,
         title => "contains all body content for task topics",
         titleFile => "containsallbodycontentfortasktopics",
       }, "ParsedCmd"),
       bless({
         cmd => "photo",
-        end => 136,
+        end => 137,
         index => 19,
         name => "title",
         parsedKeys => bless({
@@ -874,13 +876,13 @@ do {
           title => "title",
           titleFile => "title",
         }, "ParsedKeys"),
-        start => 135,
+        start => 136,
         title => "title",
         titleFile => "title",
       }, "ParsedCmd"),
       bless({
         cmd => "fact",
-        end => 138,
+        end => 139,
         index => 30,
         name => "title.1",
         parsedKeys => bless({
@@ -889,13 +891,13 @@ do {
           title => "a title for many elements, including topic, table, and section",
           titleFile => "atitleformanyelementsincludingtopictableandsection",
         }, "ParsedKeys"),
-        start => 138,
+        start => 139,
         title => "a title for many elements, including topic, table, and section",
         titleFile => "atitleformanyelementsincludingtopictableandsection",
       }, "ParsedCmd"),
       bless({
         cmd => "photo",
-        end => 143,
+        end => 144,
         index => 20,
         name => "topic",
         parsedKeys => bless({
@@ -905,13 +907,13 @@ do {
           title => "the basic stand-alone chunk of content",
           titleFile => "thebasicstandalonechunkofcontent",
         }, "ParsedKeys"),
-        start => 142,
+        start => 143,
         title => "the basic stand-alone chunk of content",
         titleFile => "thebasicstandalonechunkofcontent",
       }, "ParsedCmd"),
       bless({
         cmd => "fact",
-        end => 145,
+        end => 146,
         index => 31,
         name => "topic.1",
         parsedKeys => bless({
@@ -920,13 +922,13 @@ do {
           title => "original and generic version of technical documentation topic types",
           titleFile => "originalandgenericversionoftechnicaldocumentationtopictypes",
         }, "ParsedKeys"),
-        start => 145,
+        start => 146,
         title => "original and generic version of technical documentation topic types",
         titleFile => "originalandgenericversionoftechnicaldocumentationtopictypes",
       }, "ParsedCmd"),
       bless({
         cmd => "fact",
-        end => 146,
+        end => 147,
         index => 32,
         name => "topic.2",
         parsedKeys => bless({
@@ -935,7 +937,7 @@ do {
           title => "can be reused in many contexts",
           titleFile => "canbereusedinmanycontexts",
         }, "ParsedKeys"),
-        start => 146,
+        start => 147,
         title => "can be reused in many contexts",
         titleFile => "canbereusedinmanycontexts",
       }, "ParsedCmd"),
@@ -1171,8 +1173,8 @@ do {
         titleFile => undef,
       }, "ParsedCmd"),
     ],
-    source => "\napp Dita    = Dita tags\n  maximages = 8\n  icon      = https://raw.githubusercontent.com/philiprbrenan/Dita/master/icon.jpg\n  author    = philiprbrenan\n  email     = philiprbrenan\@gmail.com\n# language  = en\n\n# alt\nphoto alt=alternate\n  afewchars=alt\n\nfact alt.1 = alternative description for an image\n\n# body\nphoto body=body\n  afewchars=body\n\nfact body.1 = the generic element that contains all body content\n\n# cite\nphoto cite=citation\n  afewchars=cite\n\nfact cite.1 = refers to a book or article\n\n# conbody\nphoto conbody=conbody\n  afewchars=conbody\n\nfact conbody.1 = a specialization of a body for a concept topic\nfact conbody.2 = contains all body content for concept topics\n\n# concept\nphoto concept=concept topic\n  afewchars=concept\n\nfact cite.1 = a specialization of a topic for conceptual material\nfact cite.2 = contains conceptual information required to perform a task\nfact cite.3 = meant to be read once or twice, and remembered by the user\n\n# dd\nphoto dd=definition list description entry\n  afewchars=dd\n\nfact dd.1 = description of a term in a definition list entry\n\n# ddhd\nphoto ddhd=definition list description heading\n  afewchars=ddhd\n\nfact ddhd.1 = optional heading for descriptions in a definition list\n\n# dl\nphoto dl=definition list\n  afewchars=dl\n\nfact dl.1 = list of terms and their definitions\n\n# dlentry\nphoto dlentry=definition list entry\n  afewchars=dlentry\n\nfact dlentry.1 = An entry in a definition list\n\n# dlhead\nphoto dlhead=definition list headers\n  afewchars=dlhead\n\nfact dlhead.1 = contains optional headings for terms and descriptions in a definition list\n\n# dt\nphoto dt=definition list term entry\n  afewchars=dt\n\nfact dt.1 = a term in a definition list entry\n\n# dthd\nphoto dthd=definition list term heading\n  afewchars=dthd\n\nfact dthd.1 = optional heading for the terms in a description list\n\n# example\nphoto example=example\n  afewchars=example\n\nfact example.1 = a section that contains examples\nfact example.2 = examples that illustrate or support the current topic\n\n# prolog\nphoto prolog=prolog\n  afewchars=prolog\n\nfact prolog.1 = contains topic metadata\n\n# refbody\nphoto refbody=refbody\n  afewchars=refbody\n\nfact refbody.1 = a specialization of a body for a reference topic\nfact refbody.2 = contains all body content for reference topics\n\n# reference\nphoto reference=reference\n  afewchars=reference\n\nfact reference.1 = a specialization of a topic for reference material\nfact reference.2 = contains look-up information, often in tables\nfact reference.3 = not meant to be remembered\n\n# short description\nphoto shortdesc=short description\n  afewchars=shortdesc\n\nfact shortdesc.1 = summaries the content in a topic\nfact shortdesc.2 = may appear in topic, or in the search results as an intro to a topic\n\n# task\nphoto task=task topic\n  afewchars=task\n\nfact task.1 = a specialization of a topic for task-based material\nfact task.2 = contains step by step instructions to accomplish a goal\nfact task.3 = all other topics should support tasks\n\n# taskbody\nphoto taskbody=taskbody\n  afewchars=taskbody\n\nfact taskbody.1 = a specialization of a body for a task topic\nfact taskbody.2 = contains all body content for task topics\n\n#title\nphoto title=title\n  afewchars=title\n\nfact title.1 = a title for many elements, including topic, table, and section\n\n# topic\n\nphoto topic=the basic stand-alone chunk of content\n  afewchars=topic\n\nfact topic.1 = original and generic version of technical documentation topic types\nfact topic.2 = can be reused in many contexts\n",
-    sourceFileSha => "e28440ff52581a4c4d2c66829a72fd9289c8c3b0",
+    source => "\napp Dita    = Dita tags\n  maximages = 8\n  icon      = https://raw.githubusercontent.com/philiprbrenan/Dita/master/icon.jpg\n  author    = philiprbrenan\n  email     = philiprbrenan\@gmail.com\n  develop   = yes\n# language  = en\n\n# alt\nphoto alt=alternate\n  afewchars=alt\n\nfact alt.1 = alternative description for an image\n\n# body\nphoto body=body\n  afewchars=body\n\nfact body.1 = the generic element that contains all body content\n\n# cite\nphoto cite=citation\n  afewchars=cite\n\nfact cite.1 = refers to a book or article\n\n# conbody\nphoto conbody=conbody\n  afewchars=conbody\n\nfact conbody.1 = a specialization of a body for a concept topic\nfact conbody.2 = contains all body content for concept topics\n\n# concept\nphoto concept=concept topic\n  afewchars=concept\n\nfact cite.1 = a specialization of a topic for conceptual material\nfact cite.2 = contains conceptual information required to perform a task\nfact cite.3 = meant to be read once or twice, and remembered by the user\n\n# dd\nphoto dd=definition list description entry\n  afewchars=dd\n\nfact dd.1 = description of a term in a definition list entry\n\n# ddhd\nphoto ddhd=definition list description heading\n  afewchars=ddhd\n\nfact ddhd.1 = optional heading for descriptions in a definition list\n\n# dl\nphoto dl=definition list\n  afewchars=dl\n\nfact dl.1 = list of terms and their definitions\n\n# dlentry\nphoto dlentry=definition list entry\n  afewchars=dlentry\n\nfact dlentry.1 = An entry in a definition list\n\n# dlhead\nphoto dlhead=definition list headers\n  afewchars=dlhead\n\nfact dlhead.1 = contains optional headings for terms and descriptions in a definition list\n\n# dt\nphoto dt=definition list term entry\n  afewchars=dt\n\nfact dt.1 = a term in a definition list entry\n\n# dthd\nphoto dthd=definition list term heading\n  afewchars=dthd\n\nfact dthd.1 = optional heading for the terms in a description list\n\n# example\nphoto example=example\n  afewchars=example\n\nfact example.1 = a section that contains examples\nfact example.2 = examples that illustrate or support the current topic\n\n# prolog\nphoto prolog=prolog\n  afewchars=prolog\n\nfact prolog.1 = contains topic metadata\n\n# refbody\nphoto refbody=refbody\n  afewchars=refbody\n\nfact refbody.1 = a specialization of a body for a reference topic\nfact refbody.2 = contains all body content for reference topics\n\n# reference\nphoto reference=reference\n  afewchars=reference\n\nfact reference.1 = a specialization of a topic for reference material\nfact reference.2 = contains look-up information, often in tables\nfact reference.3 = not meant to be remembered\n\n# short description\nphoto shortdesc=short description\n  afewchars=shortdesc\n\nfact shortdesc.1 = summaries the content in a topic\nfact shortdesc.2 = may appear in topic, or in the search results as an intro to a topic\n\n# task\nphoto task=task topic\n  afewchars=task\n\nfact task.1 = a specialization of a topic for task-based material\nfact task.2 = contains step by step instructions to accomplish a goal\nfact task.3 = all other topics should support tasks\n\n# taskbody\nphoto taskbody=taskbody\n  afewchars=taskbody\n\nfact taskbody.1 = a specialization of a body for a task topic\nfact taskbody.2 = contains all body content for task topics\n\n#title\nphoto title=title\n  afewchars=title\n\nfact title.1 = a title for many elements, including topic, table, and section\n\n# topic\n\nphoto topic=the basic stand-alone chunk of content\n  afewchars=topic\n\nfact topic.1 = original and generic version of technical documentation topic types\nfact topic.2 = can be reused in many contexts\n",
+    sourceFileSha => "cad7bdfcc62361e882d9c24868376081a7e0d98c",
     step => "completed",
   }, "Manifest");
   $a->{parsedCmds}[0] = $a->{app};
