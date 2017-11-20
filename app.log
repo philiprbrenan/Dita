@@ -1,8 +1,8 @@
 
-2017-11-20 at 18:55:52 Generate AppaAppsPhotoApp version 20171120-11 philiprbrenan/Dita
+2017-11-20 at 18:56:19 Generate AppaAppsPhotoApp version 20171120-11 philiprbrenan/Dita
 
-2017-11-20 at 18:55:56 Step: parseSource
-2017-11-20 at 18:55:56 Invalid command: tact. on line 125.
+2017-11-20 at 18:56:23 Step: parseSource
+2017-11-20 at 18:56:23 Invalid command: tact. on line 125.
 Choose one of: app fact photo
 tact task.3 = all other topics should support tasks
 --------------------------------------------------------------------------------
@@ -28,9 +28,9 @@ do {
     }, "ParsedCmd"),
     error => 1,
     log => [
-      "\n2017-11-20 at 18:55:52 Generate AppaAppsPhotoApp version 20171120-11 philiprbrenan/Dita\n",
-      "2017-11-20 at 18:55:56 Step: parseSource",
-      "2017-11-20 at 18:55:56 Invalid command: tact. on line 125.\nChoose one of: app fact photo\ntact task.3 = all other topics should support tasks",
+      "\n2017-11-20 at 18:56:19 Generate AppaAppsPhotoApp version 20171120-11 philiprbrenan/Dita\n",
+      "2017-11-20 at 18:56:23 Step: parseSource",
+      "2017-11-20 at 18:56:23 Invalid command: tact. on line 125.\nChoose one of: app fact photo\ntact task.3 = all other topics should support tasks",
     ],
     parsedCmds => [
       'fix',
