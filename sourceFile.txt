@@ -12,10 +12,32 @@ photo alt=alternate
 
 fact alt.1 = alternative description for an image
 
+# body
+photo body=body
+  afewchars=body
+
+fact body.1 = the generic element that contains all body content
+
+# cite
 photo cite=citation
   afewchars=cite
 
 fact cite.1 = refers to a book or article
+
+# conbody
+photo conbody=conbody
+  afewchars=conbody
+
+fact conbody.1 = a specialization of a body for a concept topic
+fact conbody.2 = contains all body content for concept topics
+
+# concept
+photo concept=concept topic
+  afewchars=concept
+
+fact cite.1 = a specialization of a topic for conceptual material
+fact cite.2 = contains conceptual information required to perform a task
+fact cite.3 = meant to be read once or twice, and remembered by the user
 
 # dd
 photo dd=definition list description entry
@@ -65,3 +87,60 @@ photo example=example
 
 fact example.1 = a section that contains examples
 fact example.2 = examples that illustrate or support the current topic
+
+# prolog
+photo prolog=prolog
+  afewchars=prolog
+
+fact prolog.1 = contains topic metadata
+
+# refbody
+photo refbody=refbody
+  afewchars=refbody
+
+fact refbody.1 = a specialization of a body for a reference topic
+fact refbody.2 = contains all body content for reference topics
+
+# reference
+photo reference=reference
+  afewchars=reference
+
+fact reference.1 = a specialization of a topic for reference material
+fact reference.2 = contains look-up information, often in tables
+fact reference.3 = not meant to be remembered
+
+# short description
+photo shortdesc=short description
+  afewchars=shortdesc
+
+fact shortdesc.1 = summaries the content in a topic
+fact shortdesc.2 = may appear in topic, or in the search results as an intro to a topic
+
+# task
+photo task=task topic
+  afewchars=task
+
+fact task.1 = a specialization of a topic for task-based material
+fact task.2 = contains step by step instructions to accomplish a goal
+tact task.3 = all other topics should support tasks
+
+# taskbody
+photo taskbody=taskbody
+  afewchars=taskbody
+
+fact taskbody.1 = a specialization of a body for a task topic
+fact taskbody.2 = contains all body content for task topics
+
+#title
+photo title=title
+  afewchars=title
+
+fact title.1 = a title for many elements, including topic, table, and section
+
+# topic
+
+photo topic=the basic stand-alone chunk of content
+  afewchars=topic
+
+fact topic.1 = original and generic version of technical documentation topic types
+fact topic.2 = can be reused in many contexts
