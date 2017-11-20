@@ -122,7 +122,7 @@ photo task=task topic
 
 fact task.1 = a specialization of a topic for task-based material
 fact task.2 = contains step by step instructions to accomplish a goal
-tact task.3 = all other topics should support tasks
+fact task.3 = all other topics should support tasks
 
 # taskbody
 photo taskbody=taskbody
