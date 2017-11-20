@@ -10,7 +10,7 @@ app Dita    = Dita tags
 photo alt=alternate
   afewchars=alt
 
-fact alt.1 = alternate text for an image
+fact alt.1 = alternative description for an image
 
 photo cite=citation
   afewchars=cite
